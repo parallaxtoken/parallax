@@ -45,6 +45,7 @@ impl WrapperRegistry {
         if let Some(ora) = oracle {
             env.storage().instance().set(&RegistryDataKey::Oracle, &ora);
         }
+        env.storage().instance().extend_ttl(100_000, 200_000);
     }
 
     pub fn set_admin(env: Env, new_admin: Address) {

@@ -36,6 +36,7 @@ impl ParallaxBook {
         env.storage().instance().set(&BookDataKey::Registry, &registry);
         env.storage().instance().set(&BookDataKey::NextId, &0u64);
         env.storage().instance().set(&BookDataKey::Paused, &false);
+        env.storage().instance().extend_ttl(100_000, 200_000);
     }
 
     pub fn set_paused(env: Env, paused: bool) {

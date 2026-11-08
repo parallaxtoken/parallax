@@ -11,8 +11,10 @@
     "discover:render": "node scripts/discovery/summary.mjs && node scripts/discovery/render_discovery.mjs",
     "parallax": "tsx scripts/verify_cli.ts",
     "test:e2e": "tsx tests/e2e/runner.ts",
+    "test:hygiene": "tsx tests/hygiene/runner.ts",
     "testnet:deploy": "tsx scripts/testnet/deploy.ts",
     "testnet:loop": "tsx scripts/testnet/closed_loop.ts",
+    "testnet:buy": "tsx scripts/testnet/test_buy_stocks.ts",
     "keeper:stellar": "pnpm --filter @parallax/keeper start:stellar",
     "discover:record": "node scripts/discovery/recorder.mjs",
     "discover:history": "node scripts/discovery/e8_unit_history.mjs"
@@ -28,13 +30,14 @@
   },
   "dependencies": {
     "@parallax/binance": "workspace:*",
+    "@parallax/independent": "workspace:*",
     "@parallax/kernel": "workspace:*",
     "@parallax/registry": "workspace:*",
     "@parallax/verify": "workspace:*",
-    "viem": "2.21.55",
-    "@parallax/independent": "workspace:*"
+    "viem": "2.21.55"
   },
   "devDependencies": {
+    "@stellar/stellar-sdk": "^17.4.0",
     "@types/node": "22.9.0",
     "playwright": "1.49.1",
     "tsx": "4.19.2"
