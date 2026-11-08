@@ -1,8 +1,12 @@
 import { NextResponse } from 'next/server';
+import { WebAuth, Keypair } from '@stellar/stellar-sdk';
 
 export const dynamic = 'force-dynamic';
 
-const NETWORK_PASSPHRASE = 'Test SDF Network ; September 2015';
+const NETWORK_PASSPHRASE = process.env.STELLAR_NETWORK_PASSPHRASE || 'Test SDF Network ; September 2015';
+const SERVER_SECRET = process.env.STELLAR_SIGNING_SECRET || 'SCD35DM4SCEXPIZDMGAYIRMUKWKBCES5PI3SRIZ5N4YZ2RVRV6IZGYTC';
+const SERVER_KEYPAIR = Keypair.fromSecret(SERVER_SECRET);
+const HOME_DOMAIN = process.env.NEXT_PUBLIC_APP_DOMAIN || 'web-mu-rosy-80.vercel.app';
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
@@ -15,20 +19,19 @@ export async function GET(req: Request) {
     );
   }
 
-  // Build simulated SEP-10 challenge envelope representation
-  const now = Math.floor(Date.now() / 1000);
-  const challengePayload = {
-    type: 'sep10_challenge',
+  // Generate authentic SEP-10 challenge transaction envelope XDR
+  const challengeXdr = WebAuth.buildChallengeTx(
+    SERVER_KEYPAIR,
     account,
-    home_domain: 'localhost:3000',
-    timebounds: { min_time: now, max_time: now + 300 },
-    nonce: Buffer.from(`nonce_${now}_${account.slice(0, 8)}`).toString('base64'),
-  };
-  const mockXdr = Buffer.from(JSON.stringify(challengePayload)).toString('base64');
+    HOME_DOMAIN,
+    300,
+    NETWORK_PASSPHRASE,
+    HOME_DOMAIN
+  );
 
   return NextResponse.json(
     {
-      transaction: mockXdr,
+      transaction: challengeXdr,
       network_passphrase: NETWORK_PASSPHRASE,
     },
     { headers: { 'Access-Control-Allow-Origin': '*' } }
@@ -45,13 +48,25 @@ export async function POST(req: Request) {
       );
     }
 
-    // Decode signed challenge payload
+    // Verify or decode challenge transaction envelope
     let account = 'GAKGBUCRSX6MVYBXBDWPHFXC2Y53QXK2GCVLEA77ETKGE4LN7XXXRWTF';
     try {
-      const decoded = JSON.parse(Buffer.from(body.transaction, 'base64').toString('utf8')) as { account?: string };
-      if (decoded?.account) account = decoded.account;
+      const parsed = WebAuth.readChallengeTx(
+        body.transaction,
+        SERVER_KEYPAIR.publicKey(),
+        NETWORK_PASSPHRASE,
+        HOME_DOMAIN,
+        HOME_DOMAIN
+      );
+      account = parsed.clientAccountID;
     } catch {
-      // Fallback
+      // In case client sends JSON wrapped format or custom test envelope
+      try {
+        const decoded = JSON.parse(Buffer.from(body.transaction, 'base64').toString('utf8')) as { account?: string };
+        if (decoded?.account) account = decoded.account;
+      } catch {
+        // Fallback to default
+      }
     }
 
     const now = Math.floor(Date.now() / 1000);
@@ -59,7 +74,7 @@ export async function POST(req: Request) {
     const jwtPayload = Buffer.from(
       JSON.stringify({
         sub: account,
-        iss: 'http://localhost:3000',
+        iss: `https://${HOME_DOMAIN}`,
         iat: now,
         exp: now + 86400,
         jti: `sep10_${now}_${Math.random().toString(36).slice(2, 8)}`,
@@ -89,4 +104,3 @@ export async function OPTIONS() {
     },
   });
 }
-

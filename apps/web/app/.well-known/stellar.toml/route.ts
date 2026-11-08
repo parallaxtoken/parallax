@@ -3,9 +3,10 @@ export const dynamic = 'force-dynamic';
 const TOML_CONTENT = `# Parallax Protocol Stellar Discovery Configuration (SEP-1)
 VERSION = "2.0.0"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
-WEB_AUTH_ENDPOINT = "http://localhost:3000/api/sep10"
-TRANSFER_SERVER_0024 = "http://localhost:3000/api/sep24"
-ANCHOR_QUOTE_SERVER = "http://localhost:3000/api/sep38"
+SIGNING_KEY = "GCNTWAJGWS2ISLVF3ZVOUYPDVAHPQIIJ3QPP4AKQ3UDW2HVQVNG4745M"
+WEB_AUTH_ENDPOINT = "https://web-mu-rosy-80.vercel.app/api/sep10"
+TRANSFER_SERVER_0024 = "https://web-mu-rosy-80.vercel.app/api/sep24"
+ANCHOR_QUOTE_SERVER = "https://web-mu-rosy-80.vercel.app/api/sep38"
 
 [DOCUMENTATION]
 ORG_NAME = "Parallax Protocol"
@@ -56,18 +57,6 @@ export async function GET() {
     headers: {
       'Content-Type': 'text/plain; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
     },
   });
 }
-
-export async function OPTIONS() {
-  return new Response(null, {
-    status: 204,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
-    },
-  });
-}
-
