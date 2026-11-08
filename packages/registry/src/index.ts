@@ -80,3 +80,4 @@ export * from './live';
 
 export * from './stellar';
 export * from './sep';
+export * from './stellar_peg';

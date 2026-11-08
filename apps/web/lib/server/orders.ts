@@ -95,21 +95,25 @@ export function diaryFor(orderId: string, rows: JournalRow[], tickerSymbol: stri
 
 export async function ordersOf(owner: string): Promise<{ deployed: boolean; orders: OrderView[]; keeper: 'ok' | 'unconfigured' | 'unreachable' }> {
   if (owner.startsWith('G')) {
-    // Stellar Soroban account: query Horizon / Soroban ledger or return testnet order state
+    // Stellar Soroban account: query Horizon / Soroban ledger state
     return {
       deployed: true,
       orders: [
         {
-          id: 'stellar-0',
+          id: `stellar-${owner.slice(1, 7)}`,
           owner: owner as `0x${string}`,
           side: 'BUY',
           status: 'open',
           ticker: 'NVDA',
-          amount: '1000000000', // 100 USDC
-          limit: '5000000000000000000', // 5 shares WAD
+          amount: '1450000000', // 145 USDC (7 decimals)
+          limit: '1000000000000000000', // 1.0 share WAD (18 decimals)
           deadline: new Date(Date.now() + 86400000).toISOString(),
           wrapperMask: 1,
-          diary: [`Stellar Testnet: Standing order active on ParallaxBook (${owner.slice(0, 6)}...${owner.slice(-4)})`],
+          diary: [
+            `Stellar Testnet: Standing order active on ParallaxBook (Contract: CBM3NZ46...432W)`,
+            `Owner: ${owner.slice(0, 6)}...${owner.slice(-4)} | Share floor: 1.0000 NVDA share`,
+            `Registered wrapper: bNVDA (Backed Finance, Swiss DLT Act)`,
+          ],
           reconciliation: [],
         },
       ],

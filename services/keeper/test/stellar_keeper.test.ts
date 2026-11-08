@@ -64,3 +64,4 @@ describe('StellarKeeperEngine', () => {
     expect(depth.map((d) => d.tickerId)).toEqual(['NVDA', 'AAPL', 'TSLA']);
   });
 });
+

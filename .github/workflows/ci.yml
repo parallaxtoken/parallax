@@ -27,6 +27,13 @@ jobs:
         run: pnpm -r --if-present typecheck
       - name: Claims ledger and numbers
         run: npx tsx scripts/check_claims.ts
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - name: Stellar Soroban Contracts Test Suite
+        run: |
+          cd contracts/soroban
+          cargo test
       - uses: foundry-rs/foundry-toolchain@v1
       - name: Contracts build
         run: cd contracts && forge build
