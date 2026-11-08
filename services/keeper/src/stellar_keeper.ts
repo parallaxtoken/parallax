@@ -104,7 +104,31 @@ export class StellarKeeperEngine {
   }
 
   private async pollCycle() {
-    // In production, queries Soroban RPC via @stellar/stellar-sdk
-    // console.log('[Parallax Stellar Keeper] Polling open orders from ParallaxBook...');
+    try {
+      // 1. Query latest ledger state from Soroban RPC
+      const rpcPayload = {
+        jsonrpc: '2.0',
+        id: 1,
+        method: 'getLatestLedger',
+      };
+      
+      const res = await fetch(this.network.rpcUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(rpcPayload),
+      });
+
+      if (!res.ok) {
+        console.warn(`[Parallax Stellar Keeper] RPC warning: HTTP ${res.status}`);
+        return;
+      }
+
+      const data = await res.json() as { result?: { sequence?: number } };
+      const currentLedger = data?.result?.sequence ?? 0;
+      
+      console.log(`[Parallax Stellar Keeper] Checked ledger ${currentLedger} on ${this.network.rpcUrl}. Active book: ${this.network.parallaxBookContractId.slice(0, 12)}...`);
+    } catch (err) {
+      console.warn(`[Parallax Stellar Keeper] Offline / fallback poll pass: ${err instanceof Error ? err.message : String(err)}`);
+    }
   }
 }

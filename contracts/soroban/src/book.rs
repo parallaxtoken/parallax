@@ -3,12 +3,12 @@ use soroban_sdk::{
     contract, contractclient, contractimpl, contracttype, symbol_short, token, Address, Bytes,
     Env, IntoVal, Symbol,
 };
-use crate::types::{Order, OrderStatus, Side, WAD};
+use crate::types::{Order, OrderStatus, Side, WAD, SCALE_STROOP_TO_WAD};
 use crate::registry::WrapperRegistryClient;
 
 #[contractclient(name = "SwapRouterClient")]
 pub trait SwapRouterTrait {
-    fn execute_route(env: Env, token_out: Address, amount_in: i128, route_data: Bytes) -> i128;
+    fn execute_route(env: Env, token_out: Address, amount_in: i128, recipient: Address, route_data: Bytes) -> i128;
 }
 
 #[contracttype]
@@ -217,13 +217,15 @@ impl ParallaxBook {
 
             // 3. Router executes swap and delivers stock tokens back to contract
             let router_client = SwapRouterClient::new(&env, &router);
-            router_client.execute_route(&wrapper.token, &pay, &route_data);
+            router_client.execute_route(&wrapper.token, &pay, &contract_addr, &route_data);
 
             let tok_after = token_client.balance(&contract_addr);
             let tokens_out = tok_after - tok_before;
 
-            // Invariant: Share-equivalents = (tokens_out * unit) / 1e18
-            let shares = (tokens_out * unit) / WAD;
+            // Invariant: Normalize 7-decimal Stellar SAC tokens to 18-decimal WAD
+            // Share-equivalents = (tokens_out * 10^11 * unit) / 1e18
+            let tokens_wad = tokens_out * SCALE_STROOP_TO_WAD;
+            let shares = (tokens_wad * unit) / WAD;
             if shares < order.limit {
                 panic!("ShareFloor: received {} shares, minimum floor was {}", shares, order.limit);
             }
@@ -237,19 +239,22 @@ impl ParallaxBook {
             );
         } else {
             // Sell Side
-            let shares_to_sell = order.amount;
-            let tokens_in = (shares_to_sell * WAD + unit - 1) / unit;
+            let shares_to_sell = order.amount; // 18 decimals (WAD)
+            // Compute required token units in WAD, then scale down to 7-decimal Stellar stroops
+            let tokens_wad = (shares_to_sell * WAD + unit - 1) / unit;
+            let tokens_in = (tokens_wad + SCALE_STROOP_TO_WAD - 1) / SCALE_STROOP_TO_WAD;
 
             token_client.transfer_from(&contract_addr, &order.owner, &contract_addr, &tokens_in);
             token_client.transfer(&contract_addr, &router, &tokens_in);
 
             let usdc_before = usdc_client.balance(&contract_addr);
             let router_client = SwapRouterClient::new(&env, &router);
-            router_client.execute_route(&usdc_addr, &tokens_in, &route_data);
+            router_client.execute_route(&usdc_addr, &tokens_in, &contract_addr, &route_data);
 
             let usdc_after = usdc_client.balance(&contract_addr);
             let usdc_out = usdc_after - usdc_before;
 
+            // Limit is minimum USDC stroops per share: (shares_to_sell * order.limit) / 1e18
             let min_usdc = (shares_to_sell * order.limit) / WAD;
             if usdc_out < min_usdc {
                 panic!("SellFloor: received {} USDC, minimum floor was {}", usdc_out, min_usdc);

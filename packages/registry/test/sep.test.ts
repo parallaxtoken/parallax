@@ -52,3 +52,4 @@ ANCHOR_QUOTE_SERVER = "https://quotes.testanchor.stellar.org"
     expect(quote.expiresAt).toBeDefined();
   });
 });
+

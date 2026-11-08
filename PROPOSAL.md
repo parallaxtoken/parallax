@@ -83,3 +83,4 @@ Parallax enforces a strict regression harness to guarantee that every bug fix or
 - **Lead Architect & Maintainer:** `warlock-netizen`
 - **Codebase:** 100% open-source under MIT License.
 - **Repository:** [https://github.com/warlock-netizen/parallax](https://github.com/warlock-netizen/parallax)
+

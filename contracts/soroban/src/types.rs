@@ -2,7 +2,8 @@
 use soroban_sdk::{contracttype, Address, Symbol};
 
 pub const WAD: i128 = 1_000_000_000_000_000_000; // 18 decimals for share-equivalents
-pub const STROOP: i128 = 10_000_000;              // 7 decimals for Stellar native USDC
+pub const STROOP: i128 = 10_000_000;              // 7 decimals for Stellar native USDC & SAC
+pub const SCALE_STROOP_TO_WAD: i128 = 100_000_000_000; // 10^11 to normalize 7-decimal SAC to 18-decimal WAD
 
 #[contracttype]
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
