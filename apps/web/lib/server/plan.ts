@@ -82,6 +82,7 @@ const refOf = (ind: IndependentView): NonNullable<Plan['reference']> => ({
 function referenceGate(ind: IndependentView, note: string): PlanError | null {
   if (ind.verdict.status === 'DISAGREE') return { ok: false, code: 'REFERENCE_DISAGREE', message: note };
   if (ind.verdict.status === 'UNAVAILABLE' && REFERENCE_REQUIRED) return { ok: false, code: 'DEGRADED', message: 'The independent equity reference could not be read, so Parallax will not plan an order right now.' };
+  return null;
 }
 
 export async function buildPlan(req: PlanRequest): Promise<Plan | PlanError> {

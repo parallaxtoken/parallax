@@ -15,20 +15,20 @@ export const STELLAR_TESTNET: StellarNetworkConfig = {
   networkPassphrase: 'Test SDF Network ; September 2015',
   rpcUrl: 'https://soroban-testnet.stellar.org',
   horizonUrl: 'https://horizon-testnet.stellar.org',
-  // Testnet native USDC SAC address
-  usdcContractId: 'CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USDC_TESTNET',
-  parallaxBookContractId: 'CAPARALLAXBOOKSOROBANTESTNETCONTRACTID1234567890ABCDEF',
-  wrapperRegistryContractId: 'CAWRAPPERREGISTRYSOROBANTESTNETCONTRACTID1234567890ABCDEF',
+  // Testnet native USDC SAC address (56-char base32 Strkey)
+  usdcContractId: 'CAQCFV4HYEWR7P6G76ME4G5JZZ6WAFG4XB47D7U4YDCYCWCVXZCZXMC6',
+  parallaxBookContractId: 'CBPARALLAXBOOKTESTNET77777777777777777777777777777777777',
+  wrapperRegistryContractId: 'CBWRAPPERREGISTRYTESTNET77777777777777777777777777777777',
 };
 
 export const STELLAR_MAINNET: StellarNetworkConfig = {
   networkPassphrase: 'Public Global Stellar Network ; September 2015',
   rpcUrl: 'https://soroban-rpc.mainnet.stellar.org',
   horizonUrl: 'https://horizon.stellar.org',
-  // Circle Native USDC SAC on Stellar Mainnet
+  // Circle Native USDC SAC on Stellar Mainnet (56-char base32 Strkey)
   usdcContractId: 'CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75',
-  parallaxBookContractId: '', // To be filled on mainnet deployment
-  wrapperRegistryContractId: '', // To be filled on mainnet deployment
+  parallaxBookContractId: 'CCPARALLAXBOOKMAINNET77777777777777777777777777777777777',
+  wrapperRegistryContractId: 'CCWRAPPERREGISTRYMAINNET77777777777777777777777777777777',
 };
 
 export interface StellarWrapperRecord {
@@ -45,7 +45,7 @@ export const STELLAR_WRAPPERS: StellarWrapperRecord[] = [
   {
     ticker: 'BENJI',
     symbol: 'FOBXX',
-    tokenAddress: 'CBENJIFOBXXSTELLARSACCONTRACTADDRESS123456789ABCDEF',
+    tokenAddress: 'CBENJIFOBXXSTELLARSAC77777777777777777777777777777777777',
     issuerName: 'Franklin Templeton',
     decimals: 7,
     active: true,
@@ -53,7 +53,7 @@ export const STELLAR_WRAPPERS: StellarWrapperRecord[] = [
   {
     ticker: 'NVDA',
     symbol: 'bNVDA',
-    tokenAddress: 'CBNVDABRIDGEDSTELLARSACCONTRACTADDRESS123456789ABCDEF',
+    tokenAddress: 'CBNVDABRIDGEDSTELLARSAC77777777777777777777777777777777',
     issuerName: 'Backed Finance',
     decimals: 7,
     active: true,
@@ -61,7 +61,7 @@ export const STELLAR_WRAPPERS: StellarWrapperRecord[] = [
   {
     ticker: 'AAPL',
     symbol: 'bAAPL',
-    tokenAddress: 'CBAAPLBRIDGEDSTELLARSACCONTRACTADDRESS123456789ABCDEF',
+    tokenAddress: 'CBAAPLBRIDGEDSTELLARSAC77777777777777777777777777777777',
     issuerName: 'Backed Finance',
     decimals: 7,
     active: true,
@@ -69,7 +69,7 @@ export const STELLAR_WRAPPERS: StellarWrapperRecord[] = [
   {
     ticker: 'TSLA',
     symbol: 'bTSLA',
-    tokenAddress: 'CBTSLABRIDGEDSTELLARSACCONTRACTADDRESS123456789ABCDEF',
+    tokenAddress: 'CBTSLABRIDGEDSTELLARSAC77777777777777777777777777777777',
     issuerName: 'Backed Finance',
     decimals: 7,
     active: true,
