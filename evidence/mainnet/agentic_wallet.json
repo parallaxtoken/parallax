@@ -1,0 +1,9 @@
+{
+  "wallet": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+  "approveTx": "0xdbc1aacbb517cae00028170504e6dcde708c7a6814ff6e642d2e4fe5a5816bc8",
+  "placeBuyTx": "0xf4e2bdf75d643db18396e740eb2354b79cd73348f1f217f4c3c8e08c2c6d4b45",
+  "orderId": "7",
+  "keeperFillTx": "0xca034f5a82ca44aca76508def94b30ca6827ccd4ac17d309d454ebc91b08c73d",
+  "cli": "baw 1.10.0, contract-call preview then execute, Developer Mode on",
+  "verifier": "evidence/mainnet/verify_order_7.txt"
+}

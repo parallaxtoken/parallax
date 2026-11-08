@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-10T07:27:15.534Z",
+  "http": 200,
+  "requirements": {
+    "scheme": "exact",
+    "network": "eip155:56",
+    "amount": "10000000000000000",
+    "asset": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+    "payTo": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+    "maxTimeoutSeconds": 300,
+    "extra": {
+      "name": "United Stables",
+      "version": "1",
+      "assetTransferMethod": "eip3009",
+      "signerAddress": "0x34F7a661160780Ce1346e6D7B96D2bE244590899"
+    }
+  },
+  "response": {
+    "certificate": {
+      "ticker": "NVDA",
+      "block": "126787650",
+      "asOf": "2026-10-10T07:27:16.997Z",
+      "session": {
+        "session": "CLOSED_WEEKEND",
+        "referenceAgeSec": 26880,
+        "nextOpenUtc": "2026-10-12T00:05:00.000Z",
+        "moveExceedsPremiumProb": null,
+        "sample": null,
+        "source": "RWA_STATUS",
+        "disagreesWithCalendar": false,
+        "degraded": null
+      },
+      "referenceUsdPerShare": "230585000000000000000",
+      "wrappers": [
+        {
+          "symbol": "NVDAB",
+          "issuer": "BSTOCKS",
+          "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+          "unitWad": "1000778223752807865",
+          "paused": false,
+          "quote": {
+            "venue": "PANCAKE_V3_500",
+            "pool": null,
+            "tokensOutWad": "216684158585792204",
+            "sharesWad": "216852787344860853",
+            "usdPerShare": "230571165868783743421",
+            "netVsReferenceBps": 0,
+            "brokenQuote": false
+          }
+        },
+        {
+          "symbol": "NVDAon",
+          "issuer": "ONDO",
+          "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+          "unitWad": "1001715248795989800",
+          "paused": false,
+          "quote": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": null,
+            "tokensOutWad": "213395388127653985",
+            "sharesWad": "213761414310209719",
+            "usdPerShare": "233905638028012846859",
+            "netVsReferenceBps": 144,
+            "brokenQuote": false
+          }
+        },
+        {
+          "symbol": "NVDAx",
+          "issuer": "XSTOCKS",
+          "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+          "unitWad": "1000000000000000000",
+          "paused": false,
+          "quote": null
+        }
+      ]
+    },
+    "sha256": "d2ab8e420bde62c2b4fd8c4e57cf1f24c062ff06815853aa4f235a292b5b9c37",
+    "settlement": {
+      "success": true,
+      "transaction": "0xf0e44c2ea0bacd7d473292a8ad8d1fd85a544b539442b427ab59e5df7c792020",
+      "payer": "0x39397c8dfe8608b2c1ce84504a798d6b39363ed5",
+      "network": "eip155:56",
+      "amount": "10000000000000000"
+    }
+  }
+}

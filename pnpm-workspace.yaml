@@ -1,0 +1,11 @@
+packages:
+  - "packages/*"
+  - "services/*"
+  - "apps/*"
+allowBuilds:
+  bufferutil: true
+  esbuild: true
+  keccak: true
+  sharp: true
+  utf-8-validate: true
+  "@tailwindcss/oxide": true

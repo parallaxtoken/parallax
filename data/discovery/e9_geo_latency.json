@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-10T00:00:41.251Z",
+  "egress": {
+    "country": "RO",
+    "region": "Bucharest",
+    "city": "Bucharest",
+    "org": "AS9009 M247 Europe SRL"
+  },
+  "endpoints": {
+    "marketStatus": {
+      "n": 15,
+      "p50": 217,
+      "p95": 879,
+      "min": 198,
+      "max": 879,
+      "codes": {
+        "200/000000": 15
+      }
+    },
+    "dynamicV2": {
+      "n": 15,
+      "p50": 222,
+      "p95": 858,
+      "min": 204,
+      "max": 858,
+      "codes": {
+        "200/000000": 15
+      }
+    },
+    "list": {
+      "n": 15,
+      "p50": 288,
+      "p95": 557,
+      "min": 272,
+      "max": 557,
+      "codes": {
+        "200/000000": 15
+      }
+    }
+  }
+}

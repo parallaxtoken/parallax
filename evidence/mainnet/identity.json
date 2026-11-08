@@ -1,0 +1,13 @@
+{
+  "standard": "ERC-8004",
+  "chainId": 56,
+  "registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+  "agentId": "370049",
+  "owner": "0x440860e5Dfb8E7d3E1903A0eC3d3589e2fC5CF73",
+  "txHash": "0xbb53249d22b9979389b2694955f2c0aebcca93876672ba60bf9fb84eee7ea9b8",
+  "endpoints": [
+    "https://parallax-stellar.vercel.app/.well-known/agent-card.json",
+    "https://parallax-stellar.vercel.app/api/mcp"
+  ],
+  "registeredAt": "2026-10-10T03:23:36.812Z"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "parallax",
+  "private": true,
+  "type": "module",
+  "author": "Parallax",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --filter @parallax/web dev",
+    "build": "pnpm --filter @parallax/web build",
+    "discover": "node scripts/discovery/run_all.mjs",
+    "discover:render": "node scripts/discovery/summary.mjs && node scripts/discovery/render_discovery.mjs",
+    "parallax": "tsx scripts/verify_cli.ts",
+    "keeper:stellar": "pnpm --filter @parallax/keeper start:stellar",
+    "discover:record": "node scripts/discovery/recorder.mjs",
+    "discover:history": "node scripts/discovery/e8_unit_history.mjs"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bufferutil",
+      "esbuild",
+      "keccak",
+      "utf-8-validate",
+      "@tailwindcss/oxide"
+    ]
+  },
+  "dependencies": {
+    "@parallax/binance": "workspace:*",
+    "@parallax/kernel": "workspace:*",
+    "@parallax/registry": "workspace:*",
+    "@parallax/verify": "workspace:*",
+    "viem": "2.21.55",
+    "@parallax/independent": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "playwright": "1.49.1",
+    "tsx": "4.19.2"
+  }
+}

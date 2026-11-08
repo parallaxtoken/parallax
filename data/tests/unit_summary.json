@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-10T04:44:50.759Z",
+  "total": 48,
+  "packages": {
+    "packages/kernel": {
+      "passed": 20,
+      "failed": 0
+    },
+    "packages/registry": {
+      "passed": 5,
+      "failed": 0
+    },
+    "packages/binance": {
+      "passed": 9,
+      "failed": 0
+    },
+    "packages/verify": {
+      "passed": 8,
+      "failed": 0
+    },
+    "services/keeper": {
+      "passed": 6,
+      "failed": 0
+    }
+  }
+}

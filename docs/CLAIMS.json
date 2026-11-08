@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "note": "Every public claim lives here. scripts/check_claims.mjs fails CI if README, landing or /verify state a number or claim that is not SUPPORTED in this ledger.",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Each of the measured tickers has a bStocks, an Ondo and an xStocks wrapper on BSC with a verified address.",
+      "status": "SUPPORTED",
+      "reproduce": "pnpm discover",
+      "evidence": [
+        "data/discovery/e1_wrapper_map.json"
+      ],
+      "limitations": "Addresses come from a third-party catalogue and are verified on-chain by symbol and decimals; issuer-published lists were not available."
+    },
+    {
+      "id": "C2",
+      "claim": "The three issuers expose the unit differently: a scaled multiplier on the token (bStocks), a separate oracle (Ondo), a rebasing balance (xStocks).",
+      "status": "SUPPORTED",
+      "reproduce": "node scripts/discovery/e2_unit_factors.mjs",
+      "evidence": [
+        "data/discovery/e2_unit_factors.json",
+        "data/discovery/src"
+      ],
+      "limitations": "That one xStocks balance unit equals one share follows issuer documentation and is not confirmed by price because the pools are thin."
+    },
+    {
+      "id": "C3",
+      "claim": "The API reports a different multiplier from the token itself for some xStocks.",
+      "status": "SUPPORTED",
+      "reproduce": "node scripts/discovery/e3_reference_and_units.mjs",
+      "evidence": [
+        "data/discovery/e3_reference_and_units.json"
+      ],
+      "limitations": "Point-in-time snapshot; the count changes as multipliers update."
+    },
+    {
+      "id": "C4",
+      "claim": "bStocks have no equity reference price in the public per-token response.",
+      "status": "SUPPORTED",
+      "reproduce": "node scripts/discovery/e3_reference_and_units.mjs",
+      "evidence": [
+        "data/discovery/e3_reference_and_units.json"
+      ],
+      "limitations": "Public keyless endpoints only; a keyed endpoint may expose more."
+    },
+    {
+      "id": "C5",
+      "claim": "Ondo and xStocks pools on BNB Chain are far thinner than bStocks pools.",
+      "status": "SUPPORTED",
+      "reproduce": "node scripts/discovery/e11_pools.mjs",
+      "evidence": [
+        "data/discovery/e11_pools.json",
+        "data/discovery/summary.json"
+      ],
+      "limitations": "Liquidity as reported by a public pool indexer at snapshot time."
+    },
+    {
+      "id": "C6",
+      "claim": "A contract can receive the tested wrappers.",
+      "status": "PARTIAL",
+      "reproduce": "node scripts/discovery/e7_contract_receive.mjs",
+      "evidence": [
+        "data/discovery/e7_contract_receive.json"
+      ],
+      "limitations": "eth_call simulation from a pool holder; wrappers with no holder are unknown. The fork suite fills into the book for one wrapper."
+    },
+    {
+      "id": "C7",
+      "claim": "ParallaxBook reverts a buy that delivers fewer share-equivalents than the signed floor.",
+      "status": "SUPPORTED",
+      "reproduce": "cd contracts && forge test --match-test test_shareFloorRevert",
+      "evidence": [
+        "evidence/fork/forge_test_full.txt"
+      ],
+      "limitations": "BSC mainnet fork, public RPC, one wrapper family in the fuzz suite."
+    },
+    {
+      "id": "C8",
+      "claim": "ParallaxBook reverts a sale that pays less than the signed USDT per share.",
+      "status": "SUPPORTED",
+      "reproduce": "cd contracts && forge test --match-test test_sellFloorRevert",
+      "evidence": [
+        "evidence/fork/forge_test_full.txt"
+      ],
+      "limitations": "BSC mainnet fork."
+    },
+    {
+      "id": "C9",
+      "claim": "A token-denominated order fills wrong after a unit change; the share-denominated order reverts.",
+      "status": "SUPPORTED",
+      "reproduce": "cd contracts && forge test --match-test test_unitJump",
+      "evidence": [
+        "evidence/fork/forge_test_full.txt"
+      ],
+      "limitations": "Unit change simulated by writing the multiplier storage slot on a fork."
+    },
+    {
+      "id": "C10",
+      "claim": "The keeper filled standing orders (two buys, one sell) on BSC mainnet while the owner wallet sent nothing and New York was closed.",
+      "status": "SUPPORTED",
+      "reproduce": "npx tsx scripts/autonomy.ts",
+      "evidence": [
+        "data/autonomy/summary.json",
+        "data/autonomy/placement.json",
+        "data/keeper/journal.jsonl",
+        "evidence/mainnet/verify_order_0.txt",
+        "evidence/mainnet/verify_order_1.txt",
+        "evidence/mainnet/verify_order_2.txt"
+      ],
+      "limitations": "The keeper ran on the author machine, not a hosted worker. Three fills, cents in size, one ticker, one wrapper (bStocks)."
+    },
+    {
+      "id": "C11",
+      "claim": "On direct pools the share-aware pick equals the cheapest-token pick and beats a random wrapper; with the aggregator, the two picks differ in a minority of cases by a few basis points.",
+      "status": "PARTIAL",
+      "reproduce": "npx tsx scripts/counterfactual.ts && npx tsx scripts/counterfactual_aggregator.ts",
+      "evidence": [
+        "data/counterfactual/summary.json",
+        "data/counterfactual/aggregator_snapshot.json"
+      ],
+      "limitations": "Short recorder window over one weekend; small samples; the pick matters less than the guarantee."
+    },
+    {
+      "id": "C12",
+      "claim": "Some quotes are more than 5 percent from the equity reference, and more often outside the regular session.",
+      "status": "PARTIAL",
+      "reproduce": "node scripts/discovery/e12_broken_quotes.mjs",
+      "evidence": [
+        "data/discovery/e12_broken_quotes.json"
+      ],
+      "limitations": "Direct-pool quotes and public API prices only; recorder window is short."
+    },
+    {
+      "id": "C13",
+      "claim": "The keeper holds an ERC-8004 identity on BSC mainnet.",
+      "status": "SUPPORTED",
+      "reproduce": "node -e \"see evidence/mainnet/identity.json\"",
+      "evidence": [
+        "evidence/mainnet/identity.json"
+      ],
+      "limitations": "Registration only; reputation feedback is empty."
+    },
+    {
+      "id": "C14",
+      "claim": "An ERC-8183 certificate job reached the Submitted state on BSC mainnet at price zero.",
+      "status": "PARTIAL",
+      "reproduce": "npx tsx services/agent/src/job.ts",
+      "evidence": [
+        "evidence/mainnet/erc8183_job.json"
+      ],
+      "limitations": "The policy dispute window is seven days, so settlement cannot complete before the submission deadline. Not claimed as completed."
+    },
+    {
+      "id": "C15",
+      "claim": "The Trading API returns executable swap calldata with the book as taker for bStocks and for Ondo wrappers, and a standing order was filled on BSC mainnet through that route; xStocks return no liquidity.",
+      "status": "SUPPORTED",
+      "reproduce": "npx tsx scripts/discovery/e6_keyed.ts",
+      "evidence": [
+        "data/discovery/e6_contract_taker.json",
+        "data/discovery/e6_swap_build.json",
+        "evidence/mainnet/verify_order_5.txt"
+      ],
+      "limitations": "Ondo quotes enforce a 5 USD minimum order, so the mainnet fill used a bStocks wrapper; Ondo calldata was built, not sent. Documentation says Ondo is RFQ only."
+    },
+    {
+      "id": "C16",
+      "claim": "A paid certificate call settled through B402 (x402 V2) on BSC mainnet.",
+      "status": "SUPPORTED",
+      "reproduce": "npx tsx scripts/mainnet/paid_certificate.ts",
+      "evidence": [
+        "evidence/mainnet/paid_certificate.json",
+        "data/discovery/b402_supported.json"
+      ],
+      "limitations": "The pay-to address fixed at onboarding is the owner test wallet, so the call proves the loop and the settlement, not revenue to the keeper. Price is 0.01 of the facilitator payment token."
+    },
+    {
+      "id": "C17",
+      "claim": "The web app works end to end with a connected wallet: buy now, standing buy filled by the keeper, standing sell, cancel, holdings.",
+      "status": "SUPPORTED",
+      "reproduce": "cd apps/web && BASE_URL=https://parallax-stellar.vercel.app npx playwright test journey.spec.ts --project=desktop",
+      "evidence": [
+        "apps/web/e2e/journey.spec.ts",
+        "evidence/mainnet/verify_order_5.txt"
+      ],
+      "limitations": "The test signs with the owner test wallet through an injected provider bridge in headless Chromium; mainnet transactions of cents."
+    },
+    {
+      "id": "C18",
+      "claim": "A standing order was placed through the Binance Agentic Wallet on BSC mainnet and filled by the keeper.",
+      "status": "SUPPORTED",
+      "reproduce": "baw contract-call preview/execute with the calls from POST /api/plan",
+      "evidence": [
+        "evidence/mainnet/agentic_wallet.json",
+        "evidence/mainnet/verify_order_7.txt"
+      ],
+      "limitations": "The Agentic Wallet is a separate address from the owner test wallet; cents in size."
+    },
+    {
+      "id": "C19",
+      "claim": "The keeper runs on a hosted service (Render, Singapore) and the web app reads its live status.",
+      "status": "SUPPORTED",
+      "reproduce": "curl https://parallax-keeper.onrender.com/api/agent/keeper ; curl https://parallax-stellar.vercel.app/api/agent/keeper (source: live)",
+      "evidence": [
+        "data/keeper/hosted_status.json",
+        "render.yaml",
+        ".github/workflows/keepalive.yml"
+      ],
+      "limitations": "Free plan; kept awake by a self-ping and a scheduled workflow. The mainnet autonomy run (C11) predates the hosted deployment."
+    },
+    {
+      "id": "C20",
+      "claim": "The Binance Agentic Wallet paid for a Parallax certificate over x402 on BSC mainnet (USDT by permit2-exact).",
+      "status": "SUPPORTED",
+      "reproduce": "curl /api/certificate?ticker=NVDA, baw x402-payment preview then sign --selectedIndex, replay with PAYMENT-SIGNATURE",
+      "evidence": [
+        "evidence/mainnet/agentic_payment.json",
+        "evidence/mainnet/agentic_payment_preview.json"
+      ],
+      "limitations": "Pay-to is the owner wallet from B402 onboarding, so the keeper does not earn from it. 0.01 USDT."
+    },
+    {
+      "id": "C21",
+      "claim": "An order was placed and cancelled from the Agentic Wallet through baw contract-call preview then execute.",
+      "status": "SUPPORTED",
+      "reproduce": "scripts/mainnet/agentic_calls.ts prints the calldata; baw contract-call preview then execute for approve, placeBuy, cancel",
+      "evidence": [
+        "evidence/mainnet/agentic_cancel.json"
+      ],
+      "limitations": "Five cents; the floor was deliberately unreachable."
+    },
+    {
+      "id": "C22",
+      "claim": "An independent equity reference is shown with source and timestamp, and a gap above the configured bps refuses with REFERENCE_DISAGREE (keeper, planner).",
+      "status": "SUPPORTED",
+      "reproduce": "pnpm --filter @parallax/independent test; pnpm --filter @parallax/keeper test; curl /api/ticker/NVDA | jq .independent",
+      "evidence": [
+        "packages/independent/test/reference.test.ts",
+        "services/keeper/test/keeper.test.ts",
+        "packages/kernel/test/kernel.test.ts"
+      ],
+      "limitations": "Yahoo chart and Nasdaq quote are public endpoints without a service level; both failing makes the keeper wait (fail closed)."
+    },
+    {
+      "id": "C23",
+      "claim": "The keeper and planner use five more Binance API endpoints, each answered on mainnet data: gas-limit, transaction-detail-by-txhash, top-liquidity, address portfolio and broadcast (which accepted a contract call).",
+      "status": "SUPPORTED",
+      "reproduce": "scripts/discovery/e13_api_depth.ts",
+      "evidence": [
+        "data/discovery/e13_api_depth.json"
+      ],
+      "limitations": "top-liquidity returns pools and venues but liquidityUsd is null for many pools; the portfolio average buy price is per token, so cost basis per share divides by the unit."
+    }
+  ]
+}

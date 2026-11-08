@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-10-10T00:01:40.470Z",
+  "block": "126728261",
+  "recipients": {
+    "contract_v3_router": "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4",
+    "contract_multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "eoa_fresh": "0x1111111111111111111111111111111111111111"
+  },
+  "rows": [
+    {
+      "ticker": "GOOGL",
+      "issuer": "BSTOCKS",
+      "symbol": "GOOGLB",
+      "token": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "holder": "0x89001d846f7ca36ee089f73eefc25657e1798144",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "ONDO",
+      "symbol": "GOOGLon",
+      "token": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+      "holder": "0x6731932c92e882cc22a10749324c70a7d6adde60",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "XSTOCKS",
+      "symbol": "GOOGLx",
+      "token": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "BSTOCKS",
+      "symbol": "AMZNB",
+      "token": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+      "holder": "0x7530beb7bde5843f668cf31b996fa1f748c9b6b1",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "ONDO",
+      "symbol": "AMZNon",
+      "token": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+      "holder": "0x8617ba6deee616694601adc41ab7ffe0e610907e",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "XSTOCKS",
+      "symbol": "AMZNx",
+      "token": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+      "holder": "0x28a73f5bd589fea90ba0d24117bf91d648be3ef2",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "BSTOCKS",
+      "symbol": "AAPLB",
+      "token": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+      "holder": "0xe9b9998b2ec5430d2246c7f1f8d9f298c97d7365",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "ONDO",
+      "symbol": "AAPLon",
+      "token": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+      "holder": "0x8d39c7e9427edff441c63fc51861522cf02167c8",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "XSTOCKS",
+      "symbol": "AAPLx",
+      "token": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "holder": "0xee109cc926ce216b3d2490f674300c15131b12b5",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "BSTOCKS",
+      "symbol": "COINB",
+      "token": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+      "holder": "0x9e9df2c9053864abfa5bf773f9770f08710c8a10",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "ONDO",
+      "symbol": "COINon",
+      "token": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+      "holder": "0x7de5f4a237315a7c8fd31974bb6603c1d965e9ac",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "XSTOCKS",
+      "symbol": "COINx",
+      "token": "0x364f210f430ec2448fc68a49203040f6124096f0",
+      "holder": "0xe3b0a50277347ea1197bea7c879b2af2e6679ae6",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "ONDO",
+      "symbol": "QQQon",
+      "token": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+      "holder": "0xe59dc391582bd70210b917b7e6e526f7f7464b76",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "BSTOCKS",
+      "symbol": "QQQB",
+      "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+      "holder": "0x47bc06722295ac316a569eef87ac32faa455f441",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "XSTOCKS",
+      "symbol": "QQQx",
+      "token": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "META",
+      "issuer": "BSTOCKS",
+      "symbol": "METAB",
+      "token": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+      "holder": "0xc2151a561e928d16576d75ea88544543ac63d80b",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "META",
+      "issuer": "ONDO",
+      "symbol": "METAon",
+      "token": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "META",
+      "issuer": "XSTOCKS",
+      "symbol": "METAx",
+      "token": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "BSTOCKS",
+      "symbol": "MSFTB",
+      "token": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+      "holder": "0x5018b018ceb7645c927c5cf246786f89ebcbe7ea",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "ONDO",
+      "symbol": "MSFTon",
+      "token": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+      "holder": "0x08c2ce6e530ca82e26ad2fe73226d2171b9e6f8e",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "XSTOCKS",
+      "symbol": "MSFTx",
+      "token": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "BSTOCKS",
+      "symbol": "NVDAB",
+      "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+      "holder": "0x8fb4243b553ac29ba088acf00b9b7da24bd6690c",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "ONDO",
+      "symbol": "NVDAon",
+      "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+      "holder": "0xb90bdbfbdffd4af5a636b5805539edeafb969308",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "XSTOCKS",
+      "symbol": "NVDAx",
+      "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "holder": null,
+      "results": "NO_HOLDER_FOUND"
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "XSTOCKS",
+      "symbol": "SPYx",
+      "token": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "holder": "0x5a913c38138ed3013daf02f21d962a3add5dc31e",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "ONDO",
+      "symbol": "SPYon",
+      "token": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+      "holder": "0x3b31ad84092cefefc71f71a8f84aace37aca3ee1",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "BSTOCKS",
+      "symbol": "SPYB",
+      "token": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+      "holder": "0x7aa6d92fc369a8c1edc631a3aac44efb0808ddbf",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "BSTOCKS",
+      "symbol": "TSLAB",
+      "token": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+      "holder": "0xb0f5e5400e8f0f7c242f2b7740c004f020579c41",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "ONDO",
+      "symbol": "TSLAon",
+      "token": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+      "holder": "0x85faa585f5f7f9922589be0a0bf1cfb2404ebdc0",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "XSTOCKS",
+      "symbol": "TSLAx",
+      "token": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "holder": "0x5e12d6edb2b7d5330e474ea2d2694a3b3e35d492",
+      "results": {
+        "contract_v3_router": "OK",
+        "contract_multicall3": "OK",
+        "eoa_fresh": "OK"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "wallet": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+  "cli": "baw 1.10.0: contract-call preview then execute, three calls",
+  "orderId": "8",
+  "approveTx": "0x093617b8b814a8d869573a5ec04987e04c398b43319ed58fd005aca7c52ce5dd",
+  "placeBuyTx": "0x7e8b9b50c2e3a7fda597b1edf3887cedfaa7c9f7f0848d60e588cadb3d034681",
+  "cancelTx": "0x32bd1fa6c02131300b9d08a13aa61bc475e97a4fa999cc9dcd2d9465952ce877",
+  "floorShares": "1.0",
+  "note": "A five cent buy with an unreachable one-share floor, placed and then cancelled through baw. On-chain status is 2 (cancelled).",
+  "onChainStatus": 2
+}

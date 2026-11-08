@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-10-09T23:42:11.627Z",
+  "url": "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai",
+  "calls": [
+    {
+      "type": null,
+      "http": 200,
+      "code": "000000",
+      "ms": 2582,
+      "rows": 1938,
+      "byChainType": {
+        "chain56/type1/assetType3": 110,
+        "chain56/type1/assetType1": 329,
+        "chain1/type1/assetType1": 329,
+        "chain1/type1/assetType3": 110,
+        "chainCT_501/type2/assetType1": 110,
+        "chainCT_501/type2/assetType3": 29,
+        "chainCT_501/type1/assetType1": 329,
+        "chainCT_501/type1/assetType3": 111,
+        "chain56/type2/assetType1": 96,
+        "chain56/type2/assetType3": 32,
+        "chain56/type3/assetType1": 60,
+        "chain56/type3/assetType3": 13,
+        "chain56/type1/assetTypeundefined": 18,
+        "chain1/type1/assetTypeundefined": 18,
+        "chainCT_501/type1/assetTypeundefined": 11,
+        "chain4663/type5/assetTypeundefined": 194,
+        "chain56/type1/assetType4": 1,
+        "chain56/type3/assetTypeundefined": 18,
+        "chain56/type4/assetType2": 4,
+        "chain56/type9/assetType1": 1,
+        "chain8453/type11/assetType1": 13,
+        "chain56/type2/assetTypeundefined": 2
+      },
+      "message": null
+    },
+    {
+      "type": 0,
+      "http": 200,
+      "code": "000000",
+      "ms": 1554,
+      "rows": 0,
+      "byChainType": {},
+      "message": null
+    },
+    {
+      "type": 1,
+      "http": 200,
+      "code": "000000",
+      "ms": 1917,
+      "rows": 1366,
+      "byChainType": {
+        "chain56/type1/assetType3": 110,
+        "chain56/type1/assetType1": 329,
+        "chain1/type1/assetType1": 329,
+        "chain1/type1/assetType3": 110,
+        "chainCT_501/type1/assetType1": 329,
+        "chainCT_501/type1/assetType3": 111,
+        "chain56/type1/assetTypeundefined": 18,
+        "chain1/type1/assetTypeundefined": 18,
+        "chainCT_501/type1/assetTypeundefined": 11,
+        "chain56/type1/assetType4": 1
+      },
+      "message": null
+    },
+    {
+      "type": 2,
+      "http": 200,
+      "code": "000000",
+      "ms": 1392,
+      "rows": 269,
+      "byChainType": {
+        "chainCT_501/type2/assetType1": 110,
+        "chainCT_501/type2/assetType3": 29,
+        "chain56/type2/assetType1": 96,
+        "chain56/type2/assetType3": 32,
+        "chain56/type2/assetTypeundefined": 2
+      },
+      "message": null
+    },
+    {
+      "type": 3,
+      "http": 200,
+      "code": "000000",
+      "ms": 883,
+      "rows": 91,
+      "byChainType": {
+        "chain56/type3/assetType1": 60,
+        "chain56/type3/assetType3": 13,
+        "chain56/type3/assetTypeundefined": 18
+      },
+      "message": null
+    },
+    {
+      "type": 4,
+      "http": 200,
+      "code": "000000",
+      "ms": 855,
+      "rows": 4,
+      "byChainType": {
+        "chain56/type4/assetType2": 4
+      },
+      "message": null
+    },
+    {
+      "type": 5,
+      "http": 200,
+      "code": "000000",
+      "ms": 1584,
+      "rows": 194,
+      "byChainType": {
+        "chain4663/type5/assetTypeundefined": 194
+      },
+      "message": null
+    },
+    {
+      "type": 6,
+      "http": 200,
+      "code": "000000",
+      "ms": 916,
+      "rows": 0,
+      "byChainType": {},
+      "message": null
+    },
+    {
+      "type": 7,
+      "http": 200,
+      "code": "000000",
+      "ms": 870,
+      "rows": 0,
+      "byChainType": {},
+      "message": null
+    },
+    {
+      "type": 8,
+      "http": 200,
+      "code": "000000",
+      "ms": 851,
+      "rows": 0,
+      "byChainType": {},
+      "message": null
+    },
+    {
+      "type": 9,
+      "http": 200,
+      "code": "000000",
+      "ms": 880,
+      "rows": 1,
+      "byChainType": {
+        "chain56/type9/assetType1": 1
+      },
+      "message": null
+    },
+    {
+      "type": 10,
+      "http": 200,
+      "code": "000000",
+      "ms": 936,
+      "rows": 0,
+      "byChainType": {},
+      "message": null
+    }
+  ]
+}

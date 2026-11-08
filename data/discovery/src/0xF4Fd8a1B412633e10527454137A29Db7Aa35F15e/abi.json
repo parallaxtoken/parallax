@@ -1,0 +1,887 @@
+[
+ {
+  "type": "constructor",
+  "inputs": [
+   {
+    "name": "admin",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "setter",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "_minimumPauseDuration",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "AllowedDriftBpsCannotExceed100Percent",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "AssetAlreadyExists",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "AssetNotFound",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "CannotAbortInactivePause",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "CannotAdjustInactivePause",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "CannotCancelPauseWhileActive",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "CannotSchedulePauseWhileActive",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "DriftCooldownPeriodMustBePositive",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "DriftExceedsAllowedRate",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "InitialSValueMustBePositive",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "LengthMismatch",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "MinimumPauseDurationNotMet",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "MinimumPauseDurationTooLow",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "NewSValueMustBeGreaterThanCurrent",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "NoPauseScheduled",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "PauseNotYetStarted",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "PauseStartTimeInPast",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "PausedForSpecialCorporateActionWindow",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "PendingSValueMustBePositive",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "SValueUpdatedTooRecently",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "ZeroAddress",
+  "type": "error",
+  "inputs": []
+ },
+ {
+  "name": "AssetAdded",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "initialSValue",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "allowedDriftBps",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "driftCooldown",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "AssetRemoved",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "CorporateActionApplied",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "oldSValue",
+    "type": "uint128",
+    "indexed": false,
+    "internalType": "uint128"
+   },
+   {
+    "name": "newSValue",
+    "type": "uint128",
+    "indexed": false,
+    "internalType": "uint128"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "CorporateActionCancelled",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "CorporateActionScheduled",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "indexed": false,
+    "internalType": "uint128"
+   },
+   {
+    "name": "pauseStartTime",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "DriftParametersUpdated",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "oldAllowedDriftBps",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "newAllowedDriftBps",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "oldDriftCooldown",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "newDriftCooldown",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "MinimumPauseDurationUpdated",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "oldDuration",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "newDuration",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "RoleAdminChanged",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "indexed": true,
+    "internalType": "bytes32"
+   },
+   {
+    "name": "previousAdminRole",
+    "type": "bytes32",
+    "indexed": true,
+    "internalType": "bytes32"
+   },
+   {
+    "name": "newAdminRole",
+    "type": "bytes32",
+    "indexed": true,
+    "internalType": "bytes32"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "RoleGranted",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "indexed": true,
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "sender",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "RoleRevoked",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "indexed": true,
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "sender",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "SValueUpdated",
+  "type": "event",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "indexed": true,
+    "internalType": "address"
+   },
+   {
+    "name": "oldSValue",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   },
+   {
+    "name": "newSValue",
+    "type": "uint256",
+    "indexed": false,
+    "internalType": "uint256"
+   }
+  ],
+  "anonymous": false
+ },
+ {
+  "name": "DEFAULT_ADMIN_ROLE",
+  "type": "function",
+  "inputs": [],
+  "outputs": [
+   {
+    "name": "",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "MIN_PAUSE_DURATION_LOWER_BOUND",
+  "type": "function",
+  "inputs": [],
+  "outputs": [
+   {
+    "name": "",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "SETTER_ROLE",
+  "type": "function",
+  "inputs": [],
+  "outputs": [
+   {
+    "name": "",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "abortPause",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "addAsset",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "initialSValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   },
+   {
+    "name": "allowedDriftBps",
+    "type": "uint16",
+    "internalType": "uint16"
+   },
+   {
+    "name": "driftCooldown",
+    "type": "uint48",
+    "internalType": "uint48"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "adjustPause",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "assetData",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   },
+   {
+    "name": "pendingSValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   },
+   {
+    "name": "lastUpdate",
+    "type": "uint256",
+    "internalType": "uint256"
+   },
+   {
+    "name": "pauseStartTime",
+    "type": "uint256",
+    "internalType": "uint256"
+   },
+   {
+    "name": "allowedDriftBps",
+    "type": "uint16",
+    "internalType": "uint16"
+   },
+   {
+    "name": "driftCooldown",
+    "type": "uint48",
+    "internalType": "uint48"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "cancelScheduledPause",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "getRoleAdmin",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "getRoleMember",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   },
+   {
+    "name": "index",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "getRoleMemberCount",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "getSValue",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   },
+   {
+    "name": "paused",
+    "type": "bool",
+    "internalType": "bool"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "getSValueBatch",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "assets",
+    "type": "address[]",
+    "internalType": "address[]"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "sValues",
+    "type": "uint128[]",
+    "internalType": "uint128[]"
+   },
+   {
+    "name": "paused",
+    "type": "bool[]",
+    "internalType": "bool[]"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "grantRole",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "hasRole",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "",
+    "type": "bool",
+    "internalType": "bool"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "minimumPauseDuration",
+  "type": "function",
+  "inputs": [],
+  "outputs": [
+   {
+    "name": "",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "removeAsset",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "renounceRole",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "revokeRole",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "role",
+    "type": "bytes32",
+    "internalType": "bytes32"
+   },
+   {
+    "name": "account",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "scheduleCorporateActionPause",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   },
+   {
+    "name": "pauseStartTime",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "setDriftParameters",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "allowedDriftBps",
+    "type": "uint16",
+    "internalType": "uint16"
+   },
+   {
+    "name": "driftCooldown",
+    "type": "uint48",
+    "internalType": "uint48"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "setMinimumPauseDuration",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "_minimumPauseDuration",
+    "type": "uint256",
+    "internalType": "uint256"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "submitUpdate",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   },
+   {
+    "name": "sValue",
+    "type": "uint128",
+    "internalType": "uint128"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "submitUpdateBatch",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "assets",
+    "type": "address[]",
+    "internalType": "address[]"
+   },
+   {
+    "name": "sValues",
+    "type": "uint128[]",
+    "internalType": "uint128[]"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ },
+ {
+  "name": "supportsInterface",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "interfaceId",
+    "type": "bytes4",
+    "internalType": "bytes4"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "",
+    "type": "bool",
+    "internalType": "bool"
+   }
+  ],
+  "stateMutability": "view"
+ },
+ {
+  "name": "unpause",
+  "type": "function",
+  "inputs": [
+   {
+    "name": "asset",
+    "type": "address",
+    "internalType": "address"
+   }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable"
+ }
+]

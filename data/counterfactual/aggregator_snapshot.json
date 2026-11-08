@@ -1,0 +1,319 @@
+{
+  "generatedAt": "2026-10-10T03:26:42.915Z",
+  "source": "data/discovery/e6_contract_taker.json",
+  "snapshotAt": "2026-10-10T02:48:30.873Z",
+  "groups": 28,
+  "differs": 8,
+  "meanTareOverNaiveBps": 1.250898735495649,
+  "maxTareOverNaiveBps": 8.966590014163334,
+  "rows": [
+    {
+      "key": "GOOGL:10",
+      "candidates": [
+        "GOOGLB",
+        "GOOGLon"
+      ],
+      "naive": "GOOGLB",
+      "tare": "GOOGLB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "GOOGL:50",
+      "candidates": [
+        "GOOGLB",
+        "GOOGLon"
+      ],
+      "naive": "GOOGLB",
+      "tare": "GOOGLB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "GOOGL:250",
+      "candidates": [
+        "GOOGLB",
+        "GOOGLon"
+      ],
+      "naive": "GOOGLB",
+      "tare": "GOOGLB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "GOOGL:1000",
+      "candidates": [
+        "GOOGLB",
+        "GOOGLon"
+      ],
+      "naive": "GOOGLB",
+      "tare": "GOOGLB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "AMZN:10",
+      "candidates": [
+        "AMZNB",
+        "AMZNon"
+      ],
+      "naive": "AMZNB",
+      "tare": "AMZNB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "AMZN:50",
+      "candidates": [
+        "AMZNB",
+        "AMZNon"
+      ],
+      "naive": "AMZNB",
+      "tare": "AMZNB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "AMZN:250",
+      "candidates": [
+        "AMZNB",
+        "AMZNon"
+      ],
+      "naive": "AMZNB",
+      "tare": "AMZNB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "AMZN:1000",
+      "candidates": [
+        "AMZNB",
+        "AMZNon"
+      ],
+      "naive": "AMZNB",
+      "tare": "AMZNB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "AAPL:10",
+      "candidates": [
+        "AAPLB",
+        "AAPLon"
+      ],
+      "naive": "AAPLB",
+      "tare": "AAPLon",
+      "differs": true,
+      "tareOverNaiveBps": 0.49374289191606024
+    },
+    {
+      "key": "AAPL:50",
+      "candidates": [
+        "AAPLB",
+        "AAPLon"
+      ],
+      "naive": "AAPLB",
+      "tare": "AAPLon",
+      "differs": true,
+      "tareOverNaiveBps": 0.5199303576031156
+    },
+    {
+      "key": "AAPL:250",
+      "candidates": [
+        "AAPLB",
+        "AAPLon"
+      ],
+      "naive": "AAPLB",
+      "tare": "AAPLon",
+      "differs": true,
+      "tareOverNaiveBps": 0.6508676860517149
+    },
+    {
+      "key": "AAPL:1000",
+      "candidates": [
+        "AAPLB",
+        "AAPLon"
+      ],
+      "naive": "AAPLB",
+      "tare": "AAPLon",
+      "differs": true,
+      "tareOverNaiveBps": 0.14975906681646833
+    },
+    {
+      "key": "QQQ:10",
+      "candidates": [
+        "QQQon",
+        "QQQB"
+      ],
+      "naive": "QQQB",
+      "tare": "QQQB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "QQQ:50",
+      "candidates": [
+        "QQQon",
+        "QQQB"
+      ],
+      "naive": "QQQB",
+      "tare": "QQQB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "QQQ:250",
+      "candidates": [
+        "QQQon",
+        "QQQB"
+      ],
+      "naive": "QQQB",
+      "tare": "QQQB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "QQQ:1000",
+      "candidates": [
+        "QQQon",
+        "QQQB"
+      ],
+      "naive": "QQQB",
+      "tare": "QQQB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "MSFT:10",
+      "candidates": [
+        "MSFTB",
+        "MSFTon"
+      ],
+      "naive": "MSFTB",
+      "tare": "MSFTB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "MSFT:50",
+      "candidates": [
+        "MSFTB",
+        "MSFTon"
+      ],
+      "naive": "MSFTB",
+      "tare": "MSFTB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "MSFT:250",
+      "candidates": [
+        "MSFTB",
+        "MSFTon"
+      ],
+      "naive": "MSFTB",
+      "tare": "MSFTB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "MSFT:1000",
+      "candidates": [
+        "MSFTB",
+        "MSFTon"
+      ],
+      "naive": "MSFTB",
+      "tare": "MSFTB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "NVDA:10",
+      "candidates": [
+        "NVDAB",
+        "NVDAon"
+      ],
+      "naive": "NVDAB",
+      "tare": "NVDAon",
+      "differs": true,
+      "tareOverNaiveBps": 8.50007093514904
+    },
+    {
+      "key": "NVDA:50",
+      "candidates": [
+        "NVDAB",
+        "NVDAon"
+      ],
+      "naive": "NVDAB",
+      "tare": "NVDAon",
+      "differs": true,
+      "tareOverNaiveBps": 8.411029059072206
+    },
+    {
+      "key": "NVDA:250",
+      "candidates": [
+        "NVDAB",
+        "NVDAon"
+      ],
+      "naive": "NVDAB",
+      "tare": "NVDAon",
+      "differs": true,
+      "tareOverNaiveBps": 8.966590014163334
+    },
+    {
+      "key": "NVDA:1000",
+      "candidates": [
+        "NVDAB",
+        "NVDAon"
+      ],
+      "naive": "NVDAB",
+      "tare": "NVDAon",
+      "differs": true,
+      "tareOverNaiveBps": 7.333174583106228
+    },
+    {
+      "key": "SPY:10",
+      "candidates": [
+        "SPYon",
+        "SPYB"
+      ],
+      "naive": "SPYB",
+      "tare": "SPYB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "SPY:50",
+      "candidates": [
+        "SPYon",
+        "SPYB"
+      ],
+      "naive": "SPYB",
+      "tare": "SPYB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "SPY:250",
+      "candidates": [
+        "SPYon",
+        "SPYB"
+      ],
+      "naive": "SPYB",
+      "tare": "SPYB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    },
+    {
+      "key": "SPY:1000",
+      "candidates": [
+        "SPYon",
+        "SPYB"
+      ],
+      "naive": "SPYB",
+      "tare": "SPYB",
+      "differs": false,
+      "tareOverNaiveBps": 0
+    }
+  ]
+}

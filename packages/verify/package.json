@@ -1,0 +1,15 @@
+{
+  "name": "@parallax/verify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": "Parallax",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": { "parallax-verify": "src/cli.ts" },
+  "scripts": { "test": "vitest run", "typecheck": "tsc --noEmit", "verify": "tsx src/cli.ts" },
+  "dependencies": { "viem": "2.21.55", "@parallax/kernel": "workspace:*", "@parallax/registry": "workspace:*" },
+  "devDependencies": { "typescript": "5.6.3", "vitest": "2.1.8", "tsx": "4.19.2", "@types/node": "22.9.0" }
+}
+

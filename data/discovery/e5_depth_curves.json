@@ -1,0 +1,2579 @@
+{
+  "generatedAt": "2026-10-09T23:46:07.861Z",
+  "block": null,
+  "referenceSource": "Ondo dynamic stockInfo.price",
+  "rows": [
+    {
+      "ticker": "GOOGL",
+      "issuer": "BSTOCKS",
+      "symbol": "GOOGLB",
+      "token": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "unit": 1.0004780589781075,
+      "referenceUsdPerShare": 351.656667,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+            "tokens": 0.02839242348702294,
+            "shares": 0.02840599673998114,
+            "usdPerShare": 352.0383421689655,
+            "netVsRef": 0.0010853630964018368
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+              "tokens": 0.02839242348702294,
+              "shares": 0.02840599673998114,
+              "usdPerShare": 352.0383421689655,
+              "netVsRef": 0.0010853630964018368
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x89001D846f7CA36EE089F73eEFC25657E1798144",
+              "tokens": 0.028321113999095992,
+              "shares": 0.028334653161913265,
+              "usdPerShare": 352.9247364651617,
+              "netVsRef": 0.0036059872715612507
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xF5A91043817EC002B8892688A25Afb281Ab06F4b",
+              "tokens": 0.028188609808193852,
+              "shares": 0.028202085626193026,
+              "usdPerShare": 354.58370464319063,
+              "netVsRef": 0.008323566472267618
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+            "tokens": 0.14195562281928065,
+            "shares": 0.14202348597926223,
+            "usdPerShare": 352.05444828541124,
+            "netVsRef": 0.0011311637820057285
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+              "tokens": 0.14195562281928065,
+              "shares": 0.14202348597926223,
+              "usdPerShare": 352.05444828541124,
+              "netVsRef": 0.0011311637820057285
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x89001D846f7CA36EE089F73eEFC25657E1798144",
+              "tokens": 0.14160541665866022,
+              "shares": 0.14167311239944255,
+              "usdPerShare": 352.925118628203,
+              "netVsRef": 0.003607074022011769
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xF5A91043817EC002B8892688A25Afb281Ab06F4b",
+              "tokens": 0.1409363542040447,
+              "shares": 0.1410037300935137,
+              "usdPerShare": 354.6005482751413,
+              "netVsRef": 0.008371464417995078
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+            "tokens": 0.7096157932495529,
+            "shares": 0.7099550314505227,
+            "usdPerShare": 352.13497887214095,
+            "netVsRef": 0.0013601672228240602
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+              "tokens": 0.7096157932495529,
+              "shares": 0.7099550314505227,
+              "usdPerShare": 352.13497887214095,
+              "netVsRef": 0.0013601672228240602
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x89001D846f7CA36EE089F73eEFC25657E1798144",
+              "tokens": 0.708023249897713,
+              "shares": 0.7083617267690355,
+              "usdPerShare": 352.92702944340977,
+              "netVsRef": 0.00361250777426525
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xF5A91043817EC002B8892688A25Afb281Ab06F4b",
+              "tokens": 0.7045144477867962,
+              "shares": 0.7048512472437671,
+              "usdPerShare": 354.68476643489504,
+              "netVsRef": 0.00861095414663371
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+            "tokens": 2.836028550374476,
+            "shares": 2.8373843392851517,
+            "usdPerShare": 352.4372733557623,
+            "netVsRef": 0.0022197968331487683
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x998591C364e46da28B2972f4b271ac74dd02300F",
+              "tokens": 2.836028550374476,
+              "shares": 2.8373843392851517,
+              "usdPerShare": 352.4372733557623,
+              "netVsRef": 0.0022197968331487683
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x89001D846f7CA36EE089F73eEFC25657E1798144",
+              "tokens": 2.832035500135778,
+              "shares": 2.833389380132937,
+              "usdPerShare": 352.9341950004351,
+              "netVsRef": 0.0036328843452158033
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xF5A91043817EC002B8892688A25Afb281Ab06F4b",
+              "tokens": 2.8155507708957783,
+              "shares": 2.8168967702201226,
+              "usdPerShare": 355.0005845339715,
+              "netVsRef": 0.009509040629027687
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "ONDO",
+      "symbol": "GOOGLon",
+      "token": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+      "unit": 1.0024603266374352,
+      "referenceUsdPerShare": 351.656667,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+            "tokens": 0.028127755908843362,
+            "shares": 0.028196959375957165,
+            "usdPerShare": 354.64816850169836,
+            "netVsRef": 0.00850688123509502
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+              "tokens": 0.028127755908843362,
+              "shares": 0.028196959375957165,
+              "usdPerShare": 354.64816850169836,
+              "netVsRef": 0.00850688123509502
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+            "tokens": 0.14052102822600565,
+            "shares": 0.14086675585486988,
+            "usdPerShare": 354.94535028203006,
+            "netVsRef": 0.009351971939238313
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+              "tokens": 0.14052102822600565,
+              "shares": 0.14086675585486988,
+              "usdPerShare": 354.94535028203006,
+              "netVsRef": 0.009351971939238313
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+            "tokens": 0.6996760848066654,
+            "shares": 0.7013975165156917,
+            "usdPerShare": 356.43125918368855,
+            "netVsRef": 0.01357742545995455
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+              "tokens": 0.6996760848066654,
+              "shares": 0.7013975165156917,
+              "usdPerShare": 356.43125918368855,
+              "netVsRef": 0.01357742545995455
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+            "tokens": 1.8092743811663214,
+            "shares": 1.8137257871207342,
+            "usdPerShare": 551.351261089741,
+            "netVsRef": 0.5678680736905835
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x6731932C92E882Cc22a10749324C70A7d6aDde60",
+              "tokens": 1.8092743811663214,
+              "shares": 1.8137257871207342,
+              "usdPerShare": 551.351261089741,
+              "netVsRef": 0.5678680736905835
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "XSTOCKS",
+      "symbol": "GOOGLx",
+      "token": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "unit": 1,
+      "referenceUsdPerShare": 351.656667,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "BSTOCKS",
+      "symbol": "AMZNB",
+      "token": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+      "unit": 1,
+      "referenceUsdPerShare": 262.475,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+            "tokens": 0.03803202205709332,
+            "shares": 0.03803202205709332,
+            "usdPerShare": 262.9363220548224,
+            "netVsRef": 0.0017575847407274026
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+              "tokens": 0.03803202205709332,
+              "shares": 0.03803202205709332,
+              "usdPerShare": 262.9363220548224,
+              "netVsRef": 0.0017575847407274026
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+            "tokens": 0.19015727999356127,
+            "shares": 0.19015727999356127,
+            "usdPerShare": 262.94023558652606,
+            "netVsRef": 0.0017724948529422857
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+              "tokens": 0.19015727999356127,
+              "shares": 0.19015727999356127,
+              "usdPerShare": 262.94023558652606,
+              "netVsRef": 0.0017724948529422857
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+            "tokens": 0.9507156489884987,
+            "shares": 0.9507156489884987,
+            "usdPerShare": 262.9598032450441,
+            "netVsRef": 0.0018470454140169235
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+              "tokens": 0.9507156489884987,
+              "shares": 0.9507156489884987,
+              "usdPerShare": 262.9598032450441,
+              "netVsRef": 0.0018470454140169235
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+            "tokens": 3.8015688148524274,
+            "shares": 3.8015688148524274,
+            "usdPerShare": 263.04929588360454,
+            "netVsRef": 0.002188002223467045
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x7530beb7Bde5843f668cf31b996fa1F748C9b6B1",
+              "tokens": 3.8015688148524274,
+              "shares": 3.8015688148524274,
+              "usdPerShare": 263.04929588360454,
+              "netVsRef": 0.002188002223467045
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "ONDO",
+      "symbol": "AMZNon",
+      "token": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+      "unit": 1,
+      "referenceUsdPerShare": 262.475,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "XSTOCKS",
+      "symbol": "AMZNx",
+      "token": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+      "unit": 1,
+      "referenceUsdPerShare": 262.475,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+            "tokens": 0.03670851061841611,
+            "shares": 0.03670851061841611,
+            "usdPerShare": 272.41639149977254,
+            "netVsRef": 0.03787557481578263
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+              "tokens": 0.03670851061841611,
+              "shares": 0.03670851061841611,
+              "usdPerShare": 272.41639149977254,
+              "netVsRef": 0.03787557481578263
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+            "tokens": 0.05215914480272767,
+            "shares": 0.05215914480272767,
+            "usdPerShare": 958.6046740050317,
+            "netVsRef": 2.652175155748287
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+              "tokens": 0.05215914480272767,
+              "shares": 0.05215914480272767,
+              "usdPerShare": 958.6046740050317,
+              "netVsRef": 2.652175155748287
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+            "tokens": 0.05215914480272767,
+            "shares": 0.05215914480272767,
+            "usdPerShare": 4793.023370025158,
+            "netVsRef": 17.260875778741433
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+              "tokens": 0.05215914480272767,
+              "shares": 0.05215914480272767,
+              "usdPerShare": 4793.023370025158,
+              "netVsRef": 17.260875778741433
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+            "tokens": 0.05215914480272767,
+            "shares": 0.05215914480272767,
+            "usdPerShare": 19172.093480100633,
+            "netVsRef": 72.04350311496573
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x28A73f5bd589Fea90BA0D24117BF91D648be3ef2",
+              "tokens": 0.05215914480272767,
+              "shares": 0.05215914480272767,
+              "usdPerShare": 19172.093480100633,
+              "netVsRef": 72.04350311496573
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "BSTOCKS",
+      "symbol": "AAPLB",
+      "token": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+      "unit": 1.0006039060756324,
+      "referenceUsdPerShare": 336.101667,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+            "tokens": 0.02959462161066131,
+            "shares": 0.029612493982458032,
+            "usdPerShare": 337.69529867777567,
+            "netVsRef": 0.004741516732125195
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+              "tokens": 0.02959462161066131,
+              "shares": 0.029612493982458032,
+              "usdPerShare": 337.69529867777567,
+              "netVsRef": 0.004741516732125195
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+            "tokens": 0.14797284849303385,
+            "shares": 0.14806221019526744,
+            "usdPerShare": 337.6958910316075,
+            "netVsRef": 0.0047432791566830446
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+              "tokens": 0.14797284849303385,
+              "shares": 0.14806221019526744,
+              "usdPerShare": 337.6958910316075,
+              "netVsRef": 0.0047432791566830446
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+            "tokens": 0.7398577535266453,
+            "shares": 0.7403045581191038,
+            "usdPerShare": 337.6988528007669,
+            "netVsRef": 0.0047520912794725145
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+              "tokens": 0.7398577535266453,
+              "shares": 0.7403045581191038,
+              "usdPerShare": 337.6988528007669,
+              "netVsRef": 0.0047520912794725145
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+            "tokens": 2.9593336840834867,
+            "shares": 2.9611208436751286,
+            "usdPerShare": 337.70995943511457,
+            "netVsRef": 0.0047851367399334155
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xe9b9998B2EC5430D2246c7f1F8D9f298c97D7365",
+              "tokens": 2.9593336840834867,
+              "shares": 2.9611208436751286,
+              "usdPerShare": 337.70995943511457,
+              "netVsRef": 0.0047851367399334155
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "ONDO",
+      "symbol": "AAPLon",
+      "token": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+      "unit": 1.003376073740221,
+      "referenceUsdPerShare": 336.101667,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+            "tokens": 0.002079708720059665,
+            "shares": 0.0020867299700567674,
+            "usdPerShare": 4792.186887375735,
+            "netVsRef": 13.2581467392
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+              "tokens": 0.002079708720059665,
+              "shares": 0.0020867299700567674,
+              "usdPerShare": 4792.186887375735,
+              "netVsRef": 13.2581467392
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC0BFbc52dEeceE475BDb52A62f8D7cF128B59358",
+              "tokens": 4.8299498525e-8,
+              "shares": 4.8462561193636103e-8,
+              "usdPerShare": 206344851.64835155,
+              "netVsRef": 613934.8173678785
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+            "tokens": 0.002214384965540393,
+            "shares": 0.0022218608924732945,
+            "usdPerShare": 22503.65905866493,
+            "netVsRef": 65.9549165272808
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+              "tokens": 0.002214384965540393,
+              "shares": 0.0022218608924732945,
+              "usdPerShare": 22503.65905866493,
+              "netVsRef": 65.9549165272808
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC0BFbc52dEeceE475BDb52A62f8D7cF128B59358",
+              "tokens": 4.8299498525e-8,
+              "shares": 4.8462561193636103e-8,
+              "usdPerShare": 1031724258.2417576,
+              "netVsRef": 3069678.0868393923
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+            "tokens": 0.002243440782699602,
+            "shares": 0.0022510148042138153,
+            "usdPerShare": 111061.0199151109,
+            "netVsRef": 329.4387654676848
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+              "tokens": 0.002243440782699602,
+              "shares": 0.0022510148042138153,
+              "usdPerShare": 111061.0199151109,
+              "netVsRef": 329.4387654676848
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC0BFbc52dEeceE475BDb52A62f8D7cF128B59358",
+              "tokens": 4.8299498525e-8,
+              "shares": 4.8462561193636103e-8,
+              "usdPerShare": 5158621291.208789,
+              "netVsRef": 15348394.434196964
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+            "tokens": 0.002248973846102512,
+            "shares": 0.0022565665476467827,
+            "usdPerShare": 443151.1231267834,
+            "netVsRef": 1317.5031989942001
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xE545e390D757F7071b48D3BEA88C912DF497c3Ee",
+              "tokens": 0.002248973846102512,
+              "shares": 0.0022565665476467827,
+              "usdPerShare": 443151.1231267834,
+              "netVsRef": 1317.5031989942001
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC0BFbc52dEeceE475BDb52A62f8D7cF128B59358",
+              "tokens": 4.8299498525e-8,
+              "shares": 4.8462561193636103e-8,
+              "usdPerShare": 20634485164.835155,
+              "netVsRef": 61393580.736787856
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "XSTOCKS",
+      "symbol": "AAPLx",
+      "token": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "unit": 1,
+      "referenceUsdPerShare": 336.101667,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+            "tokens": 0.000003173853226566,
+            "shares": 0.000003173853226566,
+            "usdPerShare": 3150744.3117713593,
+            "netVsRef": 9373.378710746945
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+              "tokens": 0.000003173853226566,
+              "shares": 0.000003173853226566,
+              "usdPerShare": 3150744.3117713593,
+              "netVsRef": 9373.378710746945
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+            "tokens": 0.000003175484522413,
+            "shares": 0.000003175484522413,
+            "usdPerShare": 15745628.626779072,
+            "netVsRef": 46846.814732138984
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+              "tokens": 0.000003175484522413,
+              "shares": 0.000003175484522413,
+              "usdPerShare": 15745628.626779072,
+              "netVsRef": 46846.814732138984
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+            "tokens": 0.000003175810982831,
+            "shares": 0.000003175810982831,
+            "usdPerShare": 78720050.2018365,
+            "netVsRef": 234213.9948391553
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+              "tokens": 0.000003175810982831,
+              "shares": 0.000003175810982831,
+              "usdPerShare": 78720050.2018365,
+              "netVsRef": 234213.9948391553
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+            "tokens": 0.000003175872201633,
+            "shares": 0.000003175872201633,
+            "usdPerShare": 314874131.10823876,
+            "netVsRef": 936840.9202402788
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xEe109cc926ce216B3d2490F674300C15131b12B5",
+              "tokens": 0.000003175872201633,
+              "shares": 0.000003175872201633,
+              "usdPerShare": 314874131.10823876,
+              "netVsRef": 936840.9202402788
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "BSTOCKS",
+      "symbol": "COINB",
+      "token": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+      "unit": 1,
+      "referenceUsdPerShare": 180.285,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+            "tokens": 0.05545572842219441,
+            "shares": 0.05545572842219441,
+            "usdPerShare": 180.3240221437217,
+            "netVsRef": 0.00021644697962508452
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+              "tokens": 0.05545572842219441,
+              "shares": 0.05545572842219441,
+              "usdPerShare": 180.3240221437217,
+              "netVsRef": 0.00021644697962508452
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x4E4C111a5c8c29E21F661A5aff769b19021dEBc1",
+              "tokens": 0.055294576552060576,
+              "shares": 0.055294576552060576,
+              "usdPerShare": 180.84956289673124,
+              "netVsRef": 0.0031315023253806196
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+            "tokens": 0.2769732587167112,
+            "shares": 0.2769732587167112,
+            "usdPerShare": 180.522842644315,
+            "netVsRef": 0.0013192591969104495
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+              "tokens": 0.2769732587167112,
+              "shares": 0.2769732587167112,
+              "usdPerShare": 180.522842644315,
+              "netVsRef": 0.0013192591969104495
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x4E4C111a5c8c29E21F661A5aff769b19021dEBc1",
+              "tokens": 0.27437526822332,
+              "shares": 0.27437526822332,
+              "usdPerShare": 182.23216809506283,
+              "netVsRef": 0.010800499736876912
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+            "tokens": 1.3772818829512121,
+            "shares": 1.3772818829512121,
+            "usdPerShare": 181.5169451472817,
+            "netVsRef": 0.006833320283338606
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+              "tokens": 1.3772818829512121,
+              "shares": 1.3772818829512121,
+              "usdPerShare": 181.5169451472817,
+              "netVsRef": 0.006833320283338606
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x4E4C111a5c8c29E21F661A5aff769b19021dEBc1",
+              "tokens": 1.3217359352275064,
+              "shares": 1.3217359352275064,
+              "usdPerShare": 189.1451940867207,
+              "netVsRef": 0.04914548679435726
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+            "tokens": 5.398261330795532,
+            "shares": 5.398261330795532,
+            "usdPerShare": 185.2448295334068,
+            "netVsRef": 0.027511049357443973
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x9e9df2c9053864ABfa5Bf773f9770F08710c8A10",
+              "tokens": 5.398261330795532,
+              "shares": 5.398261330795532,
+              "usdPerShare": 185.2448295334068,
+              "netVsRef": 0.027511049357443973
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x4E4C111a5c8c29E21F661A5aff769b19021dEBc1",
+              "tokens": 4.649669672435086,
+              "shares": 4.649669672435086,
+              "usdPerShare": 215.06904155543774,
+              "netVsRef": 0.1929391882599092
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "ONDO",
+      "symbol": "COINon",
+      "token": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+      "unit": 1,
+      "referenceUsdPerShare": 180.285,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "XSTOCKS",
+      "symbol": "COINx",
+      "token": "0x364f210f430ec2448fc68a49203040f6124096f0",
+      "unit": 1,
+      "referenceUsdPerShare": 180.285,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+            "tokens": 0.02196825932605386,
+            "shares": 0.02196825932605386,
+            "usdPerShare": 455.2022011202419,
+            "netVsRef": 1.5249033536913328
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+              "tokens": 0.02196825932605386,
+              "shares": 0.02196825932605386,
+              "usdPerShare": 455.2022011202419,
+              "netVsRef": 1.5249033536913328
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+            "tokens": 0.02703874244012191,
+            "shares": 0.02703874244012191,
+            "usdPerShare": 1849.1984274315446,
+            "netVsRef": 9.257084213503866
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+              "tokens": 0.02703874244012191,
+              "shares": 0.02703874244012191,
+              "usdPerShare": 1849.1984274315446,
+              "netVsRef": 9.257084213503866
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+            "tokens": 0.02704588486414848,
+            "shares": 0.02704588486414848,
+            "usdPerShare": 9243.550405385158,
+            "netVsRef": 50.27187733524785
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+              "tokens": 0.02704588486414848,
+              "shares": 0.02704588486414848,
+              "usdPerShare": 9243.550405385158,
+              "netVsRef": 50.27187733524785
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+            "tokens": 0.027046901020019755,
+            "shares": 0.027046901020019755,
+            "usdPerShare": 36972.812495591024,
+            "netVsRef": 204.0798041744517
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xE3b0a50277347Ea1197Bea7C879b2Af2e6679Ae6",
+              "tokens": 0.027046901020019755,
+              "shares": 0.027046901020019755,
+              "usdPerShare": 36972.812495591024,
+              "netVsRef": 204.0798041744517
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "ONDO",
+      "symbol": "QQQon",
+      "token": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+      "unit": 1.0040824301802085,
+      "referenceUsdPerShare": 751.328571,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "BSTOCKS",
+      "symbol": "QQQB",
+      "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+      "unit": 1.000724838657573,
+      "referenceUsdPerShare": 751.328571,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+            "tokens": 0.013283231876011922,
+            "shares": 0.01329286007597316,
+            "usdPerShare": 752.2835524369203,
+            "netVsRef": 0.0012710569966070118
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+              "tokens": 0.013283231876011922,
+              "shares": 0.01329286007597316,
+              "usdPerShare": 752.2835524369203,
+              "netVsRef": 0.0012710569966070118
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x7C84F9943Ec82cf2233c97A7Ee417f18bD2eC295",
+              "tokens": 0.013278528188118116,
+              "shares": 0.013288152978664536,
+              "usdPerShare": 752.550035814308,
+              "netVsRef": 0.001625739871282006
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x702C833A01844FDb14fFA6744C6E2DCf58f42b8D",
+              "tokens": 0.01315840207472357,
+              "shares": 0.013167939793219218,
+              "usdPerShare": 759.4202401464095,
+              "netVsRef": 0.0107698142447048
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+            "tokens": 0.06641594806581799,
+            "shares": 0.06646408891245545,
+            "usdPerShare": 752.2859459618643,
+            "netVsRef": 0.001274242719919494
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+              "tokens": 0.06641594806581799,
+              "shares": 0.06646408891245545,
+              "usdPerShare": 752.2859459618643,
+              "netVsRef": 0.001274242719919494
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x7C84F9943Ec82cf2233c97A7Ee417f18bD2eC295",
+              "tokens": 0.06635221873181314,
+              "shares": 0.06640031338496569,
+              "usdPerShare": 753.0084942538986,
+              "netVsRef": 0.002235936870685684
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x702C833A01844FDb14fFA6744C6E2DCf58f42b8D",
+              "tokens": 0.06416507804515348,
+              "shares": 0.0642115873741868,
+              "usdPerShare": 778.675657224137,
+              "netVsRef": 0.03639830465616223
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+            "tokens": 0.33207445757389764,
+            "shares": 0.33231515797793976,
+            "usdPerShare": 752.2979135865836,
+            "netVsRef": 0.0012901713364812384
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+              "tokens": 0.33207445757389764,
+              "shares": 0.33231515797793976,
+              "usdPerShare": 752.2979135865836,
+              "netVsRef": 0.0012901713364812384
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x7C84F9943Ec82cf2233c97A7Ee417f18bD2eC295",
+              "tokens": 0.3307542188083834,
+              "shares": 0.330993962252331,
+              "usdPerShare": 755.3007864518513,
+              "netVsRef": 0.005286921867704741
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x702C833A01844FDb14fFA6744C6E2DCf58f42b8D",
+              "tokens": 0.28552275959754436,
+              "shares": 0.28572971753131754,
+              "usdPerShare": 874.9527426127758,
+              "netVsRef": 0.16454075671345092
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+            "tokens": 1.3282185949550964,
+            "shares": 1.329181339138427,
+            "usdPerShare": 752.342792179281,
+            "netVsRef": 0.0013499036485875582
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0xe531fcb1F5a195de7608B9F4f9518544C2cdB693",
+              "tokens": 1.3282185949550964,
+              "shares": 1.329181339138427,
+              "usdPerShare": 752.342792179281,
+              "netVsRef": 0.0013499036485875582
+            },
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0x7C84F9943Ec82cf2233c97A7Ee417f18bD2eC295",
+              "tokens": 1.3025308452668738,
+              "shares": 1.3034749699762043,
+              "usdPerShare": 767.180055646374,
+              "netVsRef": 0.02109793938126958
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x702C833A01844FDb14fFA6744C6E2DCf58f42b8D",
+              "tokens": 0.8084808297175571,
+              "shares": 0.809066847876843,
+              "usdPerShare": 1235.99181282017,
+              "netVsRef": 0.6450749519282823
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "XSTOCKS",
+      "symbol": "QQQx",
+      "token": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "unit": 1,
+      "referenceUsdPerShare": 751.328571,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "issuer": "BSTOCKS",
+      "symbol": "METAB",
+      "token": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+      "unit": 1.000548290410745,
+      "referenceUsdPerShare": 717.91,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+            "tokens": 0.013856821577708145,
+            "shares": 0.013864419140102608,
+            "usdPerShare": 721.2707506133569,
+            "netVsRef": 0.004681297952886743
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+              "tokens": 0.013856821577708145,
+              "shares": 0.013864419140102608,
+              "usdPerShare": 721.2707506133569,
+              "netVsRef": 0.004681297952886743
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+            "tokens": 0.06928304537314671,
+            "shares": 0.06932103260255201,
+            "usdPerShare": 721.2818119238357,
+            "netVsRef": 0.004696705609109397
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+              "tokens": 0.06928304537314671,
+              "shares": 0.06932103260255201,
+              "usdPerShare": 721.2818119238357,
+              "netVsRef": 0.004696705609109397
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+            "tokens": 0.34638866642484684,
+            "shares": 0.34657858800903835,
+            "usdPerShare": 721.3371184762294,
+            "netVsRef": 0.004773743890222226
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+              "tokens": 0.34638866642484684,
+              "shares": 0.34657858800903835,
+              "usdPerShare": 721.3371184762294,
+              "netVsRef": 0.004773743890222226
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+            "tokens": 1.3851495296142882,
+            "shares": 1.3859089938188236,
+            "usdPerShare": 721.5480990887685,
+            "netVsRef": 0.005067625592021896
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xC2151a561E928D16576d75Ea88544543ac63D80B",
+              "tokens": 1.3851495296142882,
+              "shares": 1.3859089938188236,
+              "usdPerShare": 721.5480990887685,
+              "netVsRef": 0.005067625592021896
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "issuer": "ONDO",
+      "symbol": "METAon",
+      "token": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+      "unit": 1.0028269183053495,
+      "referenceUsdPerShare": 717.91,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "issuer": "XSTOCKS",
+      "symbol": "METAx",
+      "token": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "unit": 1,
+      "referenceUsdPerShare": 717.91,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "BSTOCKS",
+      "symbol": "MSFTB",
+      "token": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+      "unit": 1.0013139648333669,
+      "referenceUsdPerShare": 534.818,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+            "tokens": 0.01859511239621808,
+            "shares": 0.018619545719979216,
+            "usdPerShare": 537.0700311592329,
+            "netVsRef": 0.004210836507434257
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+              "tokens": 0.01859511239621808,
+              "shares": 0.018619545719979216,
+              "usdPerShare": 537.0700311592329,
+              "netVsRef": 0.004210836507434257
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x58e44C2e5B17EF40915B4B3AE8451B6B87285B44",
+              "tokens": 0.018586080653332497,
+              "shares": 0.018610502109701096,
+              "usdPerShare": 537.3310156305402,
+              "netVsRef": 0.004698823956075016
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+            "tokens": 0.09297402515685595,
+            "shares": 0.09309618975632862,
+            "usdPerShare": 537.0789087165732,
+            "netVsRef": 0.004227435719390993
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+              "tokens": 0.09297402515685595,
+              "shares": 0.09309618975632862,
+              "usdPerShare": 537.0789087165732,
+              "netVsRef": 0.004227435719390993
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x58e44C2e5B17EF40915B4B3AE8451B6B87285B44",
+              "tokens": 0.09292150084615813,
+              "shares": 0.09304359643053366,
+              "usdPerShare": 537.3824950686424,
+              "netVsRef": 0.004795079949893921
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+            "tokens": 0.4648317089885061,
+            "shares": 0.46544248150755085,
+            "usdPerShare": 537.1232965032743,
+            "netVsRef": 0.004310431779174229
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+              "tokens": 0.4648317089885061,
+              "shares": 0.46544248150755085,
+              "usdPerShare": 537.1232965032743,
+              "netVsRef": 0.004310431779174229
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x58e44C2e5B17EF40915B4B3AE8451B6B87285B44",
+              "tokens": 0.46438507158023556,
+              "shares": 0.46499525723343255,
+              "usdPerShare": 537.6398922591534,
+              "netVsRef": 0.005276359918988227
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+            "tokens": 1.8587508101488561,
+            "shares": 1.8611931433473838,
+            "usdPerShare": 537.2897507034036,
+            "netVsRef": 0.004621667003361196
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5018b018cEB7645c927c5Cf246786F89ebCbe7Ea",
+              "tokens": 1.8587508101488561,
+              "shares": 1.8611931433473838,
+              "usdPerShare": 537.2897507034036,
+              "netVsRef": 0.004621667003361196
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x58e44C2e5B17EF40915B4B3AE8451B6B87285B44",
+              "tokens": 1.8541342584425584,
+              "shares": 1.8565705256544927,
+              "usdPerShare": 538.6275318829983,
+              "netVsRef": 0.007123043508255655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "ONDO",
+      "symbol": "MSFTon",
+      "token": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+      "unit": 1.0057308568927839,
+      "referenceUsdPerShare": 534.818,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+            "tokens": 0.000463292911509671,
+            "shares": 0.0004659479768849741,
+            "usdPerShare": 21461.623391635934,
+            "netVsRef": 39.1288352142896
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+              "tokens": 0.000463292911509671,
+              "shares": 0.0004659479768849741,
+              "usdPerShare": 21461.623391635934,
+              "netVsRef": 39.1288352142896
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+            "tokens": 0.000472397097111744,
+            "shares": 0.0004751043372718579,
+            "usdPerShare": 105240.04113940484,
+            "netVsRef": 195.77729833215196
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+              "tokens": 0.000472397097111744,
+              "shares": 0.0004751043372718579,
+              "usdPerShare": 105240.04113940484,
+              "netVsRef": 195.77729833215196
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+            "tokens": 0.000474261041254269,
+            "shares": 0.00047697896341151986,
+            "usdPerShare": 524132.1298782505,
+            "netVsRef": 979.0196139214657
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+              "tokens": 0.000474261041254269,
+              "shares": 0.00047697896341151986,
+              "usdPerShare": 524132.1298782505,
+              "netVsRef": 979.0196139214657
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V2",
+            "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+            "tokens": 0.000474612169539188,
+            "shares": 0.00047733210396239074,
+            "usdPerShare": 2094977.4626489202,
+            "netVsRef": 3916.17829738139
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xfb3bEB765210975E49448af9F2c037896b044277",
+              "tokens": 0.000474612169539188,
+              "shares": 0.00047733210396239074,
+              "usdPerShare": 2094977.4626489202,
+              "netVsRef": 3916.17829738139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "XSTOCKS",
+      "symbol": "MSFTx",
+      "token": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+      "unit": 1,
+      "referenceUsdPerShare": 534.818,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "BSTOCKS",
+      "symbol": "NVDAB",
+      "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+      "unit": 1.0007782237528078,
+      "referenceUsdPerShare": 229.382,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+            "tokens": 0.04348635822648952,
+            "shares": 0.04352020034338448,
+            "usdPerShare": 229.7783539849927,
+            "netVsRef": 0.0017279210443394977
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+              "tokens": 0.04348635822648952,
+              "shares": 0.04352020034338448,
+              "usdPerShare": 229.7783539849927,
+              "netVsRef": 0.0017279210443394977
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x8FB4243b553aC29BA088aCf00B9B7dA24bD6690C",
+              "tokens": 0.04335411018580751,
+              "shares": 0.04338784938413595,
+              "usdPerShare": 230.47927338976,
+              "netVsRef": 0.004783607213120433
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x18d52270d09AB842c87acd45977dCF64a82FA4ad",
+              "tokens": 0.042696009732949215,
+              "shares": 0.04272923678187351,
+              "usdPerShare": 234.03179539687392,
+              "netVsRef": 0.02027096893772784
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x9540E735A8Ba603c304EdBF9632D5aF7228bacc2",
+              "tokens": 0.000104058148987022,
+              "shares": 0.00010413912951023691,
+              "usdPerShare": 96025.3849540484,
+              "netVsRef": 417.6265049308507
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+            "tokens": 0.21741797970439677,
+            "shares": 0.21758717954049023,
+            "usdPerShare": 229.79295060302775,
+            "netVsRef": 0.0017915555842558106
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+              "tokens": 0.21741797970439677,
+              "shares": 0.21758717954049023,
+              "usdPerShare": 229.79295060302775,
+              "netVsRef": 0.0017915555842558106
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x8FB4243b553aC29BA088aCf00B9B7dA24bD6690C",
+              "tokens": 0.2167704813853117,
+              "shares": 0.21693917732283333,
+              "usdPerShare": 230.47934733150382,
+              "netVsRef": 0.004783929565108869
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x18d52270d09AB842c87acd45977dCF64a82FA4ad",
+              "tokens": 0.2134795352651983,
+              "shares": 0.21364567011028004,
+              "usdPerShare": 234.03235822280368,
+              "netVsRef": 0.020273422599871305
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x9540E735A8Ba603c304EdBF9632D5aF7228bacc2",
+              "tokens": 0.000104266832533611,
+              "shares": 0.00010434797545931869,
+              "usdPerShare": 479165.9807476869,
+              "netVsRef": 2087.9432507680935
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+            "tokens": 1.0867447443757479,
+            "shares": 1.0875904749490601,
+            "usdPerShare": 229.86593369320317,
+            "netVsRef": 0.0021097282838373754
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+              "tokens": 1.0867447443757479,
+              "shares": 1.0875904749490601,
+              "usdPerShare": 229.86593369320317,
+              "netVsRef": 0.0021097282838373754
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x8FB4243b553aC29BA088aCf00B9B7dA24bD6690C",
+              "tokens": 1.0838506683367575,
+              "shares": 1.0846941466713538,
+              "usdPerShare": 230.47971704022322,
+              "netVsRef": 0.0047855413250526
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x18d52270d09AB842c87acd45977dCF64a82FA4ad",
+              "tokens": 1.0673848415224965,
+              "shares": 1.0682155057595561,
+              "usdPerShare": 234.03517235245255,
+              "netVsRef": 0.020285690910588183
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x9540E735A8Ba603c304EdBF9632D5aF7228bacc2",
+              "tokens": 0.000104308669724354,
+              "shares": 0.00010438984520875726,
+              "usdPerShare": 2394868.9597158968,
+              "netVsRef": 10439.526979954384
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_500",
+            "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+            "tokens": 4.3418100575612275,
+            "shares": 4.345188957278201,
+            "usdPerShare": 230.1395888261655,
+            "netVsRef": 0.0033027387770858674
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_500",
+              "pool": "0xCC2bFfaeC373a6004bb6cCc8a62Cdd66061f7C6a",
+              "tokens": 4.3418100575612275,
+              "shares": 4.345188957278201,
+              "usdPerShare": 230.1395888261655,
+              "netVsRef": 0.0033027387770858674
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x8FB4243b553aC29BA088aCf00B9B7dA24bD6690C",
+              "tokens": 4.335376594698719,
+              "shares": 4.338750487742081,
+              "usdPerShare": 230.48110344792096,
+              "netVsRef": 0.00479158542484126
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x18d52270d09AB842c87acd45977dCF64a82FA4ad",
+              "tokens": 4.269346855033121,
+              "shares": 4.272669362164684,
+              "usdPerShare": 234.04572533863586,
+              "netVsRef": 0.020331697075776978
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x9540E735A8Ba603c304EdBF9632D5aF7228bacc2",
+              "tokens": 0.00010431651793568,
+              "shares": 0.00010439769952774775,
+              "usdPerShare": 9578755.130846644,
+              "netVsRef": 41757.9659644028
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "ONDO",
+      "symbol": "NVDAon",
+      "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+      "unit": 1.0017152487959897,
+      "referenceUsdPerShare": 229.382,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+            "tokens": 0.04269979296149983,
+            "shares": 0.042773033729966055,
+            "usdPerShare": 233.79216127459696,
+            "netVsRef": 0.019226274400768073
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+              "tokens": 0.04269979296149983,
+              "shares": 0.042773033729966055,
+              "usdPerShare": 233.79216127459696,
+              "netVsRef": 0.019226274400768073
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x75407341b852314978f160a543684e1AF522192c",
+              "tokens": 0.001398926528330593,
+              "shares": 0.0014013260353739902,
+              "usdPerShare": 7136.098058244646,
+              "netVsRef": 30.110104795688617
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+            "tokens": 0.21341246018657234,
+            "shares": 0.21377851565195657,
+            "usdPerShare": 233.88692660492978,
+            "netVsRef": 0.019639407647198848
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+              "tokens": 0.21341246018657234,
+              "shares": 0.21377851565195657,
+              "usdPerShare": 233.88692660492978,
+              "netVsRef": 0.019639407647198848
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x75407341b852314978f160a543684e1AF522192c",
+              "tokens": 0.001437818334953405,
+              "shares": 0.0014402845511212858,
+              "usdPerShare": 34715.362294953564,
+              "netVsRef": 150.34300989159377
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+            "tokens": 1.0649049322175699,
+            "shares": 1.0667315091203995,
+            "usdPerShare": 234.3607532565939,
+            "netVsRef": 0.02170507387935361
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+              "tokens": 1.0649049322175699,
+              "shares": 1.0667315091203995,
+              "usdPerShare": 234.3607532565939,
+              "netVsRef": 0.02170507387935361
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x75407341b852314978f160a543684e1AF522192c",
+              "tokens": 0.001445857644348046,
+              "shares": 0.0014483376499316867,
+              "usdPerShare": 172611.68347849805,
+              "netVsRef": 751.507535371119
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_10000",
+            "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+            "tokens": 4.221806865064708,
+            "shares": 4.229048314206911,
+            "usdPerShare": 236.45981925546616,
+            "netVsRef": 0.03085603602491105
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0xB90BDBFBdfFd4Af5a636b5805539eDeafb969308",
+              "tokens": 4.221806865064708,
+              "shares": 4.229048314206911,
+              "usdPerShare": 236.45981925546616,
+              "netVsRef": 0.03085603602491105
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x75407341b852314978f160a543684e1AF522192c",
+              "tokens": 0.001447375033848555,
+              "shares": 0.0014498576421327091,
+              "usdPerShare": 689722.88791679,
+              "netVsRef": 3005.8745059193398
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "XSTOCKS",
+      "symbol": "NVDAx",
+      "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "unit": 1,
+      "referenceUsdPerShare": 229.382,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "XSTOCKS",
+      "symbol": "SPYx",
+      "token": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "unit": 1,
+      "referenceUsdPerShare": 778.65,
+      "curve": {
+        "10": {
+          "best": null,
+          "venues": []
+        },
+        "50": {
+          "best": null,
+          "venues": []
+        },
+        "250": {
+          "best": null,
+          "venues": []
+        },
+        "1000": {
+          "best": null,
+          "venues": []
+        }
+      }
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "ONDO",
+      "symbol": "SPYon",
+      "token": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+      "unit": 1.0094730727840429,
+      "referenceUsdPerShare": 778.65,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+            "tokens": 0.012562990091546287,
+            "shares": 0.012682000211068715,
+            "usdPerShare": 788.5191478921524,
+            "netVsRef": 0.012674690672513256
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+              "tokens": 0.012562990091546287,
+              "shares": 0.012682000211068715,
+              "usdPerShare": 788.5191478921524,
+              "netVsRef": 0.012674690672513256
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+            "tokens": 0.05534029788358528,
+            "shares": 0.0558645405533271,
+            "usdPerShare": 895.0221286125332,
+            "netVsRef": 0.14945370655947232
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+              "tokens": 0.05534029788358528,
+              "shares": 0.0558645405533271,
+              "usdPerShare": 895.0221286125332,
+              "netVsRef": 0.14945370655947232
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+            "tokens": 0.07257015607429147,
+            "shares": 0.07325761844473258,
+            "usdPerShare": 3412.6143506645167,
+            "netVsRef": 3.3827321012836533
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+              "tokens": 0.07257015607429147,
+              "shares": 0.07325761844473258,
+              "usdPerShare": 3412.6143506645167,
+              "netVsRef": 3.3827321012836533
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+            "tokens": 0.07525986736443495,
+            "shares": 0.07597280956569566,
+            "usdPerShare": 13162.603906800025,
+            "netVsRef": 15.904390813330796
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x3b31Ad84092cEFefc71F71A8F84AAce37ACA3ee1",
+              "tokens": 0.07525986736443495,
+              "shares": 0.07597280956569566,
+              "usdPerShare": 13162.603906800025,
+              "netVsRef": 15.904390813330796
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "BSTOCKS",
+      "symbol": "SPYB",
+      "token": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+      "unit": 1.001729792036835,
+      "referenceUsdPerShare": 778.65,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+            "tokens": 0.01281501319994318,
+            "shares": 0.012837180507728379,
+            "usdPerShare": 778.9872545594955,
+            "netVsRef": 0.000433127283754553
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+              "tokens": 0.01281501319994318,
+              "shares": 0.012837180507728379,
+              "usdPerShare": 778.9872545594955,
+              "netVsRef": 0.000433127283754553
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x066B9C1e47303EA27C1e965FC7E3D65546675351",
+              "tokens": 0.012807572456121064,
+              "shares": 0.012829726892966851,
+              "usdPerShare": 779.4398184330732,
+              "netVsRef": 0.0010143433289324655
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x0f7802761ee288a4f39C464A46fE800EcD648B23",
+              "tokens": 0.000026979187607434,
+              "shares": 0.00002702585599131762,
+              "usdPerShare": 370016.03217350895,
+              "netVsRef": 474.2019934161805
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+            "tokens": 0.0640748388524399,
+            "shares": 0.06418567499844835,
+            "usdPerShare": 778.9900160932906,
+            "netVsRef": 0.0004366738499848033
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+              "tokens": 0.0640748388524399,
+              "shares": 0.06418567499844835,
+              "usdPerShare": 778.9900160932906,
+              "netVsRef": 0.0004366738499848033
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x066B9C1e47303EA27C1e965FC7E3D65546675351",
+              "tokens": 0.0638959226795156,
+              "shares": 0.06400644933775286,
+              "usdPerShare": 781.1712806651275,
+              "netVsRef": 0.003238015366503033
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x0f7802761ee288a4f39C464A46fE800EcD648B23",
+              "tokens": 0.000027024191352643,
+              "shares": 0.00002707093758364671,
+              "usdPerShare": 1846999.1977745355,
+              "netVsRef": 2371.053166088147
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+            "tokens": 0.32036851570108377,
+            "shares": 0.3209226866083962,
+            "usdPerShare": 779.003823762266,
+            "netVsRef": 0.0004544066811353886
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+              "tokens": 0.32036851570108377,
+              "shares": 0.3209226866083962,
+              "usdPerShare": 779.003823762266,
+              "netVsRef": 0.0004544066811353886
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x066B9C1e47303EA27C1e965FC7E3D65546675351",
+              "tokens": 0.31402925768743584,
+              "shares": 0.3145724629967168,
+              "usdPerShare": 794.7294484025108,
+              "netVsRef": 0.02065041854814198
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x0f7802761ee288a4f39C464A46fE800EcD648B23",
+              "tokens": 0.000027033210124582,
+              "shares": 0.000027079971956185593,
+              "usdPerShare": 9231915.025779601,
+              "netVsRef": 11855.309029447892
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_100",
+            "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+            "tokens": 1.2813886514795827,
+            "shares": 1.283605187365003,
+            "usdPerShare": 779.0557484835424,
+            "netVsRef": 0.0005210922539553575
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_100",
+              "pool": "0x7aA6d92Fc369A8C1EDc631A3aAc44eFB0808ddbF",
+              "tokens": 1.2813886514795827,
+              "shares": 1.283605187365003,
+              "usdPerShare": 779.0557484835424,
+              "netVsRef": 0.0005210922539553575
+            },
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x066B9C1e47303EA27C1e965FC7E3D65546675351",
+              "tokens": 0.31402925768743584,
+              "shares": 0.3145724629967168,
+              "usdPerShare": 3178.917793610043,
+              "netVsRef": 3.082601674192568
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0x0f7802761ee288a4f39C464A46fE800EcD648B23",
+              "tokens": 0.00002703490181452,
+              "shares": 0.000027081666572395378,
+              "usdPerShare": 36925349.38079883,
+              "netVsRef": 47421.26851704724
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "BSTOCKS",
+      "symbol": "TSLAB",
+      "token": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+      "unit": 1,
+      "referenceUsdPerShare": 382.74,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+            "tokens": 0.026006995945533695,
+            "shares": 0.026006995945533695,
+            "usdPerShare": 384.51192213598773,
+            "netVsRef": 0.004629571343438776
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+              "tokens": 0.026006995945533695,
+              "shares": 0.026006995945533695,
+              "usdPerShare": 384.51192213598773,
+              "netVsRef": 0.004629571343438776
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x613eBCfCf41749571d659A0BF3E2C0032Fd4859E",
+              "tokens": 0.025802079142811272,
+              "shares": 0.025802079142811272,
+              "usdPerShare": 387.5656664973103,
+              "netVsRef": 0.012608210527539132
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xAc5cb50d90A7a2Bc5DEF56194bE8D93C905bCD5F",
+              "tokens": 0.002324778746923014,
+              "shares": 0.002324778746923014,
+              "usdPerShare": 4301.484609335666,
+              "netVsRef": 10.238659688915886
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+            "tokens": 0.13003472030722169,
+            "shares": 0.13003472030722169,
+            "usdPerShare": 384.51268924076095,
+            "netVsRef": 0.004631575588548209
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+              "tokens": 0.13003472030722169,
+              "shares": 0.13003472030722169,
+              "usdPerShare": 384.51268924076095,
+              "netVsRef": 0.004631575588548209
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x613eBCfCf41749571d659A0BF3E2C0032Fd4859E",
+              "tokens": 0.12900566798654944,
+              "shares": 0.12900566798654944,
+              "usdPerShare": 387.5798697869086,
+              "netVsRef": 0.012645320026411166
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xAc5cb50d90A7a2Bc5DEF56194bE8D93C905bCD5F",
+              "tokens": 0.00250398574121094,
+              "shares": 0.00250398574121094,
+              "usdPerShare": 19968.16482502003,
+              "netVsRef": 51.171617351256806
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+            "tokens": 0.6501671161025697,
+            "shares": 0.6501671161025697,
+            "usdPerShare": 384.5165247646272,
+            "netVsRef": 0.0046415968140962605
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+              "tokens": 0.6501671161025697,
+              "shares": 0.6501671161025697,
+              "usdPerShare": 384.5165247646272,
+              "netVsRef": 0.0046415968140962605
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x613eBCfCf41749571d659A0BF3E2C0032Fd4859E",
+              "tokens": 0.6449101727282274,
+              "shares": 0.6449101727282274,
+              "usdPerShare": 387.6508862349003,
+              "netVsRef": 0.012830867520772005
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xAc5cb50d90A7a2Bc5DEF56194bE8D93C905bCD5F",
+              "tokens": 0.002543194482227945,
+              "shares": 0.002543194482227945,
+              "usdPerShare": 98301.56590344185,
+              "netVsRef": 255.8364056629614
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+            "tokens": 2.6005711875163104,
+            "shares": 2.6005711875163104,
+            "usdPerShare": 384.5309079791257,
+            "netVsRef": 0.004679176409901453
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xB0f5E5400E8F0F7C242F2b7740C004f020579c41",
+              "tokens": 2.6005711875163104,
+              "shares": 2.6005711875163104,
+              "usdPerShare": 384.5309079791257,
+              "netVsRef": 0.004679176409901453
+            },
+            {
+              "venue": "PANCAKE_V3_10000",
+              "pool": "0x613eBCfCf41749571d659A0BF3E2C0032Fd4859E",
+              "tokens": 2.5778697241967996,
+              "shares": 2.5778697241967996,
+              "usdPerShare": 387.9171979148695,
+              "netVsRef": 0.013526670624626425
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xAc5cb50d90A7a2Bc5DEF56194bE8D93C905bCD5F",
+              "tokens": 0.002550683223798963,
+              "shares": 0.002550683223798963,
+              "usdPerShare": 392051.81994752353,
+              "netVsRef": 1023.3293618318532
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "ONDO",
+      "symbol": "TSLAon",
+      "token": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+      "unit": 1,
+      "referenceUsdPerShare": 382.74,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+            "tokens": 0.023881608441292997,
+            "shares": 0.023881608441292997,
+            "usdPerShare": 418.7322652317375,
+            "netVsRef": 0.0940384209430356
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+              "tokens": 0.023881608441292997,
+              "shares": 0.023881608441292997,
+              "usdPerShare": 418.7322652317375,
+              "netVsRef": 0.0940384209430356
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+            "tokens": 0.11939355749586926,
+            "shares": 0.11939355749586926,
+            "usdPerShare": 418.7830654240275,
+            "netVsRef": 0.09417114862315801
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+              "tokens": 0.11939355749586926,
+              "shares": 0.11939355749586926,
+              "usdPerShare": 418.7830654240275,
+              "netVsRef": 0.09417114862315801
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+            "tokens": 0.5966059331133776,
+            "shares": 0.5966059331133776,
+            "usdPerShare": 419.0370663854772,
+            "netVsRef": 0.09483478702376869
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+              "tokens": 0.5966059331133776,
+              "shares": 0.5966059331133776,
+              "usdPerShare": 419.0370663854772,
+              "netVsRef": 0.09483478702376869
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+            "tokens": 1.965939739426423,
+            "shares": 1.965939739426423,
+            "usdPerShare": 508.66259018282886,
+            "netVsRef": 0.3290029528735665
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0xCBf32aC27661bD6a1C336B12066904AECD326C09",
+              "tokens": 1.965939739426423,
+              "shares": 1.965939739426423,
+              "usdPerShare": 508.66259018282886,
+              "netVsRef": 0.3290029528735665
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "XSTOCKS",
+      "symbol": "TSLAx",
+      "token": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "unit": 1,
+      "referenceUsdPerShare": 382.74,
+      "curve": {
+        "10": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+            "tokens": 0.018617061407302883,
+            "shares": 0.018617061407302883,
+            "usdPerShare": 537.1416992843627,
+            "netVsRef": 0.4034114523811536
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+              "tokens": 0.018617061407302883,
+              "shares": 0.018617061407302883,
+              "usdPerShare": 537.1416992843627,
+              "netVsRef": 0.4034114523811536
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xDC5d5068F5aF6ee4981eCE4f245843430BE32a96",
+              "tokens": 0.007548595841686352,
+              "shares": 0.007548595841686352,
+              "usdPerShare": 1324.7496898398,
+              "netVsRef": 2.4612261322041076
+            }
+          ]
+        },
+        "50": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+            "tokens": 0.030090809537155507,
+            "shares": 0.030090809537155507,
+            "usdPerShare": 1661.6369173538199,
+            "netVsRef": 3.341424772309714
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+              "tokens": 0.030090809537155507,
+              "shares": 0.030090809537155507,
+              "usdPerShare": 1661.6369173538199,
+              "netVsRef": 3.341424772309714
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xDC5d5068F5aF6ee4981eCE4f245843430BE32a96",
+              "tokens": 0.010114420640495067,
+              "shares": 0.010114420640495067,
+              "usdPerShare": 4943.436878610248,
+              "netVsRef": 11.915913880467805
+            }
+          ]
+        },
+        "250": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+            "tokens": 0.03010099240160189,
+            "shares": 0.03010099240160189,
+            "usdPerShare": 8305.374011080634,
+            "netVsRef": 20.699780558814428
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+              "tokens": 0.03010099240160189,
+              "shares": 0.03010099240160189,
+              "usdPerShare": 8305.374011080634,
+              "netVsRef": 20.699780558814428
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xDC5d5068F5aF6ee4981eCE4f245843430BE32a96",
+              "tokens": 0.0108521673895006,
+              "shares": 0.0108521673895006,
+              "usdPerShare": 23036.872822462483,
+              "netVsRef": 59.189352621786284
+            }
+          ]
+        },
+        "1000": {
+          "best": {
+            "venue": "PANCAKE_V3_2500",
+            "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+            "tokens": 0.03010218952139884,
+            "shares": 0.03010218952139884,
+            "usdPerShare": 33220.174874293676,
+            "netVsRef": 85.79567036184793
+          },
+          "venues": [
+            {
+              "venue": "PANCAKE_V3_2500",
+              "pool": "0x5E12d6EdB2b7D5330e474ea2D2694A3b3E35d492",
+              "tokens": 0.03010218952139884,
+              "shares": 0.03010218952139884,
+              "usdPerShare": 33220.174874293676,
+              "netVsRef": 85.79567036184793
+            },
+            {
+              "venue": "PANCAKE_V2",
+              "pool": "0xDC5d5068F5aF6ee4981eCE4f245843430BE32a96",
+              "tokens": 0.01100264246358971,
+              "shares": 0.01100264246358971,
+              "usdPerShare": 90887.25761190835,
+              "netVsRef": 236.46474790173056
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

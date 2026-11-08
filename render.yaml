@@ -1,0 +1,34 @@
+# Keeper and recorder as a Render web service in Singapore (the data API refuses US regions).
+# A web service answers /healthz, which lets the free plan be kept awake by the keepalive workflow.
+services:
+  - type: web
+    name: parallax-keeper
+    runtime: node
+    region: singapore
+    plan: free
+    healthCheckPath: /healthz
+    buildCommand: corepack enable && pnpm install --no-frozen-lockfile
+    startCommand: pnpm exec tsx services/keeper/src/index.ts
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: BSC_RPC_URL
+        sync: false
+      - key: NEXT_PUBLIC_PARALLAXBOOK
+        sync: false
+      - key: NEXT_PUBLIC_REGISTRY
+        sync: false
+      - key: KEEPER_PRIVATE_KEY
+        sync: false
+      - key: BINANCE_WEB3_API_KEY
+        sync: false
+      - key: BINANCE_WEB3_SECRET_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: PUBLIC_WEB_ORIGIN
+        value: https://parallax-stellar.vercel.app

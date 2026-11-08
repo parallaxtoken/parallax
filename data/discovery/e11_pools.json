@@ -1,0 +1,3422 @@
+{
+  "generatedAt": "2026-10-09T23:35:58.523Z",
+  "source": "GeckoTerminal /networks/bsc/tokens/{addr}/pools",
+  "wrappers": [
+    {
+      "ticker": "GOOGL",
+      "issuer": "BSTOCKS",
+      "symbol": "GOOGLB",
+      "token": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "pools": [
+        {
+          "pool": "0x89001d846f7ca36ee089f73eefc25657e1798144",
+          "name": "googlb / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1720039.8125,
+          "volume24hUsd": 609813.34714841,
+          "feeName": null
+        },
+        {
+          "pool": "0xaf6cb213eae80642fc16b359fea2452113a86c4e6fc3b81938524451c7d003ac",
+          "name": "googlb / USDT 0.031%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 118161.5338,
+          "volume24hUsd": 307771.323022565,
+          "feeName": null
+        },
+        {
+          "pool": "0x998591c364e46da28b2972f4b271ac74dd02300f",
+          "name": "googlb / USDT 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 38476.3148,
+          "volume24hUsd": 86298.7697856979,
+          "feeName": null
+        },
+        {
+          "pool": "0x71bb61bc351bc13e86ef90b71da0cd34af43131b",
+          "name": "MARU / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 11402.748,
+          "volume24hUsd": 171268.594944763,
+          "feeName": null
+        },
+        {
+          "pool": "0x189fcfa548968cbd3b0118c2200f05db00d429f1",
+          "name": "果蝇 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 54568.9135,
+          "volume24hUsd": 30202.849156539,
+          "feeName": null
+        },
+        {
+          "pool": "0x8e827df9e84dfd58dc5a2cedc0599737fd332b90",
+          "name": "NECTAR / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 18118.2895,
+          "volume24hUsd": 6410.0675196483,
+          "feeName": null
+        },
+        {
+          "pool": "0x0d268e5abac7a2b4d3ae86670b4c6511955e6af9",
+          "name": "googlb / WBNB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 14841.9961,
+          "volume24hUsd": 6560.9855949205,
+          "feeName": null
+        },
+        {
+          "pool": "0xf5a91043817ec002b8892688a25afb281ab06f4b",
+          "name": "googlb / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 35894.1639,
+          "volume24hUsd": 749.7413670593,
+          "feeName": null
+        },
+        {
+          "pool": "0x17759dee839565285e62ba5aa418a3b65d139a8c",
+          "name": "googlb / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10557.0031,
+          "volume24hUsd": 2362.8167754901,
+          "feeName": null
+        },
+        {
+          "pool": "0xf33a60f118cb4ace84ed022fe16e2d343e090a7e",
+          "name": "谷歌人生 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9678.4343,
+          "volume24hUsd": 1372.0213066675,
+          "feeName": null
+        },
+        {
+          "pool": "0x001ae8d5e1683a4315a6706d705cdb9e73bc9522",
+          "name": "谷歌股票 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10945.4461,
+          "volume24hUsd": 997.600061991,
+          "feeName": null
+        },
+        {
+          "pool": "0xcafb6d8c1a8e7f7636dbff6a05663c7511bffa18",
+          "name": "故故故 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5163.7266,
+          "volume24hUsd": 1516.2031457793,
+          "feeName": null
+        },
+        {
+          "pool": "0x2c097784b50e6bd7aae3932ffc7f5d1fe665eae4",
+          "name": "googlb / AAPLB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 10356.7419,
+          "volume24hUsd": 719.5484544214,
+          "feeName": null
+        },
+        {
+          "pool": "0xe0da14cefc1c190e3e011d4269aa0073e5f2cb20",
+          "name": "跳蛛 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 7986.9033,
+          "volume24hUsd": 366.4106583043,
+          "feeName": null
+        },
+        {
+          "pool": "0x9c9a02fa8cbf21e42a939ad685c4b17bb91a48ba",
+          "name": "MISO / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5769.255,
+          "volume24hUsd": 200.6139875123,
+          "feeName": null
+        },
+        {
+          "pool": "0x9a3a7ee4589cbc347989e1c49ca8460588807b53",
+          "name": "股狗 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 14885.9484,
+          "volume24hUsd": 73.9247649857,
+          "feeName": null
+        },
+        {
+          "pool": "0xfe074cf14eb2ad80a740dad72f86451e07a59f71",
+          "name": "Fly / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8537.6602,
+          "volume24hUsd": 41.4194716542,
+          "feeName": null
+        },
+        {
+          "pool": "0xda318c8011f58e0021153240d66924dcb6c4f548",
+          "name": "哈基米 / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5811.6323,
+          "volume24hUsd": 23.8079237754,
+          "feeName": null
+        },
+        {
+          "pool": "0x86056e040dc0c709b673b894c09ce6dabd43bc43",
+          "name": "NeuroFly / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9716.6556,
+          "volume24hUsd": 8.7268831248,
+          "feeName": null
+        },
+        {
+          "pool": "0xd24d66ddf477ff7f76cb5afc71dcd515fca24738",
+          "name": "Flylife / googlb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 7571.8132,
+          "volume24hUsd": 7.9262102384,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "ONDO",
+      "symbol": "GOOGLon",
+      "token": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+      "pools": [
+        {
+          "pool": "0x6731932c92e882cc22a10749324c70a7d6adde60",
+          "name": "GOOGLon / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 2668.2473,
+          "volume24hUsd": 114.6995083408,
+          "feeName": null
+        },
+        {
+          "pool": "0xcdb2f7831600affc6151543711387ffbdb7748da",
+          "name": "GOOGLon / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 2.7461,
+          "volume24hUsd": 0.0210068081,
+          "feeName": null
+        },
+        {
+          "pool": "0x8f5dada826d7f684bfa266dc4fe255eaaa0279375460ebb77702dcbe5f67ac39",
+          "name": "GOOGLon / USDT 10.1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 1418.5898,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x764cab723947431bcebd2073a9169b93d5360a090d9032ec19c54aa3f6de1751",
+          "name": "GOOGLon / USDT 0.168%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1078.4128,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x334bf02da6221d850bb61055232a9701f37d755288128e955a293df221972ec3",
+          "name": "GOOGLon / USDT 77%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 651.4553,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xbb1b71cf7471f8fc666c3c6a19795f4daef127076920f82ac71295ef741482ac",
+          "name": "GOOGLon / USDT 75%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 376.8693,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5f370cedaa2e447e1981ff46fa81552fb56ae212",
+          "name": "GOOGLon / 龙头股基金",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 474.0704325324,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1975dd74b846f1254b1630a74759ace1a358c63fdf228624bc90366feb86de87",
+          "name": "GOOGLon / USDT 36.15%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 371.7782,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x92296596b3e72e1ba01f048b6965cd00306a9178ab51ddad6d97937412bd1656",
+          "name": "GOOGLon / USDT 18.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 203.122,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x7fe1812f2e2efc175fa75cdac2ea00ab63ca1f6babba22efb6e800edf2b05426",
+          "name": "GOOGLon / USDT 36.151%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 136.3994,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x8c570213d94b6b5b200125000f44243130e16f3da5f77839d21fc02fac7a24df",
+          "name": "GOOGLon / USDT 0.218%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 120.053,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x3c648c7cadc62f53a8a385b29218763a5df9599ff4115241e7d7bf7e99109677",
+          "name": "GOOGLon / USDT 90%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 97.9089,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x3157a1d133194ac74fd36b93575aeb7d9265e54bf91d68ef0efdf233872cfda0",
+          "name": "GOOGLon / USDT 12%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 46.6736,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x201fbcddcc4065644582b71fa51e4b681679ff75a90617ff2dead601366ec667",
+          "name": "GOOGLon / USDT 40%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 42.9137,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x8d1438e15555e445dd956ab277f9f7d18ccf4ad5fe227a5d0954990732a21c37",
+          "name": "GOOGLon / USDT 10%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 44.8576,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x8722d9d8940456ef14d969a8f940174b5a8ac7a6c3b82c22897659da4306a276",
+          "name": "GOOGLon / USDT 28%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 25.7537,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5a3bc6d3a7a12fd0d026dab60dc380e1672145b6",
+          "name": "GOOGLon / ATM",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 1.4843,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x50bacdb0aba789106739c26011a263d75f37ae4d",
+          "name": "GOOGLon / USDT 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 0.7824718618,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2180d90a162d94c9c82374db0fd8f512d047122f",
+          "name": "GOOGLon / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 0.7025821931,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd346921b0d634f213e905775d3d38b7348785f54b28a69f0094329d9231e2cf4",
+          "name": "GOOGLon / USDC 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0.4282,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "issuer": "XSTOCKS",
+      "symbol": "GOOGLx",
+      "token": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "pools": [
+        {
+          "pool": "0x1d23fd958f7d972885d5c8ad37526b7d47bcc12fd6fa256757da603fa30e61e7",
+          "name": "googlx / USDT 89%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 648.6898,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x65aa5cee8c60aa6ef4abcab750c938e6b0abb1b6a6e3ce19d4d630358d11bb6b",
+          "name": "googlx / BNB 0.9%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 434.5522,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "BSTOCKS",
+      "symbol": "AMZNB",
+      "token": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+      "pools": [
+        {
+          "pool": "0x7530beb7bde5843f668cf31b996fa1f748c9b6b1",
+          "name": "AMZNB / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 214591.0275,
+          "volume24hUsd": 46021.3673254553,
+          "feeName": null
+        },
+        {
+          "pool": "0x84cbd08021c40fcea28f3389721ffefc73291340",
+          "name": "AMZNB / USDT 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 13938.8038,
+          "volume24hUsd": 3503.7202812574,
+          "feeName": null
+        },
+        {
+          "pool": "0x4e3dcae477749bee3cc1f6b2d93356d8778ed5bb",
+          "name": "AMZNB / GALIA 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 1223.2281,
+          "volume24hUsd": 10.1450309096,
+          "feeName": null
+        },
+        {
+          "pool": "0x0e3bd86b4e75736ba1e24207c97419054fdf331b",
+          "name": "脑鼠 / AMZNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4463.4245,
+          "volume24hUsd": 2.5951037044,
+          "feeName": null
+        },
+        {
+          "pool": "0x8f0c650a26a8b7703af30e73cc75daa6f887aad6fd7b0b5e212aa51c9fdfa423",
+          "name": "AMZNB / FLORK 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1051.5665,
+          "volume24hUsd": 2.7495299822,
+          "feeName": null
+        },
+        {
+          "pool": "0xb1775fa4ac701d99e3705031224d0979884c086bb9102719865943efb3c62d7b",
+          "name": "PUPPET / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1160.8867,
+          "volume24hUsd": 2.4836913973,
+          "feeName": null
+        },
+        {
+          "pool": "0xb8e82c9282e56fa3c71b3f17e51b2d2445fa9dd8a73cb4e57b9ebd7c11affb1b",
+          "name": "DRAWER / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1106.5606,
+          "volume24hUsd": 2.3328300596,
+          "feeName": null
+        },
+        {
+          "pool": "0xa08a324188abbd5e7689d7bb229ac0834b407e96",
+          "name": "AMZNB / LONG 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 547.343,
+          "volume24hUsd": 2.5898818706,
+          "feeName": null
+        },
+        {
+          "pool": "0xb440d16d7cad8527af0d47bed528f6f789bb17abde52f42af6a070ee2c72eeb3",
+          "name": "AMZNB / SEVEN 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1074.1282,
+          "volume24hUsd": 0.9653003382,
+          "feeName": null
+        },
+        {
+          "pool": "0xbdd9b238b90797a0b6fd001453d76483d9f3ec69",
+          "name": "AMZNB / FEET 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5665.1299,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x321c67ea1680ba327a23649cc585320437b31839a6c45c41c40c9cdcd8566935",
+          "name": "NIULAI / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4825.0496,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe587780aa70b111c6680cee75eedbc17a37729e3ac4c20a2761ff23d89ee394b",
+          "name": "ZANZEA / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 5005.5405,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x59d2c6e3397c0f709fe77453501c776d948640732c4b4e7828278cac0e6a8463",
+          "name": "SNOWBALL / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4808.2458,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x4174306318408c8b204b02cacece6ba3fc367ee5c3989c11653050cbbb5e88f2",
+          "name": "BSC / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4918.912,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xdfbfc310a53b03fcb81dfe466920ea33f8823070",
+          "name": "FOM / AMZNB 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 4951.0018164946,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x21cad22c7de83905d71f863ea7f92de8e64aaea6",
+          "name": "斯玛洛 / AMZNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4101.0423,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xbea3fbf4575124de631e10857ff687e7017ce90fe5db6ea380d054ec9268fc9a",
+          "name": "FOM / AMZNB 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 2821.49,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x68b8f3e7db945ea4fa7148f951c967f13e718d54",
+          "name": "Rat Lab / AMZNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 3357.5869,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x33959a166ec231435b4724c1fee84017e4a6fec1",
+          "name": "SHOES / AMZNB 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1652.345,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x260d1c2652a1ff7436a57ddaa6ce3abb55cc9706e3275f3bc2375e504665b138",
+          "name": "GOULANZI / AMZNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1627.4503,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "ONDO",
+      "symbol": "AMZNon",
+      "token": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+      "pools": [
+        {
+          "pool": "0x8617ba6deee616694601adc41ab7ffe0e610907e",
+          "name": "AMZNon / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 6507.8188,
+          "volume24hUsd": 33.4670123525,
+          "feeName": null
+        },
+        {
+          "pool": "0xe2d671d61db0b838cb9576f80063ea2b6708ed4a52ddb8e8d6b6d15d42fe7de8",
+          "name": "AMZNon / USDT 0.018%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 120.0863,
+          "volume24hUsd": 0.0003201047658,
+          "feeName": null
+        },
+        {
+          "pool": "0xe8089b51c0d13f4bc637d251fc2cbb306d50c86de7ca9983cd4112d91957bfb8",
+          "name": "AMZNon / USDT 0.352%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 235.6035,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x711db944141ce6f506c60126af6940d1666edf4bde6279eae94d8ea62d1d9966",
+          "name": "AMZNon / USDT 25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 229.068,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb2f5ccd17331a22584c07cac8f5ec43db0f3d95951d05e32e9d874f354342d19",
+          "name": "AMZNon / USDT 39.1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 249.5448,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x962e88af4e30768f92bdda7587126f74eb2eaa3e0c295acac3610432f17b4e24",
+          "name": "AMZNon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 300.6928,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xcadab13d6cf052a1836442aa2fa533d4bbc6af8669158cb165d6d6c0a1869134",
+          "name": "AMZNon / USDT 0.248%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 153.9876,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x7b76574caf2e23aaa4eda5a4664543bb949eac05191320dd7112a3f523e2d868",
+          "name": "AMZNon / USDT 39.001%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 197.9213,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf0ccd6ed3838004d5fbf4e7c6b618f01030d59960aa330ae45905af2ac19a5c5",
+          "name": "AMZNon / USDT 39%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 51.5477,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1703fab786255d9834005b9746675023e3d6773c",
+          "name": "AMZNon / 十八罗汉",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 36.8111,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x673aea368b2d76463abc48e36c8b5de9e31f65d378592eca917b918dc10af76f",
+          "name": "AMZNon / USDT 0.82%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 2.3775,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2967ef08f31cc00444fdaaf01548b8792dc5e573557c4273d60a98cb41ab148f",
+          "name": "BLZ / AMZNon 0.3%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0.1445,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "issuer": "XSTOCKS",
+      "symbol": "AMZNx",
+      "token": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+      "pools": [
+        {
+          "pool": "0x28a73f5bd589fea90ba0d24117bf91d648be3ef2",
+          "name": "AMZNx / USDT 0.01%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 21.7553,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xa1f62843132335d654f7a45dce950c1f30170203",
+          "name": "AMZNx / USDT 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 0.008142081658,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "BSTOCKS",
+      "symbol": "AAPLB",
+      "token": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+      "pools": [
+        {
+          "pool": "0xe9b9998b2ec5430d2246c7f1f8d9f298c97d7365",
+          "name": "AAPLB / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 593795.1472,
+          "volume24hUsd": 555251.547841894,
+          "feeName": null
+        },
+        {
+          "pool": "0xd4ae7dd719ec71594f13d0e3b17e65e9085f1ca1",
+          "name": "蝴蝶人生 / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 739184.4701,
+          "volume24hUsd": 406718.927351994,
+          "feeName": null
+        },
+        {
+          "pool": "0x36c0fc3159eb8662a2e1b84a4df518d916bce0e1",
+          "name": "AAPLB / USDT 0.05%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 101562.396,
+          "volume24hUsd": 269631.785866096,
+          "feeName": null
+        },
+        {
+          "pool": "0x8ba5a4410fdf519139849233b0bf1e5b84fb1995",
+          "name": "AAPLB / CZ",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 170377.9922,
+          "volume24hUsd": 114760.81297765,
+          "feeName": null
+        },
+        {
+          "pool": "0x21632d9be3a5895d83a2f9adde60fa3b2450ffd596f897da1a048219b3963f99",
+          "name": "AAPLB / USDT 0.035%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 61461.3157,
+          "volume24hUsd": 214462.5374518,
+          "feeName": null
+        },
+        {
+          "pool": "0x49fcb68f78a4b75fc3e2464bfd21ebd5a3349b3a4cf811acaf2a9975a2110617",
+          "name": "AAPLB / USDT 0.03%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 23831.23,
+          "volume24hUsd": 353125.573317943,
+          "feeName": null
+        },
+        {
+          "pool": "0x5aca9563f8d14a6d79f12421d549a5606644a270",
+          "name": "AAPLB / WBNB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 92338.4294,
+          "volume24hUsd": 83698.3756348474,
+          "feeName": null
+        },
+        {
+          "pool": "0x950d458e1b420f6134cfce1db9a1855d37bfe3f8",
+          "name": "ANTS / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 71786.3066,
+          "volume24hUsd": 66380.9050817101,
+          "feeName": null
+        },
+        {
+          "pool": "0xf1f8675b6eb6607705d6a1f0b26192358692bc5c",
+          "name": "币安果蝇 / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 49166.3655,
+          "volume24hUsd": 14342.4269913945,
+          "feeName": null
+        },
+        {
+          "pool": "0x876829fcb8e46d95cceb19848cf57394b6a10a23",
+          "name": "AAPLB / 蝴蝶传奇",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 29386.517,
+          "volume24hUsd": 23202.1290665045,
+          "feeName": null
+        },
+        {
+          "pool": "0xd0dac184424d06e2acf9374c18bdf7ff0ce2b22c",
+          "name": "AAPLB / 币安人能飞",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10022.5812,
+          "volume24hUsd": 38306.2330709646,
+          "feeName": null
+        },
+        {
+          "pool": "0x4528ab9069db009a3bb20ba7907cf717262fa935",
+          "name": "AAPLB / 币安生态",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 21796.8681,
+          "volume24hUsd": 7319.5052114239,
+          "feeName": null
+        },
+        {
+          "pool": "0xc9eaa24b468c54f7bc258b7929fa9d786700c174",
+          "name": "AAPLB / 币安链能飞",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 15702.5471,
+          "volume24hUsd": 9776.2765495478,
+          "feeName": null
+        },
+        {
+          "pool": "0xb60d5715f031d4da4869d7c63747b6c667599634",
+          "name": "AAPLB / 蝴蝶时代",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 21246.0688,
+          "volume24hUsd": 6257.5210371262,
+          "feeName": null
+        },
+        {
+          "pool": "0xd327e721a33a38dc7c30d8985eaa7cb88afc93e6",
+          "name": "币安协议 / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 17385.6291,
+          "volume24hUsd": 6916.4095455126,
+          "feeName": null
+        },
+        {
+          "pool": "0x53fce82b7668b576ad402d5b7ec8fe0a0daf3ff7",
+          "name": "AAPLB / PGP",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 54894.517,
+          "volume24hUsd": 2168.6768469574,
+          "feeName": null
+        },
+        {
+          "pool": "0xe910831babb38681c1f0065aa2e538b0797c6a18",
+          "name": "AAPLB / DUO",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 13969.8261,
+          "volume24hUsd": 7729.2343368314,
+          "feeName": null
+        },
+        {
+          "pool": "0x7c941868bd8706bc3e663333bc3306b0608733c3",
+          "name": "AAPLB / 币安金融",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5973.406,
+          "volume24hUsd": 17574.9316952613,
+          "feeName": null
+        },
+        {
+          "pool": "0xd7632dd04e030f17532a2b9524280f0c55f2ce9d",
+          "name": "永生果蝇 / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 18272.1476,
+          "volume24hUsd": 2074.7166008211,
+          "feeName": null
+        },
+        {
+          "pool": "0x009ab2c417dde80c14745b710a0bab4f5e3c2f56",
+          "name": "币安支付 / AAPLB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 11923.5914,
+          "volume24hUsd": 2484.3298309005,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "ONDO",
+      "symbol": "AAPLon",
+      "token": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+      "pools": [
+        {
+          "pool": "0x8d39c7e9427edff441c63fc51861522cf02167c8",
+          "name": "AAPLon / ETH 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 3735.3442,
+          "volume24hUsd": 898.1244690612,
+          "feeName": null
+        },
+        {
+          "pool": "0x89eab520e6f5e97faf0a2a3668c8e6df7f82b9b3",
+          "name": "比特币 / AAPLon 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 4581.1653,
+          "volume24hUsd": 303.6867065419,
+          "feeName": null
+        },
+        {
+          "pool": "0x061306df92c6a0538154a40f060573be638b1066",
+          "name": "AAPLon / ASX",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8117.7031,
+          "volume24hUsd": 2.1965556112,
+          "feeName": null
+        },
+        {
+          "pool": "0x41a220cd99a5b32c1d5ede3ca4b0eb6df663c49a21b62eb990285137c55f32f6",
+          "name": "AAPLon / DAGOU 0.153%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 308.8128,
+          "volume24hUsd": 13.5797419777,
+          "feeName": null
+        },
+        {
+          "pool": "0x7a1d8b50fc3a0b7b7690d90052faa8c3bdb5298593c1de8945fb2329427b47f7",
+          "name": "AAPLon / GLDon 0.25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 126.3898,
+          "volume24hUsd": 12.6820230942,
+          "feeName": null
+        },
+        {
+          "pool": "0x0cfa5b5db825b57bcefc631effe73fba3c4a51a2",
+          "name": "¥元¥ / AAPLon 1%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 153.256,
+          "volume24hUsd": 9.7291920452,
+          "feeName": null
+        },
+        {
+          "pool": "0x2cf94f4671c376e2aef86f98ae5a85d7b6a941f1930e329737c155bde2fc227c",
+          "name": "AAPLon / USDT 0.218%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 3991.4236,
+          "volume24hUsd": 0.3689560753,
+          "feeName": null
+        },
+        {
+          "pool": "0xe545e390d757f7071b48d3bea88c912df497c3ee",
+          "name": "AAPLon / USDT",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 1.6328,
+          "volume24hUsd": 50.3289471203,
+          "feeName": null
+        },
+        {
+          "pool": "0xed226182ec1d7a888c9bfc002710ff1eedbfd7ab",
+          "name": "AAPLon / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 0.8164,
+          "volume24hUsd": 74.9252718666,
+          "feeName": null
+        },
+        {
+          "pool": "0xb8533f01f40fb96a276df959cf029294030e98a2",
+          "name": "AAPLon / 苹果人生 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 66.7229,
+          "volume24hUsd": 0.6393104091,
+          "feeName": null
+        },
+        {
+          "pool": "0x81d5e1649ca8ee0af483d0177b1fde905a548cbceec3b24245140a9210179feb",
+          "name": "FaFa / AAPLon 0.242%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2030.1045,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x6d0a537fc3dea363e784c6ed9b09a235be7f5e011da8884efa33aa3e34b8896a",
+          "name": "AAPLon / USDT 0.248%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1022.157,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x4e28d7a4f3550f19de0a1e5bf4e1c747076a150d47a714cf85cabf9864b6a4c8",
+          "name": "比特币 / AAPLon 0.153%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 705.2667,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x00d11147c95de39a546212969f2a8902f1b35f672eda77f5aff01a293aa477ee",
+          "name": "AAPLon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 491.7513,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x77ad4acfd233c54a2d516419ad1d1819132ebd5bc489749c13b9e7f2ff5d1b2c",
+          "name": "AAPLon / USDT 0.312%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 402.1723,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x77b848585d8ffbc1dfefb1c3225384135670998f2359ed28ef16435a324be203",
+          "name": "AAPLon / USDT 0.228%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 211.9825,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xbef09d7837edee31978dff4634b048ba421b7f9559c45fb31d04dd6711e3f6cb",
+          "name": "AAPLon / USDT 0.272%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 193.7313,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x014609a0d2a82bf4fcd6d1df545c837e26d086f24cc98b92bae20b3ca02ce76b",
+          "name": "AAPLon / USDT 10%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 190.7428,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xff5ed4a6878af1b73bff8be3293be020f443132a6a15c537055509c076b0d3b4",
+          "name": "AAPLon / USDT 50%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 140.2067,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x04a6f262663376dfe3eb833e09d24d6e8054a99412fbf20cb02975c026def7f4",
+          "name": "AAPLon / USDT 45%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 211.062,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "issuer": "XSTOCKS",
+      "symbol": "AAPLx",
+      "token": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "pools": [
+        {
+          "pool": "0x172e8c4921543c6dd208abd3609c350ca7e0f51eb21f600b9e4c601df4713c52",
+          "name": "aaplx / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 382.3591,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc104a84a522a6405028eb360c3a012952b9096eb7665337c8d301eb9ff5645cc",
+          "name": "aaplx / BNB 50%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0.9173,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xee109cc926ce216b3d2490f674300c15131b12b5",
+          "name": "aaplx / USDT",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 0.01277838754,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "BSTOCKS",
+      "symbol": "COINB",
+      "token": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+      "pools": [
+        {
+          "pool": "0x9e9df2c9053864abfa5bf773f9770f08710c8a10",
+          "name": "coinb / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 3074.2666,
+          "volume24hUsd": 2621.256843198,
+          "feeName": null
+        },
+        {
+          "pool": "0x4e4c111a5c8c29e21f661a5aff769b19021debc1",
+          "name": "coinb / USDT 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 2800.4665,
+          "volume24hUsd": 753.1033264197,
+          "feeName": null
+        },
+        {
+          "pool": "0x2c3418d4a719b0c3f5c69489b113d1f27b23133e4b067e4315709f069aff413a",
+          "name": "coinb / DIVIDEND 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 3889.2895,
+          "volume24hUsd": 7.3363755994,
+          "feeName": null
+        },
+        {
+          "pool": "0x80fef09131906d514392afce2bd8ff03ce5ce8cec6e10a341569c2e2ad03a315",
+          "name": "DIVIDEND / coinb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4119.0622,
+          "volume24hUsd": 5.2221906919,
+          "feeName": null
+        },
+        {
+          "pool": "0x9211e72f98aad0039c26ac87ff2c290431efe7095339f187622675f6b123c92f",
+          "name": "DIVIDEND / coinb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4227.2691,
+          "volume24hUsd": 2.1507207891,
+          "feeName": null
+        },
+        {
+          "pool": "0xa9eb40192330aad5807dad55d7ab48cd68c5c9fa",
+          "name": "coinb / GME20",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 356.6079,
+          "volume24hUsd": 5.4872516579,
+          "feeName": null
+        },
+        {
+          "pool": "0xa03c94373705d48a19f7cad1185fb25f7061c42c",
+          "name": "coinb / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 2.2265,
+          "volume24hUsd": 0.07857151071,
+          "feeName": null
+        },
+        {
+          "pool": "0x9d02661895f7acc33cbaca99019e5847c86d839f45cd51b84d552867dee1d34d",
+          "name": "coinb / USDC",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 74707.1076,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x14311e51dc17d43babd783120923a7d2701522e774829a9f92298870b1b839d8",
+          "name": "coinb / USDC",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 61158.0169,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xa7ac880d93f9e41a8a24a8fe7d831ac24af92f14",
+          "name": "coinb / DOGUE 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 4908.8665830062,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb3074b65ac601aa08b80958bf4605fafa2822319",
+          "name": "CZ / coinb 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 4838.0827123478,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb0ad37c8dda42083cbf3c6a3c93169d469b615fa",
+          "name": "SHIT / coinb 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5244.7977,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe05e0574c32b15abfb41d0dbb2b622c957e9c207",
+          "name": "COIN / coinb 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5155.2262504514,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x019f24ac39f91b1da90abd82f1057a0fc078fb4a",
+          "name": "coinb / BLUECHIP 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 4973.7854057951,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe9a4bbf50b14b6842fc227947ded22ee0149496200953f066318703fbe6f289a",
+          "name": "coinb / BNB 5.01%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 4251.612,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x3e3b2aab5e9db111e67b07f8a877e51dbe8c833fb8414fb0d6279d8fd24bffe7",
+          "name": "DIVIDEND / coinb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2581.5293,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2062f49013c162b038ab9d0a34a2bc4ffbad4706383b26cee93b404a44874f8b",
+          "name": "YSOCK / coinb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2467.9574,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf2d2a205d38f5f89302f86485a1b83bbab12b319c747dc251c7667278cda4449",
+          "name": "coinb / BSC 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2375.951,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x312cd22812b91e6fde8a8ed3066c20fd373a0b5b707fb5fbb987763f46f33d9c",
+          "name": "coinb / USDT 0.25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 2062.7687,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb3d1aaf3d2600151fb54c30029babb1b3f73ac0f68b8838c5f73d471829af7d5",
+          "name": "coinb / USDT 75%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 2108.0891,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "ONDO",
+      "symbol": "COINon",
+      "token": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+      "pools": [
+        {
+          "pool": "0x7de5f4a237315a7c8fd31974bb6603c1d965e9ac",
+          "name": "比特币 / COINon 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 4554.3005,
+          "volume24hUsd": 777.3717602524,
+          "feeName": null
+        },
+        {
+          "pool": "0x61e753735c1f937c0b33aa3c7701e45753e60263a7ffd9d29a6ef8fc4a515949",
+          "name": "COINon / USDT 0.312%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 458.5559,
+          "volume24hUsd": 0.2364687808,
+          "feeName": null
+        },
+        {
+          "pool": "0x831f75e8d70f2ba2a4fe94cb034aa55590d7e342c5a6c1447bb0ca8101a87397",
+          "name": "COINon / USDT 28.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 204.966,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xdde985b9ecbce1354e367acf4ef741bc725e98c54777a6a95d89ff1ade7a33d1",
+          "name": "COINon / USDT 39.601%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 229.2498,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x07d354a2c1856ac4c68085ae210a3a72fb3eab09eb77a29b86242a7bbe387218",
+          "name": "COINon / USDT 20%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 164.4333,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x833c6386607d643471c11c9e20dc369d2db7fc6c1e9ca059472f11c03f4df8dc",
+          "name": "COINon / USDT 39.501%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 124.8203,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xdaf52997c10a3771d7f429f76032c73135b5749ff4e0765cf7fab90cbffd5a4f",
+          "name": "COINon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 195.7651,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x16e9acaad9e273fca243ebfb7c2eb93985bbf4f7fd304baa76bec25b12592015",
+          "name": "COINon / USDT 39.6%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 58.0016,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x6f68b45f34f3f15f1a08b2670002d72605d4acc4",
+          "name": "COINon / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 0.7410801139,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "issuer": "XSTOCKS",
+      "symbol": "COINx",
+      "token": "0x364f210f430ec2448fc68a49203040f6124096f0",
+      "pools": [
+        {
+          "pool": "0xe3b0a50277347ea1197bea7c879b2af2e6679ae6",
+          "name": "coinx / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 27.368196242,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "ONDO",
+      "symbol": "QQQon",
+      "token": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+      "pools": [
+        {
+          "pool": "0xe59dc391582bd70210b917b7e6e526f7f7464b76",
+          "name": "QQQon / USDC 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 401.4506,
+          "volume24hUsd": 72.6698477146,
+          "feeName": null
+        },
+        {
+          "pool": "0x9e1d24dee1dddb38658dd3ece97fa7a6d3e0634a",
+          "name": "QQQon / USDC 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1817.2522,
+          "volume24hUsd": 13.8963840005,
+          "feeName": null
+        },
+        {
+          "pool": "0xb266316379648892a442c0ec1a87c9117408f3e7",
+          "name": "STONKS / QQQon",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5408.1901,
+          "volume24hUsd": 4.3269890642,
+          "feeName": null
+        },
+        {
+          "pool": "0x84a784c71adb98f0e61f44cd61072f83f3df88426b2cc87f1ba061f654b38144",
+          "name": "QQQon / USDT 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 21.7462,
+          "volume24hUsd": 0.6335580208,
+          "feeName": null
+        },
+        {
+          "pool": "0x8d7ea29ba83ea3d4ba5690cdbe7fefa14137626c289b45debae335f96faa56bf",
+          "name": "QQQon / QQQB 0.038%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 28878.0783,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x314855f32f1acbe8646904454905fa196d94e6cb56cf3c2604ecfba643f86b2a",
+          "name": "QQQon / USDT 0.989%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 748.6288,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1e6a29d70f78a91a9bf4ed1c11349d8a4bfeffb14fa7507fe8d3f9b13c6dcbc6",
+          "name": "QQQon / USDT 0.352%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 616.3611,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xcd230b8b95f6aeb6b0651393e44f6fbaf1dfce3a31aabaeb0e0d95ad61097d1f",
+          "name": "QQQon / USDT 0.248%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 297.3759,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc62ae414d4d6c244a7aa93c3e714f888a8208c080c82f9465d2fea1ed81e0705",
+          "name": "QQQon / USDT 40%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 222.2452,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x3f01b528c7c3f4d6bedfe41d51b3d690d90ea1118b3a6ad3abe0cf6b691dbac1",
+          "name": "QQQon / USDT 70%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 193.276,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x16ad3e46b7752de544443128de367f2a1e52882d0a2c05993b2ba8da09bdf443",
+          "name": "QQQon / USDT 24%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 202.2208,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd15b671d43bb8de0d2ca3b423be690d6a86da8eb7c60c1c6ba671d7953451471",
+          "name": "QQQon / USDT 0.272%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 134.1285,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xda4b4805dd0d9a50b4457bd1d6716ad07047085943b52d61a18ff41cb98ca69b",
+          "name": "QQQon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 101.1515,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x44662d15d3f3db33bf6b7edd026d35abe1b3363ddd273b872529d0b7007ef5c5",
+          "name": "QQQon / USDC 3%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 105.1841,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x0fb4832fe1a232166f0ecf6bc2ee19dccebe9132319921e0595c8f54af8eac54",
+          "name": "QQQon / USDT 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 34.1621,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb4cacd04ff04964db07b4077a1c6813639aaebcf1081da39e45cc4c965f75d9d",
+          "name": "QQQon / USDT 33%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 23.0512,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd610c70018531de6d2581184c83d31130fc5c3256d59e4a8ff4777ef331accdb",
+          "name": "QQQon / USDT 25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 29.0297,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe9c72881ba433fccaadb8be02ff6a69b60b43a7d29bc72b5fa0b3b953de0c8fd",
+          "name": "QQQon / USDT 33%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 13.4273,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x95aa3b16e10149c8776a376c46786fdf76b83658",
+          "name": "tDOGE / QQQon",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4.8696854545,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1f75511cca214c56bca3c9e9ef68bec9a13670361000ab969664f0d7992b18e3",
+          "name": "QQQon / USDT 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 4.5307,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "BSTOCKS",
+      "symbol": "QQQB",
+      "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+      "pools": [
+        {
+          "pool": "0x47bc06722295ac316a569eef87ac32faa455f441",
+          "name": "QQQB / WBNB 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 935197.5972,
+          "volume24hUsd": 2635366.43450004,
+          "feeName": null
+        },
+        {
+          "pool": "0xe531fcb1f5a195de7608b9f4f9518544c2cdb693",
+          "name": "QQQB / USDT 0.01%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 630427.1552,
+          "volume24hUsd": 2746839.07370432,
+          "feeName": null
+        },
+        {
+          "pool": "0xfc4e77248b76fefc27c4cac7151a2ee5b5cc590e",
+          "name": "QQQB / USDC 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 937735.9102,
+          "volume24hUsd": 458633.515150754,
+          "feeName": null
+        },
+        {
+          "pool": "0x595d70977dff3c841df0bc0138ce89f80c7c9423",
+          "name": "QQQB / 牛来",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 1308190.8451,
+          "volume24hUsd": 92011.7627755157,
+          "feeName": null
+        },
+        {
+          "pool": "0x621cd874d7e74a103bcf235dbaea3e993628a726",
+          "name": "QQQB / Chiikawa",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 69788.6181,
+          "volume24hUsd": 161926.025389128,
+          "feeName": null
+        },
+        {
+          "pool": "0x7d61dfbe587874724e0a1ff5b3227045dc0ae895",
+          "name": "QQQB / 薄肌理论",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 40833.3412,
+          "volume24hUsd": 225668.502448351,
+          "feeName": null
+        },
+        {
+          "pool": "0x9f7b69fda1e02d8306ecf25854ed3b8458de205e",
+          "name": "骑士小猫 / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 37892.6589,
+          "volume24hUsd": 235449.737204173,
+          "feeName": null
+        },
+        {
+          "pool": "0xbbf299a3687e0ff2699275b9729d6faf38713166",
+          "name": "但丁 / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 48049.5621,
+          "volume24hUsd": 164645.804659548,
+          "feeName": null
+        },
+        {
+          "pool": "0xd01f2111057a2d7c2c2a8eab38b753e5b46dcccc",
+          "name": "QQQB / APE",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 211363.716,
+          "volume24hUsd": 31387.3791777429,
+          "feeName": null
+        },
+        {
+          "pool": "0x9a1749cda0f945433fe640469c188598c7cc9953",
+          "name": "QQQB / 币安股链",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 141603.5461,
+          "volume24hUsd": 33871.3837096235,
+          "feeName": null
+        },
+        {
+          "pool": "0xd389b1e12786db2024979d3214ee9f75e50e6120",
+          "name": "QQQB / TSLAB 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 97891.9694,
+          "volume24hUsd": 44261.4386786692,
+          "feeName": null
+        },
+        {
+          "pool": "0xf3daeede7097aef1079f8d3cf8870d0f50591aeb",
+          "name": "万物皆数 / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 60526.7095,
+          "volume24hUsd": 70619.8495947742,
+          "feeName": null
+        },
+        {
+          "pool": "0x8447a87ea9c737bf32837b7e929cee938fdede39",
+          "name": "Monkeys / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 28917.8932,
+          "volume24hUsd": 105717.065767124,
+          "feeName": null
+        },
+        {
+          "pool": "0x62609d8964b2fb5ce0322c4e0b659466e7297df903633c0e3fdb2c7fed0c84c9",
+          "name": "QQQB / USDT 0.003%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 12311.0287,
+          "volume24hUsd": 232561.158489087,
+          "feeName": null
+        },
+        {
+          "pool": "0x8f6814bd5db791fc8b64eea6bbad8bbeb508d6c6",
+          "name": "BEN / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 122383.2318,
+          "volume24hUsd": 18183.6576113918,
+          "feeName": null
+        },
+        {
+          "pool": "0x0f494581240974b082075af27e087e92612f90dd",
+          "name": "QQQB / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 147761.0223,
+          "volume24hUsd": 12076.1865067195,
+          "feeName": null
+        },
+        {
+          "pool": "0xdb6f1d044b8b2887a6c450d0d13176c81e3f936d",
+          "name": "QQQB / Stonks",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 125567.1493,
+          "volume24hUsd": 12584.077260753,
+          "feeName": null
+        },
+        {
+          "pool": "0x64aee4a4c21b506bb6f7244d051651efe0a0c8ad",
+          "name": "雷达病毒 / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 31612.2534,
+          "volume24hUsd": 45586.5360889965,
+          "feeName": null
+        },
+        {
+          "pool": "0xd43a2b3b0c4a20b3b1c43e24113bd7cb9f064923",
+          "name": "HeeHaw / QQQB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8860.1707,
+          "volume24hUsd": 151806.858866881,
+          "feeName": null
+        },
+        {
+          "pool": "0xb7bd7dbdb9860c84014f9b5ec82448cb90ea3bf5",
+          "name": "QQQB / 拍手黑猫",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 21253.9666,
+          "volume24hUsd": 53993.1998454455,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "issuer": "XSTOCKS",
+      "symbol": "QQQx",
+      "token": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "pools": [
+        {
+          "pool": "0x3369fed6052a2e4b38ca9dafffa1baeb1738284b42042738167729433adac135",
+          "name": "qqqx / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 497.6718,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x66ae744bb0416b225fa56f49ab6fadb76efc87d8fe6ef89ff5d05dbc6d3c0bdc",
+          "name": "qqqx / BNB 0.05%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0.0333691227,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "issuer": "BSTOCKS",
+      "symbol": "METAB",
+      "token": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+      "pools": [
+        {
+          "pool": "0xc2151a561e928d16576d75ea88544543ac63d80b",
+          "name": "metab / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 214523.8863,
+          "volume24hUsd": 38313.7364228707,
+          "feeName": null
+        },
+        {
+          "pool": "0x888a06ff8b637b74737f5a6c9fd4d8b11a0ed58b",
+          "name": "缪斯 / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9279.6718,
+          "volume24hUsd": 302.8101562302,
+          "feeName": null
+        },
+        {
+          "pool": "0xa98c78b2b372636b4e08a930973b3acb0cd001b0",
+          "name": "洞洞鞋 / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5051.8831,
+          "volume24hUsd": 109.2288526257,
+          "feeName": null
+        },
+        {
+          "pool": "0x77f8673b8db7214c1ae473b5af5e7b0968ace498",
+          "name": "羊驼 / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4076.6849,
+          "volume24hUsd": 19.1819093825,
+          "feeName": null
+        },
+        {
+          "pool": "0xedef47ab0a5b40014f463816837d8371e1894887",
+          "name": "metab / SI 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1083.4794,
+          "volume24hUsd": 34.9220750304,
+          "feeName": null
+        },
+        {
+          "pool": "0x5c6fe5d66283c970e3ab977aefa8399b65ec72ad476a810f757c582368df02e9",
+          "name": "WYZQ / metab 99%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 9895.7406,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe42b61bc39d65c39829c8f1e9e6216095c6238f9",
+          "name": "MUSE / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 7086.2921,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2cce4fda0f0c82c8d79f3a23af78353b16fa8b5d",
+          "name": "flybook / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 6648.5569,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x600a09edf32127e93aab47a7a7a92f09e8b111ef",
+          "name": "Libra Coin / metab 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 6075.762,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xbfd7a6ebb29d6346640ed31e1ac35a59e05b6ec3",
+          "name": "Libra / metab 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5412.0430518165,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xac286909a0c0d6d233218308fffac40195414b78",
+          "name": "metab / Libra 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5394.9655539509,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf8c3f44af7c1239619cb1929ea2a96cf1ee3021e",
+          "name": "Libra / metab 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5395.7291148606,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x26a99ea24478352b1fbd5e97f19ae8c3502633a9",
+          "name": "LIBRA / metab 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5608.6087069718,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2f6c5cc28743526a6606a53f3b611ad6214f6bc7",
+          "name": "SENSEI / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5066.6219,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x09e8b85a0113e2bcee15851374c3a30e04cd578d",
+          "name": "CUE / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5223.2476,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xa6db081af460c13ce9db67d1628367d9b1a200db",
+          "name": "MUSE / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5129.923585812,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe41b3a92ef496550349c82110e0a67a55f0e37573c68b8ca9badaae1eef41d45",
+          "name": "LILQUE / metab 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4860.7857,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x22b8b6bac10e1b9946e107d01de3161cf3c29859",
+          "name": "LIBRA / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4994.1468,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc80566bb806afca83e1a36c33f037da3dc5585c4",
+          "name": "Petal / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4387.9016,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x05fc011b8bf345220fdb154b138590c36b78208b",
+          "name": "灵感女神 / metab",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4196.3648,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "issuer": "ONDO",
+      "symbol": "METAon",
+      "token": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+      "pools": [
+        {
+          "pool": "0x339b0eeb555641ea75ce955f04ec11f6b972263586f3b36e7025a09cfbee4064",
+          "name": "METAon / USDT 10.1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 872.8544,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2edae31114d5de890c7485a9c877c8a42b49e80a6a4ebd5026d39cd403a5c644",
+          "name": "METAon / USDT 0.352%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 248.7106,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x3cedecbe4716060de78e0f2a91cc8865cde89d5da2c9662d158fe42fda1133e2",
+          "name": "METAon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 244.466,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2cf51a576f1aa187ca50cc1358edb0f86bf82b4d8c291a6b20f6891b98e7f0bf",
+          "name": "METAon / USDT 0.272%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 134.9828,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xa00db4210e573410994faf5f45d83ac74e0d982d50dcf51b0e8c78f0ce9a7c6a",
+          "name": "METAon / USDT 45%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 137.4082,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1828e85d89cc1d16788a113188b6329b8b8a9c3c5a1311c57ed38be919a59f92",
+          "name": "METAon / USDT 50%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 96.2322,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf224a3d0e9cd93afda66aaf1d803a6a68ad14be0a847a5dbf140b135231641e5",
+          "name": "METAon / USDT 90%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 97.1486,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x748d08036ac8b77a12536eab1aa5d7502ee6aa66a3a51cddc32b8ae7d25a35b2",
+          "name": "METAon / USDT 49.99%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 37.3806,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd9404c53d3b0df4b9a1e697598bf9eee537570731b39045c6ce2bc1630a1aa83",
+          "name": "METAon / USDT 15%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 9.8653,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd0c50227b6470d8748cd15b71988a337f892d27d10f3fca8dbc4c0480718a004",
+          "name": "BLZ / METAon 0.3%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0.2348,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x397b68657ac056090834bd9528aac0348cea92b22da64fed5040fc1187911174",
+          "name": "METAon / USDT 46%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe9714fc597a390681fca1cc59b2264af51980fcabc287e64002f1e9500ec25d3",
+          "name": "METAon / USDC 0.038%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 0,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "issuer": "XSTOCKS",
+      "symbol": "METAx",
+      "token": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "pools": [
+        {
+          "pool": "0x15aeeb69fa0b2e5d3ee31a8ed99684bafcb0f2eaea52fa420dfc56f694a9dbe4",
+          "name": "metax / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 210.114,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "BSTOCKS",
+      "symbol": "MSFTB",
+      "token": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+      "pools": [
+        {
+          "pool": "0x5018b018ceb7645c927c5cf246786f89ebcbe7ea",
+          "name": "msftb / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 245637.2673,
+          "volume24hUsd": 48730.1091898895,
+          "feeName": null
+        },
+        {
+          "pool": "0x58e44c2e5b17ef40915b4b3ae8451b6b87285b44",
+          "name": "msftb / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 65113.9615,
+          "volume24hUsd": 2999.380474472,
+          "feeName": null
+        },
+        {
+          "pool": "0xaba83c7ac6dbbcf8b230c46763bd4bd4d5d90a79",
+          "name": "MACROHARD / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9851.2092,
+          "volume24hUsd": 160.4586906331,
+          "feeName": null
+        },
+        {
+          "pool": "0x8d3848bd2a14492f5077dc67840644006a10ffa6",
+          "name": "msftb / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10388.0473,
+          "volume24hUsd": 105.6576681738,
+          "feeName": null
+        },
+        {
+          "pool": "0xfedcb99127e1aeca97d880f645e5123d849010d9",
+          "name": "CLIPPY / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9587.5197,
+          "volume24hUsd": 112.3612037614,
+          "feeName": null
+        },
+        {
+          "pool": "0xd09f717782ef3d4b46d900e370b720e59c32b99b",
+          "name": "村村 / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5851.0132,
+          "volume24hUsd": 64.6106872073,
+          "feeName": null
+        },
+        {
+          "pool": "0x468c77e403dd87bebb3768b43838ed57aa416567",
+          "name": "msftb / X286",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 7112.1193,
+          "volume24hUsd": 22.7962118201,
+          "feeName": null
+        },
+        {
+          "pool": "0xeb15fbc9afc8526adcb0ac2682ae1150a8d3b768",
+          "name": "微软股票 / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 7308.7917,
+          "volume24hUsd": 4.3284846336,
+          "feeName": null
+        },
+        {
+          "pool": "0xd36752b3598627934b3eccd88695808870ae1d5d",
+          "name": "Taraxacum / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 2507.9071,
+          "volume24hUsd": 9.8835321156,
+          "feeName": null
+        },
+        {
+          "pool": "0x54cf83c1f8dfb460e88231a9a0331308f56b0251",
+          "name": "msftb / PEBBLE",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4928.9072,
+          "volume24hUsd": 5.0146479336,
+          "feeName": null
+        },
+        {
+          "pool": "0xf2fc7a5621a493f14d94d7653afcdca5ca401b25",
+          "name": "msftb / SI 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1138.0281,
+          "volume24hUsd": 12.5277839776,
+          "feeName": null
+        },
+        {
+          "pool": "0xed08d0c0a1276d7425e25526a4916778e0bf9d1e9ca51baff2de50c378b9780e",
+          "name": "msftb / USDT 0.25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 225.085,
+          "volume24hUsd": 32.7740767207,
+          "feeName": null
+        },
+        {
+          "pool": "0xebc21ea3387cb95794851aeb47335bafa8417f7f7f6b548a8f5d38222d777dbe",
+          "name": "msftb / FFAF 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1470.219,
+          "volume24hUsd": 4.9863743792,
+          "feeName": null
+        },
+        {
+          "pool": "0x8fe7d020d5ccb659a3d7fba42a7059f4175f0ad01aa472785a4d0b254f589ebc",
+          "name": "PUPPET / msftb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1222.9312,
+          "volume24hUsd": 4.9844187621,
+          "feeName": null
+        },
+        {
+          "pool": "0x81cb6756c248daad7a3a7b0410a798baf2c113eb",
+          "name": "AIBT / msftb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 979.2801,
+          "volume24hUsd": 5.8141867225,
+          "feeName": null
+        },
+        {
+          "pool": "0x245d638818f1b7f64becb33e5d3b90c7a8f90560",
+          "name": "SHOES / msftb 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1732.4241,
+          "volume24hUsd": 3.1097980783,
+          "feeName": null
+        },
+        {
+          "pool": "0x78a4073db88021da556bac7705fd5355ad7459ae765da4482bd6de1cb5967925",
+          "name": "红包 / msftb 2%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 1054.4041,
+          "volume24hUsd": 4.9229798876,
+          "feeName": null
+        },
+        {
+          "pool": "0x31e4f3387ddb50971bc8a2b5b988ec397dea67317138e446f2d0c86888c55455",
+          "name": "DRAWER / msftb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1064.4801,
+          "volume24hUsd": 4.7272985352,
+          "feeName": null
+        },
+        {
+          "pool": "0x1be538d6a4335a5b89f7760254920ac9e785bafa9176f682cc57607e15e1c20d",
+          "name": "WHITESOC / msftb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1225.2319,
+          "volume24hUsd": 3.8961025726,
+          "feeName": null
+        },
+        {
+          "pool": "0xdc00b94a0fd619ddb421466731a1a51d75bde1a3",
+          "name": "msftb / Grass",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8660.4135,
+          "volume24hUsd": 0.4355001477,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "ONDO",
+      "symbol": "MSFTon",
+      "token": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+      "pools": [
+        {
+          "pool": "0xaf77e6c78989bce9d7c85291deb783c7f9dd191cfb990ea1babef5655fdecf77",
+          "name": "MSFTon / USDT 9.9%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 163.3494,
+          "volume24hUsd": 20.8494734009,
+          "feeName": null
+        },
+        {
+          "pool": "0xfc7d40d43678cbcc18ebc2d7b27e048fe45b4126a94fd2e1a8ba916bb5e06ae2",
+          "name": "MSFTon / USDT 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 140.7934,
+          "volume24hUsd": 20.1397738129,
+          "feeName": null
+        },
+        {
+          "pool": "0xda3fa43a48fa4361dc95843ac51c852c0ef29546e19aa56d69cae042fea0186a",
+          "name": "NBTZ / MSFTon 99.967%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 5433.448,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x897a2d5781d4c3fa08d2d958fa2eec2caa1276ded2bf3b37987635ed2337233f",
+          "name": "MSFTon / USDT 0.312%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 709.8799,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x8853ff0018eb90aacafd7b4d1957ec5d9d0b1df0133fd8257fda125feeb54935",
+          "name": "MSFTon / USDT 0.048%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 421.7595,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x24fca273f8878090b4366b94f951fad4e6112030e5c462792f96fde802406b0f",
+          "name": "MSFTon / USDT 89%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 295.5158,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x09b051171638308f2dacba1b3f45a994316db6d4aa756624208ae666b6263643",
+          "name": "MSFTon / USDT 25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 201.018,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x0db61e421f88ef5f510c9675f96404f178248ae643e407e00b6a76c6b8c3d06d",
+          "name": "MSFTon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 280.9181,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x30d7c7188f728d0eb7193e0f4e5d6729e1706aa57e6981bdb9ed4871152c12a6",
+          "name": "MSFTon / USDT 50%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 161.9585,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xae391e51fef95eabff9f4f28bcbdccca990a5018247e1fb6da5207df8f347610",
+          "name": "MSFTon / USDT 0.272%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 135.8167,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2eced3af688d0ee660ed5edbac6b9944d54a390ba00ac40cc6919b9b2821e504",
+          "name": "MSFTon / USDT 24.99%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 94.097,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x27cd1b0909727c4532f23a5ada5eee42e14b8ab20bb7403fe5d1a1c8bacf9719",
+          "name": "MSFTon / USDT 0.218%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 97.8167,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1c99a65a26cddc8f52452ca62648f124deb43770de671242a0b931c2984c3c5e",
+          "name": "MSFTon / NVDAon 1.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 28.6325,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe09e39867b5b1a4a9eead2b5076b86440f3d5a625b3eb74df544714d90cf482c",
+          "name": "MSFTon / USDT 28%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 28.6249,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc1e9eeea63469fb1f3964eaac5ad0627f199cc9b9baf1d7d5f43cb92b30f8130",
+          "name": "MSFTon / NVDAon 5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 10.0078,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x7195acbf927e91641ff72a5644b1b5b7be49114359924ff441e858f3e8cdc267",
+          "name": "MSFTon / USDT 90%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 7.2263,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x09b68d8a0b056430ba178ed7a971472499278a7d4bb129ca8eb563db63d4ce69",
+          "name": "MSFTon / NVDAon 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 5.6514,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x827403ad686241b8115c9aeef7d37ee902af8b4b6d68bd4eacb0038c7b449321",
+          "name": "MSFTon / USDT 75%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 3.0785,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2a3eb4c34782b64324f0faa1bd9fc345b3dc46ef88b1c4ce7213953b65f7e05d",
+          "name": "AAPLon / MSFTon 0.067%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2.1633,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x08c2ce6e530ca82e26ad2fe73226d2171b9e6f8e",
+          "name": "MSFTon / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 1.5586,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "XSTOCKS",
+      "symbol": "MSFTx",
+      "token": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+      "pools": [
+        {
+          "pool": "0xd33f072bd0522b2b3325304fdc8b982fc02240506870ec8934a6d940c9ebcb92",
+          "name": "msftx / USDT 89%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 386.1008,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "BSTOCKS",
+      "symbol": "NVDAB",
+      "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+      "pools": [
+        {
+          "pool": "0x8fb4243b553ac29ba088acf00b9b7da24bd6690c",
+          "name": "NVDAB / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 6220572.0013,
+          "volume24hUsd": 2236458.31358161,
+          "feeName": null
+        },
+        {
+          "pool": "0xdd9d5164ccbc57be377a964fc064135b03d06177",
+          "name": "NVDAB / USDT 0.05%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 520541.431,
+          "volume24hUsd": 477357.116837619,
+          "feeName": null
+        },
+        {
+          "pool": "0x18d52270d09ab842c87acd45977dcf64a82fa4ad",
+          "name": "NVDAB / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 574574.4619,
+          "volume24hUsd": 137658.650089547,
+          "feeName": null
+        },
+        {
+          "pool": "0x25ee4fa4bff5363d47496e68377b1241e8e21a47",
+          "name": "BINF / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 86765.4251,
+          "volume24hUsd": 127394.899531139,
+          "feeName": null
+        },
+        {
+          "pool": "0x8760f5c454b9649c6308b02b2d2ad727dc37035b",
+          "name": "Datacenter / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 30667.5895,
+          "volume24hUsd": 263905.606431829,
+          "feeName": null
+        },
+        {
+          "pool": "0xdebed59510885e29ce1d3da0e5412d49d21f0354",
+          "name": "NVDAB / WBNB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 105498.5176,
+          "volume24hUsd": 71346.512939491,
+          "feeName": null
+        },
+        {
+          "pool": "0xcc2bffaec373a6004bb6ccc8a62cdd66061f7c6a",
+          "name": "NVDAB / USDT 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 47162.9493,
+          "volume24hUsd": 90060.396251079,
+          "feeName": null
+        },
+        {
+          "pool": "0x08c96d501c699fab7ffce8a730a431393045efc1",
+          "name": "sauce / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 67379.4496,
+          "volume24hUsd": 45947.1721930468,
+          "feeName": null
+        },
+        {
+          "pool": "0x89d119514789fadd47bd394029e414eead942aec",
+          "name": "币安智能 / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 29438.7303,
+          "volume24hUsd": 99682.93118264,
+          "feeName": null
+        },
+        {
+          "pool": "0xe88701d7f67bd8f020cdf0f3bfda36b53c5200d0",
+          "name": "MJ / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 28089.0194,
+          "volume24hUsd": 64922.4062192745,
+          "feeName": null
+        },
+        {
+          "pool": "0x2e956cac8086ef249f7bf4c6929e31389b52e8b5",
+          "name": "NVDAB / 币安AI",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 24133.4456,
+          "volume24hUsd": 34787.2680053364,
+          "feeName": null
+        },
+        {
+          "pool": "0x11168aa26a6063509ab96c2512904e6cc46bc47f",
+          "name": "七 / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9987.8962,
+          "volume24hUsd": 71780.9999808982,
+          "feeName": null
+        },
+        {
+          "pool": "0x9e529156a304521b0607d5ce6bf459807f13625d",
+          "name": "NVDAB / 四",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 31494.6823,
+          "volume24hUsd": 19268.7947181107,
+          "feeName": null
+        },
+        {
+          "pool": "0xf986cee670a6eff6c07f0821e31e0bb0e19ae1e7",
+          "name": "Binance Al / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 15740.5977,
+          "volume24hUsd": 22887.7479384152,
+          "feeName": null
+        },
+        {
+          "pool": "0xd322f2c2b9a7bae13ab40b64f85c0448768eb94d",
+          "name": "NVDAB / USDT 0.05%",
+          "dex": "topaz",
+          "reserveUsd": 14337.1647,
+          "volume24hUsd": 12136.5270061054,
+          "feeName": null
+        },
+        {
+          "pool": "0x217e9ed14c797df4597512d2245c00ca93e5a567",
+          "name": "NVDAB / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 23677.9391,
+          "volume24hUsd": 5414.1743940896,
+          "feeName": null
+        },
+        {
+          "pool": "0x29dcd29f4ec9f08485f87e7777bc463f2b1e1ebf",
+          "name": "NVDAB / Jacket",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 35978.9173,
+          "volume24hUsd": 3245.9151823638,
+          "feeName": null
+        },
+        {
+          "pool": "0xc4dc0a2a137fcc36af41edc0c5319ad4ac50f9a0",
+          "name": "BI / NVDAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 229219.3073,
+          "volume24hUsd": 505.9883565177,
+          "feeName": null
+        },
+        {
+          "pool": "0x699884c4518b330303dc07138202524fc099734463df2b9c6c165aaaadc7a1a2",
+          "name": "NVDAB / USDC 0.038%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 4902.5841,
+          "volume24hUsd": 13932.1603654998,
+          "feeName": null
+        },
+        {
+          "pool": "0xf73f98985179dfacc79d8a91cbb678cd35695bb1",
+          "name": "NVDAB / JARVIS",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 21250.532,
+          "volume24hUsd": 2871.6300536629,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "ONDO",
+      "symbol": "NVDAon",
+      "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+      "pools": [
+        {
+          "pool": "0x883fbe44efccc45e79756c984cb1e3428bef44bb4363ed1a92196def784a6d1a",
+          "name": "NVDAB / NVDAon 0.008%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 2184.5786,
+          "volume24hUsd": 4929.3011453153,
+          "feeName": null
+        },
+        {
+          "pool": "0xb90bdbfbdffd4af5a636b5805539edeafb969308",
+          "name": "NVDAon / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 9681.6975,
+          "volume24hUsd": 484.7419123807,
+          "feeName": null
+        },
+        {
+          "pool": "0xa0cf427baacca49137ef53be13c000b3d6c3b5e3",
+          "name": "TENX / NVDAon 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 2130.1882,
+          "volume24hUsd": 21.8085550532,
+          "feeName": null
+        },
+        {
+          "pool": "0xe87cc61d3ad2c9f07a029b7f4501cb3f21e431ca2ab863b9615619f37a1c65f5",
+          "name": "NVDAon / USDT 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 99.973,
+          "volume24hUsd": 24.7278548433,
+          "feeName": null
+        },
+        {
+          "pool": "0xf8bad4715260c16367227581afc29bf3a625b877b9440816c5712a3aeebd0056",
+          "name": "NVDAon / USDT 0.01%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 53.8088,
+          "volume24hUsd": 10.1706997684,
+          "feeName": null
+        },
+        {
+          "pool": "0x8e89775d9028c7913656d5952a30e56dc657e785",
+          "name": "JPF / NVDAon 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 295.3916,
+          "volume24hUsd": 1.7090069041,
+          "feeName": null
+        },
+        {
+          "pool": "0xe1cf25a604231517cd731b9ee7aae93b8874b7de",
+          "name": "NVDAon / 币安股票",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 3.5625,
+          "volume24hUsd": 0.07451071787,
+          "feeName": null
+        },
+        {
+          "pool": "0xafc43fae32302d725fc4d448525c44c522a9a1b9-43",
+          "name": "NVDAon / BTCB",
+          "dex": "dnax",
+          "reserveUsd": 100922.6715,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xafc43fae32302d725fc4d448525c44c522a9a1b9-40",
+          "name": "NVDAon / USDT",
+          "dex": "dnax",
+          "reserveUsd": 14408.2354,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2b754227ede64644c90f920a2bfd3d6177bdeba6f210062f4110bf35ec29d37d",
+          "name": "NVDAon / USDT 0.009%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 8502.2564,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xafc43fae32302d725fc4d448525c44c522a9a1b9-42",
+          "name": "USD1 / NVDAon",
+          "dex": "dnax",
+          "reserveUsd": 9773.7838,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5c7884e09ad0307d9a06a7ce7928894269f44367",
+          "name": "Jacket / NVDAon 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 5055.7307769807,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x226a40556e8511c5b07ea915bcfd38fcf7bd09a6",
+          "name": "NVDAon / NVIDIADOG",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 0.1129089489,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x82b165def215b02acc4e6294337a04a31a22c83bbc29dabe6d4820a084f0c1ac",
+          "name": "PAR / NVDAon 2%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 3641.6318,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xafc43fae32302d725fc4d448525c44c522a9a1b9-41",
+          "name": "NVDAon / USDC",
+          "dex": "dnax",
+          "reserveUsd": 2997.4011,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x4769c80376dc76edf3cf6c09c29ffa239d6dea714de66efeae9fda7fd053acda",
+          "name": "NVDAon / BNB 0.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 1097.7631,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xd35b1a14dcd178bb6e8e9d4bf32f6e6e1f3869b3",
+          "name": "英伟达 / NVDAon",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 1118.4219411665,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5d5c84b150979b6856cf95b74380edb8efffb6f325e2d00046337d24fc69f387",
+          "name": "TSLAon / NVDAon 1.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 744.0877,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x0e23c9ec983ab537ddfb717596f2b883e19f5dcc445f164ce78da542151c56c7",
+          "name": "NVDAon / BI 2%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 960.8333,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf7f5743213a2fcccb59cc61a1ee218024621b01cc3a6b6084edf355cac97e204",
+          "name": "MUon / NVDAon 3%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 539.5594,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "XSTOCKS",
+      "symbol": "NVDAx",
+      "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "pools": [
+        {
+          "pool": "0x0521c89871b868cc96f860370ddfddb1564239e0a8312f7a12d3f2fbf2ba7d28",
+          "name": "nvdax / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 461.7456,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "XSTOCKS",
+      "symbol": "SPYx",
+      "token": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "pools": [
+        {
+          "pool": "0x2e4f625c0be7bb91cc4161696a63d1fa8bdb87304e9e9378c25a2cc58e46b268",
+          "name": "spyx / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 809.0132,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5a913c38138ed3013daf02f21d962a3add5dc31e",
+          "name": "spyx / WBNB",
+          "dex": "uniswap-v2-bsc",
+          "reserveUsd": 11.9559,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x9ecd66ad421474270820d2c3a3082a7da4df211d",
+          "name": "spyx / USDC",
+          "dex": "uniswap-v2-bsc",
+          "reserveUsd": 0.0116251602845295,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xa42b9bcf5d40348d04c8ef139e213bc4923f8e8c",
+          "name": "spyx / USDC",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 0.00246957091768033,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "ONDO",
+      "symbol": "SPYon",
+      "token": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+      "pools": [
+        {
+          "pool": "0x3b31ad84092cefefc71f71a8f84aace37aca3ee1",
+          "name": "SPYon / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 897.1593,
+          "volume24hUsd": 140.5987199677,
+          "feeName": null
+        },
+        {
+          "pool": "0xafc43fae32302d725fc4d448525c44c522a9a1b9-44",
+          "name": "SPYon / USDT",
+          "dex": "dnax",
+          "reserveUsd": 30190.2016,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xee665ff36218cd913eb2d2551cf2108ecfcb71eb",
+          "name": "SPYon / STOCKIE",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4131.296042522,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xe5af38e20453f3b5daed8b17628ea67842fc23b92ca860783bacf2ecb919cc6c",
+          "name": "TEST / SPYon 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 5141.2937,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x61e32ef901ceb64330cb7003a3b7e1ed64ff5b9aea25b7e033f7befcf748695f",
+          "name": "SPYon / USDT 37%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 505.8814,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc80ec61325eaf1941b013c2aef3076a10e5d4f23fb61f66ba3dab8a3df6b8641",
+          "name": "SPYon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 594.0099,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x78db610ee715c3008862c312af8bdd033266ad6ed7ee9b8713bd502373b66667",
+          "name": "SPYon / USDT 0.287%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 243.6422,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x9ef18d59cb64a571244f5753042d6dc0239abc7a370f66bfb6a2549a29c2a4d5",
+          "name": "SPYon / BNB 1%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 147.5015,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5205c9a935fdbbd325ca7fe5619e3c94a730dc0465304c8fb71a726286437b27",
+          "name": "SPYon / USDT 46.712%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 123.9564,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x307af3e1b3eb66f3fe22d904e6f6a8ade082456e6f7a7f39d6bc425e27e2191b",
+          "name": "SPYon / USDT 0.005%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 111.8831,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2e4d4635372a5866001af185bb9d9b4e17b877b0d995e0ad99b9589d29569f7d",
+          "name": "SPYon / USDT 0.05%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 135.4887,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc598a275400a0ba838386725b3eef947b7c9d16bddb43e1d78ab0e89ea1677ae",
+          "name": "SPYon / USDT 0.248%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 134.547,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x7b313762f109773db8418675c4413edec651de1daab9ce569e3f2c1931701478",
+          "name": "SPYon / TQQQon 0.201%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 83.7994,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb9a2b2ff76f3c60556ebb79afb9c585c576bb697097fcaa7f0514327c7238a8d",
+          "name": "SPYon / USDT 46.7%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 29.6345,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x7744032716ec74989c2fbb16f282d259819cfaa503b60facc0dfbddc69bf4e3f",
+          "name": "SPYon / USDT 0.3%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 21.27,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x89852fa098d98ad12e5cfefd38800358d8f16a2fcce3a8cc0e7a6263e7f5250f",
+          "name": "SPYon / USDT 0.02%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 6.0915,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xfe63c15c59829116216f54bfe579456db9c43723",
+          "name": "SPYon / USDT 1%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 5.4877892412,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc3809b2da3b837eb90e7260e2b011f7e38355460",
+          "name": "SPYon / USDC 0.01%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 3.3530688767,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x9a0d43c1ccc6a4a1879367415612f3883b01cc7ea33c74f44c209b4eba95292f",
+          "name": "SPYon / spyb 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 2.708,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb6c8ab94eae076c5261d9cfcfe25af84d6fbc23f",
+          "name": "SPYon / USDT 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 1.894807297,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "issuer": "BSTOCKS",
+      "symbol": "SPYB",
+      "token": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+      "pools": [
+        {
+          "pool": "0x7aa6d92fc369a8c1edc631a3aac44efb0808ddbf",
+          "name": "spyb / USDT 0.01%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 236760.0278,
+          "volume24hUsd": 230498.883022821,
+          "feeName": null
+        },
+        {
+          "pool": "0xe5f1e10139c62e03c2e4d68f5ada90190b052d8486ecdfe30fce26ffacc61450",
+          "name": "spyb / USDT 0.05%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 148401.2746,
+          "volume24hUsd": 13771.8780788631,
+          "feeName": null
+        },
+        {
+          "pool": "0x44ea468b40ec3f9de546fd5da9c3af7a9d23833a",
+          "name": "spyb / 币有",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 105144.7353,
+          "volume24hUsd": 16584.5336392252,
+          "feeName": null
+        },
+        {
+          "pool": "0xcc9d128a4cb460dc0ae77ce2cd9f2746849db2bef0dbec94cf740b6c359c1d87",
+          "name": "spyb / USDT 0.255%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 87612.7834,
+          "volume24hUsd": 16657.9371393381,
+          "feeName": null
+        },
+        {
+          "pool": "0x20cf5d25c9cd179d3b4ea7c52d994d9de48477df",
+          "name": "spyb / NIUMA",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 110920.0753,
+          "volume24hUsd": 7204.7537938753,
+          "feeName": null
+        },
+        {
+          "pool": "0x84307d86e8c367a98acdcab707ebe741e1f2c412",
+          "name": "SUMMER / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 61275.7336,
+          "volume24hUsd": 2662.5974783582,
+          "feeName": null
+        },
+        {
+          "pool": "0x81e1f351dc99ee4f3e8b2cfc651c6f18b732a1c5",
+          "name": "QQQB / spyb 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 12880.9301,
+          "volume24hUsd": 2886.5064902964,
+          "feeName": null
+        },
+        {
+          "pool": "0x06106a0766e7776becf710c25b99090ed2e3ecc1dafee4cf57d0633bd847a8d4",
+          "name": "spyb / W3 0.25%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 49020.5586,
+          "volume24hUsd": 326.5067360268,
+          "feeName": null
+        },
+        {
+          "pool": "0xc60b0a5e88268f597b822631a5cbcb52a5919e85",
+          "name": "NALA / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 9803.5135,
+          "volume24hUsd": 1211.1360606088,
+          "feeName": null
+        },
+        {
+          "pool": "0x29cb7803fd34bd9d8cf33a5f19dbc8513f6bd60f",
+          "name": "spyb / WBNB 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 6368.0575,
+          "volume24hUsd": 1221.6740502928,
+          "feeName": null
+        },
+        {
+          "pool": "0xb2ad73ef403ad6984e1117ff8a2a7b9f0e264b49",
+          "name": "AOB / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 15758.3265,
+          "volume24hUsd": 480.8730624568,
+          "feeName": null
+        },
+        {
+          "pool": "0x1d0c60d03d0ee3beef7691cc8c1b2029379585e0",
+          "name": "spyb / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10090.2346,
+          "volume24hUsd": 589.5310213936,
+          "feeName": null
+        },
+        {
+          "pool": "0xa82ed9aa7ec86d4bf30f6885667b3b76841c94cb",
+          "name": "躺平 / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 15691.8263,
+          "volume24hUsd": 345.8952626757,
+          "feeName": null
+        },
+        {
+          "pool": "0xc8d77772196df256e01ab96a8e79b63e015f1a18",
+          "name": "Exchange the world / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 13186.402,
+          "volume24hUsd": 369.5357708736,
+          "feeName": null
+        },
+        {
+          "pool": "0x45dcb68a2ddccf00271b6941cffe70676e5c8247",
+          "name": "bStocks / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 20097.4259,
+          "volume24hUsd": 191.2044824201,
+          "feeName": null
+        },
+        {
+          "pool": "0xb7a3eef437c5a8b487e1e0cf096eba5f9aa3c899",
+          "name": "安友 / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5984.3522,
+          "volume24hUsd": 490.0321162027,
+          "feeName": null
+        },
+        {
+          "pool": "0x14019bcd8683a2ed8d598aa08740b8b891d8c57a",
+          "name": "spyb / Z",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 13189.8296,
+          "volume24hUsd": 220.621898499,
+          "feeName": null
+        },
+        {
+          "pool": "0x9fcaa3369b2030a04b36164778007cf0507a4256",
+          "name": "SAFU / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5630.2484,
+          "volume24hUsd": 365.2983788666,
+          "feeName": null
+        },
+        {
+          "pool": "0xc31b4e32e8957f80110d02b746013e2c4faf1f60",
+          "name": "做饭 / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5232.0054,
+          "volume24hUsd": 311.3865190735,
+          "feeName": null
+        },
+        {
+          "pool": "0xcfe8d422f04ee7bcd3e6bcb3737d30c27585355f",
+          "name": "BUDDY / spyb",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 4956.2929,
+          "volume24hUsd": 139.5898897688,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "BSTOCKS",
+      "symbol": "TSLAB",
+      "token": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+      "pools": [
+        {
+          "pool": "0xb0f5e5400e8f0f7c242f2b7740c004f020579c41",
+          "name": "TSLAB / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 1912927.2507,
+          "volume24hUsd": 669853.904527924,
+          "feeName": null
+        },
+        {
+          "pool": "0x53c6291d0a5a02c76cedfa1b8f57a8ac3762f7a9",
+          "name": "TSLAB / USDT 0.05%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 41939.3533,
+          "volume24hUsd": 118818.948836877,
+          "feeName": null
+        },
+        {
+          "pool": "0xd389b1e12786db2024979d3214ee9f75e50e6120",
+          "name": "QQQB / TSLAB 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 97909.118,
+          "volume24hUsd": 44261.4386786692,
+          "feeName": null
+        },
+        {
+          "pool": "0x613ebcfcf41749571d659a0bf3e2c0032fd4859e",
+          "name": "TSLAB / USDT 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 98175.3346,
+          "volume24hUsd": 20810.2013742655,
+          "feeName": null
+        },
+        {
+          "pool": "0x0e16dfdfb13f7a921417f932b5fc36d3b530620a",
+          "name": "ABTC / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 38550.2397,
+          "volume24hUsd": 13183.7446749972,
+          "feeName": null
+        },
+        {
+          "pool": "0xf03cebfe30d87872df5aaae50b49adcac80e20c6",
+          "name": "特斯拉股票 / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 45673.5654,
+          "volume24hUsd": 5878.6972840819,
+          "feeName": null
+        },
+        {
+          "pool": "0x787f3ebb965a7c5484d08b143809d8c4b043cd45",
+          "name": "TSLAB / WBNB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 11424.7148,
+          "volume24hUsd": 1990.5471889751,
+          "feeName": null
+        },
+        {
+          "pool": "0x82a8fdc360d93f394fe90ff0d8bbc96997d8bd82",
+          "name": "TSLAB / FTR",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 23363.0279,
+          "volume24hUsd": 924.0408736038,
+          "feeName": null
+        },
+        {
+          "pool": "0x162d64349c57ff06ad69551870f0414f694e6491",
+          "name": "TSLAB / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 15536.6533,
+          "volume24hUsd": 299.3870077718,
+          "feeName": null
+        },
+        {
+          "pool": "0x9a2ffd904b930fff7a9c7304df0f0035b3d7e3c2",
+          "name": "旺财 / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 20044.7354,
+          "volume24hUsd": 79.8618961648,
+          "feeName": null
+        },
+        {
+          "pool": "0x8cbf6a2d2bc8dd3427fae4d966ad93e39cd19801",
+          "name": "BAGELS / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 6209.1332,
+          "volume24hUsd": 69.0932933291,
+          "feeName": null
+        },
+        {
+          "pool": "0xa7be8dcfdbb43db53c4804cbb3225518e2984de0",
+          "name": "RIZO / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8790.9437,
+          "volume24hUsd": 40.5264174922,
+          "feeName": null
+        },
+        {
+          "pool": "0x50a7e2860aec897e0b45928677d7fee2706a9c3c",
+          "name": "TSLAB / MEMETRUCK",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8456.3937,
+          "volume24hUsd": 25.5205399624,
+          "feeName": null
+        },
+        {
+          "pool": "0xa6444554169e347703362fe95bea8392a137a6d0",
+          "name": "Haha / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5282.4722,
+          "volume24hUsd": 29.6783727951,
+          "feeName": null
+        },
+        {
+          "pool": "0x41108c595465f25f995b41e88b887784eeff9c6a",
+          "name": "特斯喵 / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10426.5078,
+          "volume24hUsd": 14.8005423499,
+          "feeName": null
+        },
+        {
+          "pool": "0xa74cd00a1a109473dcdc73ec87bb780973ea62bb",
+          "name": "Optimus / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 6159.509,
+          "volume24hUsd": 16.7972254141,
+          "feeName": null
+        },
+        {
+          "pool": "0xd03d28876431e0038619e8052103035367c41d22",
+          "name": "Tesla Cat / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 10602.3493,
+          "volume24hUsd": 7.8448091716,
+          "feeName": null
+        },
+        {
+          "pool": "0x13ad4db8094cebdef6f9e4913e372e0358f2dd2c",
+          "name": "OPTIMUS / TSLAB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 11241.5066,
+          "volume24hUsd": 7.1156540897,
+          "feeName": null
+        },
+        {
+          "pool": "0x5cbdc864d0f95bf2f51c0e67e49b81ccae4fb2e9",
+          "name": "TSLAB / TSLA",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 5199.4987,
+          "volume24hUsd": 14.1428210683,
+          "feeName": null
+        },
+        {
+          "pool": "0x2e0a821a0ee710e8723d92907b13656d76dca069",
+          "name": "TSLAB / BTCB 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 904.2588,
+          "volume24hUsd": 80.6315558754,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "ONDO",
+      "symbol": "TSLAon",
+      "token": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+      "pools": [
+        {
+          "pool": "0x85faa585f5f7f9922589be0a0bf1cfb2404ebdc0",
+          "name": "TSLAon / ASX",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 3732.993,
+          "volume24hUsd": 43.1758185576,
+          "feeName": null
+        },
+        {
+          "pool": "0xccf577c778d08d91175525ddb5dd9e439dddc5fe50b0b801475b696c93e6d251",
+          "name": "TSLAon / USDT 5.01%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 1262.7852,
+          "volume24hUsd": 61.9429154864,
+          "feeName": null
+        },
+        {
+          "pool": "0x72f34f4681c73ec45fb130eeb7b84520c3f7b866",
+          "name": "比特币 / TSLAon 0.3%",
+          "dex": "uniswap-bsc",
+          "reserveUsd": 801.1199,
+          "volume24hUsd": 39.0126995522,
+          "feeName": null
+        },
+        {
+          "pool": "0x267488401d5de4748a5a8ecbb2f3a19424c8753a60403aa402c2135b0b165750",
+          "name": "TSLAon / DAGOU 0.153%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 129.2101,
+          "volume24hUsd": 15.9308448371,
+          "feeName": null
+        },
+        {
+          "pool": "0x4b7c3542ff4f63c44a5711755e7727e71138e74b",
+          "name": "比特币 / TSLAon 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 226.4422,
+          "volume24hUsd": 4.3467339105,
+          "feeName": null
+        },
+        {
+          "pool": "0x910ab13499613975f6bbf113b7d57a640e4d488f",
+          "name": "TSLAon / JPF 1%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 428.9116,
+          "volume24hUsd": 0.146248958,
+          "feeName": null
+        },
+        {
+          "pool": "0x9adef84fa8ed60350da2702afa4624d69e8491bcdba9b9b0c8fff0d1e414d418",
+          "name": "TSLAon / USDT 0.228%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 140.4966,
+          "volume24hUsd": 0.0003501822151,
+          "feeName": null
+        },
+        {
+          "pool": "0xc0be69e27d58743e1a43a9a7d4625556d1405da3889f03552dcda548b2320a1e",
+          "name": "TSLAon / USDT 0.312%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 1608.5268,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xaec45847282fa53283b2a5a16423ad224b2d0ba8197f538dade52bff5136de37",
+          "name": "TSLAon / USDT 39%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 1109.3041,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5d5c84b150979b6856cf95b74380edb8efffb6f325e2d00046337d24fc69f387",
+          "name": "TSLAon / NVDAon 1.5%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 744.0877,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xcbf32ac27661bd6a1c336b12066904aecd326c09",
+          "name": "TSLAon / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 865.7514,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x48ab430878dd7cda1c3cf2919fc3314b704b2b2e0ee2626a330edfe2d3895196",
+          "name": "TSLAon / USDT 49.9%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 576.1293,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf83f7c301ff1078a319726371c10e3d04266f8ff97204301d6e465d467843d57",
+          "name": "TSLAon / USDT 0.248%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 330.044,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x27ef457ae6685248a402a1d5ae7cfe9b58821db33fb3237ba59b617f1db92c30",
+          "name": "TSLAon / USDT 80%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 394.7051,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x56dd3b5a1bdd6a6a4f2cc5b084a509db4e9847048c56141ae224e873d98a5e65",
+          "name": "TSLAon / USDT 49%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 245.1841,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xf96c9c6588e6f5765eb2330f8370dee146daf8eeb1002effd452a7ce1e94e66e",
+          "name": "TSLAon / USDT 89%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 206.9689,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2ec5b04ab058f7e876310b901345b56b9636faa767fa6e913c0ca5b095c859ea",
+          "name": "TSLAon / USDT 76%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 122.9457,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x1f374411724193ed5ee13089b09fd61e701bef9dc335b2dbd20e61897fda9003",
+          "name": "TSLAon / NVDAon 2%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 57.0011,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xb45506b034b106cf3c023eef192eb7176a41f75a0324ce167fa0d17c8d272c8b",
+          "name": "TSLAon / BNB 0.205%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 71.0526,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x0ccc76d7eff93ae2b9424072f776a7465a492d56f14199813a333863c3eb1e97",
+          "name": "TSLAon / USDT 49.899%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 41.8479,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "issuer": "XSTOCKS",
+      "symbol": "TSLAx",
+      "token": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "pools": [
+        {
+          "pool": "0x37b7661dd0cf1b9b06d28f6238ea9146e196bde6aac51b4962e1a0499613f698",
+          "name": "TSLAx / USDC 88%",
+          "dex": "uniswap-v4-bsc",
+          "reserveUsd": 391.5461,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x5e12d6edb2b7d5330e474ea2d2694a3b3e35d492",
+          "name": "TSLAx / USDT 0.25%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 24.0849,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xdc5d5068f5af6ee4981ece4f245843430be32a96",
+          "name": "TSLAx / USDT",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 8.8693,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x2fbf834b3f7fe9a4ed2feebd83cbd32c5c6f8b42",
+          "name": "bStocks / TSLAx",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 3.1043,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xfc934f5b8fedcea8bf666774060c87455cfcc99a",
+          "name": "TSLAx / WBNB",
+          "dex": "pancakeswap_v2",
+          "reserveUsd": 0.9203,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0xc52f3558a2c73aa5298cfe172b1c9894d73dc2a1",
+          "name": "TSLAx / Cake 0.05%",
+          "dex": "pancakeswap-v3-bsc",
+          "reserveUsd": 0.0005198866891,
+          "volume24hUsd": 0,
+          "feeName": null
+        },
+        {
+          "pool": "0x4e1a9f46dbf167e1df25284c6079f347717b97730620c28415f4fa034ce65a57",
+          "name": "TSLAx / USDT 0.007%",
+          "dex": "pancakeswap-infinity-clmm",
+          "reserveUsd": 4.69706241336385e-7,
+          "volume24hUsd": 0,
+          "feeName": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  WrapperRegistry 0xdDf50D8e6C4283eAD3A28878AF2bb604c1F6B2ea
+  ParallaxBook 0xa440a217B64c01659A1c911b795371C3C2e1A13e
+  wrappers 75
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 56
+
+Estimated gas price: 0.05 gwei
+
+Estimated total gas used for script: 13312180
+
+Estimated amount required: 0.000665609 BNB
+
+==========================
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Transactions saved to: contracts/broadcast/Deploy.s.sol/56/run-latest.json
+
+Sensitive values saved to: contracts/cache/Deploy.s.sol/56/run-latest.json
+

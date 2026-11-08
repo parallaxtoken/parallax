@@ -1,0 +1,13 @@
+{
+  "placedAt": "2026-10-10T02:35:40.254Z",
+  "ticker": "NVDA",
+  "wrapper": "NVDAB",
+  "orders": {
+    "buy-1": "0xb9e3732002440184dd6e1e3dce9a698a8c6bae87a1e3df6e95a3761a4cc7fe9d",
+    "buy-2": "0x609f1ea8ed86d9c0a0aeb839cdb755c6130933645fdeb1efc145390e84cd85d0",
+    "sell-1": "0x93400783b582541ab38e02c1e3d59dbe740be5442fefa946ee7f0de9a870f26e"
+  },
+  "nextId": "3",
+  "ownerNonceAfterPlacing": 5,
+  "minSharesWad": "859299492281768"
+}

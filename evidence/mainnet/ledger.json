@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "kind": "fill",
+      "tx": "0x25201e459dff174275b60c9c14d91af1029915d8952f4481e5a8752f67a25e5f",
+      "orderId": "0",
+      "note": "Standing buy filled by the keeper with the owner wallet untouched, New York closed.",
+      "at": "2026-10-10T02:36:25.000Z"
+    },
+    {
+      "kind": "refusal",
+      "tx": "0x85047053106d890df200de6eba5f82e1064941d8228543234b29287f8b0483a9",
+      "orderId": "3",
+      "note": "Impossible floor: the keeper declined, and a manual fill reverted on-chain with ShareFloor."
+    },
+    {
+      "kind": "sell",
+      "tx": "0xff0e3df3178c9d2ba38fbd3e78958e182dd70d87a470174a57a01feaaa15e073",
+      "orderId": "2",
+      "note": "Standing sell filled above its USDT-per-share floor.",
+      "at": "2026-10-10T02:36:41.000Z"
+    },
+    {
+      "kind": "cancel",
+      "tx": "0x54e1ddb7e97cc38e8016524e8dcbf70bc5402787fee41cacf495da1da4cdf4c0",
+      "orderId": "4",
+      "note": "Order cancelled by the owner; funds never left the wallet."
+    },
+    {
+      "kind": "identity",
+      "tx": "0xbb53249d22b9979389b2694955f2c0aebcca93876672ba60bf9fb84eee7ea9b8",
+      "note": "Keeper registered as ERC-8004 agent #370049."
+    },
+    {
+      "kind": "certificate",
+      "tx": "0xdffdeb2700accebb3eb7df8dbfdaec483afbaeaef037929bb1d62506c70ae64b",
+      "note": "ERC-8183 job 56961 submitted with a decomposition certificate (price 0); settles after the dispute window."
+    },
+    {
+      "kind": "agentic",
+      "tx": "0xf4e2bdf75d643db18396e740eb2354b79cd73348f1f217f4c3c8e08c2c6d4b45",
+      "orderId": "7",
+      "note": "Standing buy placed from the Agentic Wallet (preview then execute), filled by the keeper."
+    },
+    {
+      "kind": "agentic-pay",
+      "tx": "0x4440411834a87b42a0631fb7354845bbb59b629f8e245e4be9ebd700db196081",
+      "note": "The Agentic Wallet paid for a certificate over x402: baw preview, sign, replay. USDT by permit2-exact, 0.01, settled through B402."
+    },
+    {
+      "kind": "agentic-cancel",
+      "tx": "0x32bd1fa6c02131300b9d08a13aa61bc475e97a4fa999cc9dcd2d9465952ce877",
+      "orderId": "8",
+      "note": "An order placed and cancelled from the Agentic Wallet through baw contract-call preview then execute."
+    },
+    {
+      "kind": "fill",
+      "tx": "0x763a19fee4f3138127bf75a1d8c4dbb7d34cff4ae0909b557598acb7d6952970",
+      "orderId": "9",
+      "note": "Proposed order 1, placed from the owner wallet with a 0.25% tolerance on bStocks; the keeper filled it after the independent reference agreed (61 bps apart)."
+    }
+  ]
+}

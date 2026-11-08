@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": {
+    "paymentHeaderName": "PAYMENT-SIGNATURE",
+    "paymentHeaderValue": "(redacted: a single-use signed payment, already settled)",
+    "approveTxHash": "0xad527fc2785b4fb847f6f94a5d8a239bef99ce9ecf67c13efc78597ba696a229",
+    "binanceChainId": "56",
+    "signatureExpiresAt": 1791666683
+  }
+}

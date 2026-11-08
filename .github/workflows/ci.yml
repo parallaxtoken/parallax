@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      HAS_RPC: ${{ secrets.BSC_RPC_URL != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --no-frozen-lockfile
+      - name: Unit tests
+        run: pnpm -r --if-present test
+      - name: Type check
+        run: pnpm -r --if-present typecheck
+      - name: Claims ledger and numbers
+        run: npx tsx scripts/check_claims.ts
+      - uses: foundry-rs/foundry-toolchain@v1
+      - name: Contracts build
+        run: cd contracts && forge build
+      - name: Fork break suite
+        if: env.HAS_RPC == 'true'
+        env:
+          BSC_RPC_URL: ${{ secrets.BSC_RPC_URL }}
+        run: cd contracts && forge test -vv
+      - name: Verifier against committed mainnet evidence
+        run: |
+          grep -q "PASS" evidence/mainnet/verify_order_0.txt
+          ! grep -q "FAIL" evidence/mainnet/verify_order_0.txt

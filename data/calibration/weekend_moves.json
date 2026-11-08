@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-10T03:26:01.370Z",
+  "source": "Binance Web3 public Market endpoint, 1d candles of the bStocks wrapper per ticker, converted to per share with the current on-chain unit",
+  "inSample": true,
+  "gap": "Friday daily close to the following Monday daily close (UTC candle boundaries)",
+  "n": 129,
+  "perTicker": {
+    "GOOGL": 12,
+    "AMZN": 10,
+    "AAPL": 10,
+    "COIN": 12,
+    "QQQ": 14,
+    "META": 12,
+    "MSFT": 12,
+    "NVDA": 17,
+    "SPY": 13,
+    "TSLA": 17
+  },
+  "from": "2026-06-12T00:00:00.000Z",
+  "to": "2026-10-05T00:00:00.000Z",
+  "quantiles": {
+    "p50": 0.012055765836903154,
+    "p75": 0.023835685818810237,
+    "p90": 0.04238285437386424,
+    "p95": 0.05161716159200069,
+    "max": 0.10458336057270845
+  },
+  "exceedance": {
+    "5bps": 0.9457364341085271,
+    "10bps": 0.9224806201550387,
+    "25bps": 0.8372093023255814,
+    "50bps": 0.7209302325581395,
+    "100bps": 0.5891472868217055,
+    "200bps": 0.3023255813953488
+  }
+}

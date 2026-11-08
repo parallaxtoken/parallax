@@ -1,0 +1,466 @@
+{
+ "at": "2026-10-10T21:11:02.842Z",
+ "gasPrice": {
+  "ok": true,
+  "data": {
+   "low": "52831382",
+   "medium": "59489314",
+   "high": "78643332"
+  },
+  "latencyMs": 589
+ },
+ "gasLimit_approve": {
+  "ok": true,
+  "data": {
+   "gasLimit": "26565",
+   "raw": {
+    "gasLimit": "26565",
+    "energyRequired": null,
+    "bandwidthRequired": null,
+    "freeEnergy": null,
+    "freeBandwidth": null,
+    "energyFee": null,
+    "bandwidthFee": null
+   }
+  },
+  "latencyMs": 632
+ },
+ "simulate_approve": {
+  "ok": true,
+  "data": {
+   "status": "SUCCESS",
+   "raw": {
+    "status": "SUCCESS",
+    "failReason": "",
+    "balanceChanges": [],
+    "allowanceChanges": [
+     {
+      "tokenAddress": "0x55d398326f99059ff775485246999027b3197955",
+      "owner": "0x440860e5dfb8e7d3e1903a0ec3d3589e2fc5cf73",
+      "spender": "0xa440a217b64c01659a1c911b795371c3c2e1a13e",
+      "preAmount": "0",
+      "postAmount": "0"
+     }
+    ]
+   }
+  },
+  "latencyMs": 594
+ },
+ "txDetail": {
+  "ok": true,
+  "data": {
+   "status": "success",
+   "height": "126788026",
+   "gasUsed": "1018342",
+   "fee": "0.0000509171",
+   "time": "1791617404900",
+   "methodId": "0xcd18c824",
+   "raw": {
+    "chainIndex": "56",
+    "height": "126788026",
+    "txTime": "1791617404900",
+    "txhash": "0xca034f5a82ca44aca76508def94b30ca6827ccd4ac17d309d454ebc91b08c73d",
+    "txStatus": "success",
+    "gasLimit": "1256733",
+    "gasUsed": "1018342",
+    "gasPrice": "50000000",
+    "txFee": "0.0000509171",
+    "nonce": "7",
+    "amount": "0",
+    "symbol": "BNB",
+    "methodId": "0xcd18c824",
+    "l1OriginHash": null,
+    "fromDetails": [
+     {
+      "address": "0x440860e5Dfb8E7d3E1903A0eC3d3589e2fC5CF73",
+      "vinIndex": null,
+      "preVoutIndex": null,
+      "txHash": "0xca034f5a82ca44aca76508def94b30ca6827ccd4ac17d309d454ebc91b08c73d",
+      "isContract": null,
+      "amount": ""
+     }
+    ],
+    "toDetails": [
+     {
+      "address": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+      "voutIndex": null,
+      "isContract": null,
+      "amount": ""
+     }
+    ],
+    "internalTransactionDetails": null,
+    "tokenTransferDetails": [
+     {
+      "from": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+      "to": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+      "to": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "to": "0x0C475CD388127473912B1489DEFA4F8F344088b9",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0x0C475CD388127473912B1489DEFA4F8F344088b9",
+      "to": "0x9a4e3217d5449CD3cE31027caF426cfa0E52BF35",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0x9a4e3217d5449CD3cE31027caF426cfa0E52BF35",
+      "to": "0xca90e422340C8ec0195a94F0a8f1eAb448F3BFE3",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0xca90e422340C8ec0195a94F0a8f1eAb448F3BFE3",
+      "to": "0xBEe1aA51DCe11FAa5BFC6C56dBFa5b95D4DFC000",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "amount": "0.2"
+     },
+     {
+      "from": "0xBEe1aA51DCe11FAa5BFC6C56dBFa5b95D4DFC000",
+      "to": "0x0C475CD388127473912B1489DEFA4F8F344088b9",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+      "symbol": "NVDAB",
+      "amount": "0.000867343503598258"
+     },
+     {
+      "from": "0x0C475CD388127473912B1489DEFA4F8F344088b9",
+      "to": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+      "symbol": "NVDAB",
+      "amount": "0.000867343503598258"
+     },
+     {
+      "from": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "to": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+      "symbol": "NVDAB",
+      "amount": "0.000867343503598258"
+     },
+     {
+      "from": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+      "to": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+      "isFromContract": null,
+      "isToContract": null,
+      "tokenContractAddress": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+      "symbol": "NVDAB",
+      "amount": "0.000867343503598258"
+     }
+    ]
+   }
+  },
+  "latencyMs": 664
+ },
+ "topLiquidity": {
+  "ok": true,
+  "data": [
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0xc41ca8bfa93505fdeefe40c8239f985ad43c6fa0",
+    "liquidityUsd": null,
+    "protocol": null
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0xdedb4fc0d625905e557c05429e3846a101deace8",
+    "liquidityUsd": null,
+    "protocol": "Bebop"
+   },
+   {
+    "pool": "NVDAB/NVDAon",
+    "poolAddress": "0xe55ab195703e2219babcade372677565f011d22a",
+    "liquidityUsd": null,
+    "protocol": "Bebop"
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0x0f3062dc4abd85f4524caf1ca3d0085b4b0ae4fc",
+    "liquidityUsd": null,
+    "protocol": null
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0x2501fc5943c424bdacb21890bf8b8485fe5581ba",
+    "liquidityUsd": null,
+    "protocol": "Native"
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0x8fb4243b553ac29ba088acf00b9b7da24bd6690c",
+    "liquidityUsd": "6442924.169402395743202475",
+    "protocol": "PancakeSwap V3"
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0x18d52270d09ab842c87acd45977dcf64a82fa4ad",
+    "liquidityUsd": "644355.852957854076476958",
+    "protocol": "PancakeSwap V3"
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0xdd9d5164ccbc57be377a964fc064135b03d06177",
+    "liquidityUsd": "518487.554149799104105002",
+    "protocol": "Uniswap V3"
+   },
+   {
+    "pool": "NVDAB/FNVDAB",
+    "poolAddress": "0x0ac26b2484faaa3669e9bdf6a20371698006217e",
+    "liquidityUsd": "126722.139380665170722192",
+    "protocol": "PancakeSwap V3"
+   },
+   {
+    "pool": "NVDAB/JACKET",
+    "poolAddress": "0x5de5a5da39a23a023b964c25d1a836f9eea7cfd1",
+    "liquidityUsd": "107882.942900798394925694",
+    "protocol": "PancakeSwap"
+   },
+   {
+    "pool": "NVDAB/WBNB",
+    "poolAddress": "0xdebed59510885e29ce1d3da0e5412d49d21f0354",
+    "liquidityUsd": "107210.752824270376738041",
+    "protocol": "PancakeSwap V3"
+   },
+   {
+    "pool": "NVDAB/BINF",
+    "poolAddress": "0x25ee4fa4bff5363d47496e68377b1241e8e21a47",
+    "liquidityUsd": "82359.110723151509181047",
+    "protocol": "PancakeSwap"
+   },
+   {
+    "pool": "NVDAB/sauce",
+    "poolAddress": "0x08c96d501c699fab7ffce8a730a431393045efc1",
+    "liquidityUsd": "66018.909339848479962502",
+    "protocol": "PancakeSwap"
+   },
+   {
+    "pool": "NVDAB/USDT",
+    "poolAddress": "0xcc2bffaec373a6004bb6ccc8a62cdd66061f7c6a",
+    "liquidityUsd": "46979.805808055699654936",
+    "protocol": "PancakeSwap V3"
+   },
+   {
+    "pool": "NVDAB/四",
+    "poolAddress": "0x9e529156a304521b0607d5ce6bf459807f13625d",
+    "liquidityUsd": "38154.42502166789182366",
+    "protocol": "PancakeSwap"
+   }
+  ],
+  "latencyMs": 836
+ },
+ "portfolio_latest_pnl_owner": {
+  "ok": true,
+  "data": {
+   "realizedPnlUsd": "0",
+   "realizedPnlPercent": "0",
+   "buyTxVolume": "0.09991386533430672",
+   "buyAmount": "0.000433424270258874",
+   "buyTxCount": "1",
+   "buyAvgPrice": "230.522082",
+   "sellTxVolume": "0",
+   "sellAmount": "0",
+   "sellTxCount": "0",
+   "sellAvgPrice": "0",
+   "tokenBalanceAmount": "0.000433424270258874",
+   "tokenBalanceUsd": "0.100025418346630180106483825406068706",
+   "maxBalanceAmount": "0.00195531142204541",
+   "holdingDuration": "66890",
+   "isPnlSupported": true
+  },
+  "latencyMs": 594
+ },
+ "portfolio_overview_agentic": {
+  "ok": true,
+  "data": {
+   "realizedPnlUsd": "0",
+   "realizedPnlPercent": "0",
+   "dailyPnl": [
+    {
+     "date": "2026-10-10",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-09",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-08",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-07",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-06",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-05",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-04",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-03",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-02",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-10-01",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-30",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-29",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-28",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-27",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-26",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-25",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-24",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-23",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-22",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-21",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-20",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-19",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-18",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-17",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-16",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-15",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-14",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-13",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-12",
+     "pnlUsd": "0"
+    },
+    {
+     "date": "2026-09-11",
+     "pnlUsd": "0"
+    }
+   ],
+   "winRate": "0",
+   "tokenCountByPnlPercent": {
+    "over500Percent": "0",
+    "from200To500Percent": "0",
+    "from50To200Percent": "0",
+    "zeroTo50Percent": "0",
+    "zeroToMinus50Percent": "0",
+    "overMinus50Percent": "0"
+   },
+   "buyTxCount": "0",
+   "sellTxCount": "0",
+   "totalTokenCount": "0",
+   "buyTxVolume": "0",
+   "sellTxVolume": "0",
+   "avgBuyValueUsd": "0",
+   "top3PnlTokenSumUsd": "0",
+   "top3PnlTokenPercent": "0",
+   "topPnlTokenList": []
+  },
+  "latencyMs": 873
+ },
+ "broadcast_contract_call": {
+  "ok": true,
+  "data": {
+   "txHash": "0x46cab928241fdac1d671084a6077f669688e0f4db10c22f770430f4b2b2f8169",
+   "orderId": "a6b8245206e5cdfc5fb0980b9aed1d7399688206"
+  },
+  "latencyMs": 690
+ },
+ "broadcast_receipt": {
+  "status": "success",
+  "block": "126897491",
+  "gasUsed": "26222"
+ }
+}

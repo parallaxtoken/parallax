@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-10-09T23:52:52.832Z",
+  "interval": "1h",
+  "unitNote": "closes divided by CURRENT on-chain unit",
+  "pair": "Ondo vs bStocks USD/share, bps (Ondo over bStocks)",
+  "sessions": {
+    "WEEKEND": {
+      "n": 530,
+      "medianAbsBps": 13.581657232847322,
+      "p90AbsBps": 40.752557106884524
+    },
+    "OVERNIGHT": {
+      "n": 733,
+      "medianAbsBps": 8.021947061707113,
+      "p90AbsBps": 41.69509788118919
+    },
+    "PRE": {
+      "n": 556,
+      "medianAbsBps": 7.517414914923748,
+      "p90AbsBps": 41.271928031743066
+    },
+    "REGULAR": {
+      "n": 561,
+      "medianAbsBps": 7.653124060923444,
+      "p90AbsBps": 37.11092196360566
+    },
+    "POST": {
+      "n": 352,
+      "medianAbsBps": 7.3839760145544275,
+      "p90AbsBps": 36.37413116557742
+    }
+  }
+}

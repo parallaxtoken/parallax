@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-10-10T04:43:29.839Z",
+  "tickers": 10,
+  "wrappers": 30,
+  "byIssuer": {
+    "BSTOCKS": 10,
+    "ONDO": 10,
+    "XSTOCKS": 10
+  },
+  "api": {
+    "rowsAllTypes": 1938,
+    "bscType1": 458,
+    "bscType2": 130,
+    "bscType3": 91,
+    "typeParamEmpty": [
+      0,
+      6,
+      7,
+      8,
+      10
+    ],
+    "nonOndoTypesReturnRows": [
+      2,
+      3,
+      4,
+      5,
+      9
+    ]
+  },
+  "units": {
+    "nonOneByIssuer": {
+      "BSTOCKS": 7,
+      "ONDO": 7,
+      "XSTOCKS": 7
+    },
+    "maxUnitPct": 0.9473072784042857,
+    "maxOndoVsBstocksBps": 77.29909611116969,
+    "pausedAny": false,
+    "block": "126724521"
+  },
+  "apiVsChain": {
+    "bstocksMatch": 10,
+    "bstocksTotal": 10,
+    "ondoMatch": 10,
+    "ondoTotal": 10,
+    "xstocksMismatch": 5,
+    "xstocksTotal": 10,
+    "xstocksMaxMultDeviationBps": 13.135456035722193
+  },
+  "reference": {
+    "bstocksWithoutStockPrice": 10,
+    "bstocksTotal": 10,
+    "ondoDerivedVsStockMaxAbsPct": 0.012559693628677593,
+    "xstocksApiPriceVsStockMaxAbsPct": 20.079982574096235,
+    "xstocksApiPriceOver5pct": 3
+  },
+  "liquidity": {
+    "BSTOCKS": {
+      "medianDeepestPoolUsd": 739184.4701,
+      "under10k": 0,
+      "n": 10
+    },
+    "ONDO": {
+      "medianDeepestPoolUsd": 6507.8188,
+      "under10k": 7,
+      "n": 10
+    },
+    "XSTOCKS": {
+      "medianDeepestPoolUsd": 391.5461,
+      "under10k": 10,
+      "n": 10
+    }
+  },
+  "perShareRouting": {
+    "tickersWithTwoRoutes": 8,
+    "naiveDiffersFromTare": 0,
+    "detail": [
+      {
+        "ticker": "GOOGL",
+        "naive": "GOOGLB",
+        "tare": "GOOGLB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "AMZN",
+        "naive": "AMZNB",
+        "tare": "AMZNB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "AAPL",
+        "naive": "AAPLB",
+        "tare": "AAPLB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "COIN",
+        "naive": "COINB",
+        "tare": "COINB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "MSFT",
+        "naive": "MSFTB",
+        "tare": "MSFTB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "NVDA",
+        "naive": "NVDAB",
+        "tare": "NVDAB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "SPY",
+        "naive": "SPYB",
+        "tare": "SPYB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      },
+      {
+        "ticker": "TSLA",
+        "naive": "TSLAB",
+        "tare": "TSLAB",
+        "differs": false,
+        "tareOverNaiveBps": 0
+      }
+    ],
+    "maxTareOverNaiveBps": 0
+  },
+  "contractReceive": {
+    "tested": 24,
+    "allOk": 24,
+    "noHolder": 6,
+    "anyRevert": 0
+  },
+  "brokenQuotes": {
+    "cycles": 225,
+    "observations": 6750,
+    "flaggedTotal": 2475,
+    "bySessionIssuer": {
+      "POST": {
+        "XSTOCKS": {
+          "observations": 100,
+          "apiBroken": 30,
+          "chainBroken": 40,
+          "noReference": 0,
+          "noRoute": 60
+        },
+        "ONDO": {
+          "observations": 100,
+          "apiBroken": 0,
+          "chainBroken": 40,
+          "noReference": 0,
+          "noRoute": 40
+        },
+        "BSTOCKS": {
+          "observations": 100,
+          "apiBroken": 0,
+          "chainBroken": 0,
+          "noReference": 0,
+          "noRoute": 0
+        }
+      },
+      "WEEKEND": {
+        "ONDO": {
+          "observations": 2150,
+          "apiBroken": 0,
+          "chainBroken": 860,
+          "noReference": 0,
+          "noRoute": 860
+        },
+        "BSTOCKS": {
+          "observations": 2150,
+          "apiBroken": 0,
+          "chainBroken": 0,
+          "noReference": 0,
+          "noRoute": 0
+        },
+        "XSTOCKS": {
+          "observations": 2150,
+          "apiBroken": 645,
+          "chainBroken": 860,
+          "noReference": 0,
+          "noRoute": 1290
+        }
+      }
+    }
+  },
+  "latency": {
+    "egress": "RO",
+    "p50": {
+      "marketStatus": 217,
+      "dynamicV2": 222,
+      "list": 288
+    },
+    "p95": {
+      "marketStatus": 879,
+      "dynamicV2": 858,
+      "list": 557
+    }
+  },
+  "backfill": {
+    "WEEKEND": {
+      "n": 530,
+      "medianAbsBps": 13.581657232847322,
+      "p90AbsBps": 40.752557106884524
+    },
+    "OVERNIGHT": {
+      "n": 733,
+      "medianAbsBps": 8.021947061707113,
+      "p90AbsBps": 41.69509788118919
+    },
+    "PRE": {
+      "n": 556,
+      "medianAbsBps": 7.517414914923748,
+      "p90AbsBps": 41.271928031743066
+    },
+    "REGULAR": {
+      "n": 561,
+      "medianAbsBps": 7.653124060923444,
+      "p90AbsBps": 37.11092196360566
+    },
+    "POST": {
+      "n": 352,
+      "medianAbsBps": 7.3839760145544275,
+      "p90AbsBps": 36.37413116557742
+    }
+  },
+  "history": {
+    "days": 30,
+    "windows": 692,
+    "failedWindows": 0,
+    "ondoEvents": 301,
+    "ondoByKind": {
+      "RoleGranted": 1,
+      "SValueUpdated": 106,
+      "AssetAdded": 188,
+      "RoleRevoked": 1,
+      "CorporateActionScheduled": 2,
+      "DriftParametersUpdated": 1,
+      "CorporateActionApplied": 2
+    },
+    "ondoAssetsWithSValueUpdate": 97,
+    "bstockMultiplierEvents": 0,
+    "xstocksUpdateArrays": {
+      "GOOGL": 2,
+      "AMZN": 1,
+      "AAPL": 2,
+      "COIN": 1,
+      "QQQ": 2,
+      "META": 2,
+      "MSFT": 2,
+      "NVDA": 2,
+      "SPY": 1,
+      "TSLA": 1
+    }
+  },
+  "weekHours": {
+    "OVERNIGHT": 40,
+    "PRE": 30,
+    "REGULAR": 30,
+    "POST": 20,
+    "WEEKEND": 48
+  },
+  "weekendSharePct": 28.57142857142857,
+  "regularSharePct": 17.857142857142858
+}

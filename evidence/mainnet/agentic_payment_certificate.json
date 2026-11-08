@@ -1,0 +1,12 @@
+{
+  "sha256": "a71a162f189de4ebc63f155b05328ee67ef9335d746c70e8d6b762f14d2ceab2",
+  "settlement": {
+    "success": true,
+    "transaction": "0x4440411834a87b42a0631fb7354845bbb59b629f8e245e4be9ebd700db196081",
+    "payer": "0x6914c90ea6f8760910971af6e2fce8850659542a",
+    "network": "eip155:56",
+    "amount": "10000000000000000"
+  },
+  "ticker": "NVDA",
+  "block": "126897260"
+}

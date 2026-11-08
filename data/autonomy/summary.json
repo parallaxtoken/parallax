@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-10-10T06:40:41.104Z",
+  "book": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+  "ordersPlaced": 3,
+  "placedAt": "2026-10-10T02:35:40.254Z",
+  "ownerNonceAfterPlacing": 5,
+  "fills": 3,
+  "ownerOfflineFills": 3,
+  "fillsWhileNewYorkClosed": 3,
+  "firstFillSecondsAfterPlacing": 45,
+  "ownerNonceAtFillBlocks": {
+    "126748883": 5,
+    "126748900": 5,
+    "126748918": 5
+  },
+  "refusalsLogged": 1,
+  "refusalPassesLogged": 475,
+  "onChainRefusal": {
+    "orderId": "3",
+    "revertTx": "0x85047053106d890df200de6eba5f82e1064941d8228543234b29287f8b0483a9",
+    "impossibleFloorWad": "433948473450986",
+    "quotedSharesWad": "216974236725493"
+  },
+  "cancel": {
+    "orderId": "4",
+    "tx": "0x54e1ddb7e97cc38e8016524e8dcbf70bc5402787fee41cacf495da1da4cdf4c0"
+  },
+  "fillDetails": [
+    {
+      "orderId": "0",
+      "txHash": "0x25201e459dff174275b60c9c14d91af1029915d8952f4481e5a8752f67a25e5f",
+      "block": "126748883",
+      "at": "2026-10-10T02:36:25.000Z",
+      "nySession": "CLOSED_WEEKEND",
+      "sentBy": "0x440860e5dfb8e7d3e1903a0ec3d3589e2fc5cf73",
+      "sentByKeeper": true,
+      "ownerSigned": false,
+      "simSource": "ETH_CALL",
+      "simResult": "PASS",
+      "venue": "PANCAKE_V3_500",
+      "sharesWad": "867897568324268"
+    },
+    {
+      "orderId": "1",
+      "txHash": "0x0cce0c2d122133e43ca7e760c08d233449bbc514a480c309ff1f516089384cf7",
+      "block": "126748900",
+      "at": "2026-10-10T02:36:33.000Z",
+      "nySession": "CLOSED_WEEKEND",
+      "sentBy": "0x440860e5dfb8e7d3e1903a0ec3d3589e2fc5cf73",
+      "sentByKeeper": true,
+      "ownerSigned": false,
+      "simSource": "ETH_CALL",
+      "simResult": "PASS",
+      "venue": "PANCAKE_V3_500",
+      "sharesWad": "867897018490592"
+    },
+    {
+      "orderId": "2",
+      "txHash": "0xff0e3df3178c9d2ba38fbd3e78958e182dd70d87a470174a57a01feaaa15e073",
+      "block": "126748918",
+      "at": "2026-10-10T02:36:41.000Z",
+      "nySession": "CLOSED_WEEKEND",
+      "sentBy": "0x440860e5dfb8e7d3e1903a0ec3d3589e2fc5cf73",
+      "sentByKeeper": true,
+      "ownerSigned": false,
+      "simSource": "ETH_CALL",
+      "simResult": "PASS",
+      "venue": "PANCAKE_V3_500",
+      "sharesWad": "429649746140884"
+    }
+  ],
+  "refusals": [
+    {
+      "t": "2026-10-10T02:42:45.049Z",
+      "orderId": "3",
+      "reasons": [
+        "PREMIUM_ABOVE_LIMIT"
+      ]
+    }
+  ],
+  "replayArm": {
+    "guard": "off-chain guard, 3 percent over reference, requires a live owner signature for every fill",
+    "fillsThatRequiredAnOwnerSignature": 3,
+    "quotesReplayed": 8200,
+    "quotesOver3Pct": 3266,
+    "quotesOver5Pct": 3266,
+    "note": "Both approaches stop the same broken quotes above their thresholds. The on-chain floor additionally holds while nobody is watching; the replay does not show it catches more bad quotes."
+  }
+}

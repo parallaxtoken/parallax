@@ -1,0 +1,10 @@
+{
+  "refusalOrderId": "3",
+  "refusalPlaceTx": "0x1590c258b3cd4a5da1483ba4b4b95cfa556e552bb0f8bf00b5d14edd34a9afb1",
+  "manualFillRevertTx": "0x85047053106d890df200de6eba5f82e1064941d8228543234b29287f8b0483a9",
+  "impossibleFloorWad": "433948473450986",
+  "quotedSharesWad": "216974236725493",
+  "cancelOrderId": "4",
+  "cancelPlaceTx": "0x771ed708c35ac3ec687c36cf5d6895f88a0df3cab96984ecf00b82b5938838f0",
+  "cancelTx": "0x54e1ddb7e97cc38e8016524e8dcbf70bc5402787fee41cacf495da1da4cdf4c0"
+}

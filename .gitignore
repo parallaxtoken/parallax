@@ -1,0 +1,27 @@
+/reference/
+.env
+.env.*
+!.env.example
+*.key
+node_modules/
+out/
+cache/
+.vercel
+.next/
+dist/
+broadcast/
+*.log
+data/discovery/raw/cg_list.json
+data/discovery/raw/ondo_addresses.html
+data/discovery/raw/llms*.txt
+data/discovery/raw/t.*
+data/discovery/recorder.log
+logs/
+
+.vercel
+.vercel
+
+# demo video (kept in reference/, never committed)
+video/out/
+*.mp4
+*.wav

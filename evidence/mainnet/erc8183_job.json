@@ -1,0 +1,13 @@
+{
+  "jobId": "56961",
+  "status": "SUBMITTED",
+  "client": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+  "provider": "0x440860e5Dfb8E7d3E1903A0eC3d3589e2fC5CF73",
+  "budget": "0",
+  "disputeWindowSec": "604800",
+  "expiredAt": "1792211058",
+  "manifestHash": "0x2ded7e54931a907cd88aba40b2f3ee17aa32c4b8be477f632b14c680ec593460",
+  "certificateSha256": "93707865d0651b59dcedc1517f0369b1eb6dc5222f0d8d6b50f1d1b2da4700c9",
+  "note": "Settlement is permissionless after the dispute window; not claimed as completed until that transaction exists.",
+  "at": "2026-10-10T03:24:30.599Z"
+}

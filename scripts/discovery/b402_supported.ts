@@ -1,0 +1,12 @@
+import { createHmac } from 'node:crypto';
+import { writeFileSync } from 'node:fs';
+import '../mainnet/lib';
+const key = process.env.BINANCE_WEB3_API_KEY!, secret = process.env.BINANCE_WEB3_SECRET_KEY!;
+const path = '/build/api/v2/b402/supported';
+const raw = JSON.stringify({ body: {} });
+const ts = new Date().toISOString();
+const sig = createHmac('sha256', secret).update(ts + 'POST' + path + raw, 'utf8').digest('base64');
+const r = await fetch(`https://web3.binance.com${path}`, { method: 'POST', headers: { 'content-type': 'application/json', 'X-OC-APIKEY': key, 'X-OC-TIMESTAMP': ts, 'X-OC-SIGN': sig }, body: raw });
+const j = await r.json();
+console.log(r.status, JSON.stringify(j).slice(0, 900));
+writeFileSync('data/discovery/b402_supported.json', JSON.stringify({ at: ts, http: r.status, response: j }, null, 2));

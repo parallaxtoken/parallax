@@ -1,0 +1,45 @@
+No files changed, compilation skipped
+
+Ran 16 tests for test/ParallaxBook.t.sol:ParallaxBookTest
+[PASS] testFuzz_noResidual(uint256) (runs: 256, μ: 471522, ~: 483100)
+[PASS] test_buyFills() (gas: 980906)
+[PASS] test_corporatePauseBStock() (gas: 249633)
+[PASS] test_corporatePauseOndoOracle() (gas: 217977)
+[PASS] test_expiredAndCancel() (gas: 408090)
+[PASS] test_instantOnlyExcluded() (gas: 239821)
+[PASS] test_keeperCannotPassUnit() (gas: 939378)
+[PASS] test_maliciousRecipient() (gas: 478051)
+[PASS] test_replay() (gas: 466091)
+[PASS] test_sandwich() (gas: 1721119)
+[PASS] test_sellFills() (gas: 781739)
+[PASS] test_sellFloorRevert() (gas: 788192)
+[PASS] test_shareFloorRevert() (gas: 929101)
+[PASS] test_unitJump() (gas: 1633210)
+[PASS] test_unlistedRouter() (gas: 203852)
+[PASS] test_wrongWrapper() (gas: 200806)
+Suite result: ok. 16 passed; 0 failed; 0 skipped; finished in 26.42s (67.42s CPU time)
+
+Ran 1 test for test/Invariants.t.sol:ParallaxInvariants
+[PASS]
+ParallaxInvariants invariants:
+[PASS] invariant_bookHoldsNothing
+[PASS] invariant_floorAndExactlyOnce
+ ParallaxInvariants invariants (runs: 8, calls: 96, reverts: 0)
+
+╭----------+----------+-------+---------+----------╮
+| Contract | Selector | Calls | Reverts | Discards |
++==================================================+
+| Handler  | cancel   | 34    | 0       | 0        |
+|----------+----------+-------+---------+----------|
+| Handler  | fill     | 31    | 0       | 0        |
+|----------+----------+-------+---------+----------|
+| Handler  | place    | 31    | 0       | 0        |
+╰----------+----------+-------+---------+----------╯
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 37.28s (32.11s CPU time)
+
+Ran 1 test for test/Deploy.t.sol:DeployTest
+[PASS] test_deployRegistersEveryWrapperAndReadsUnits() (gas: 15031503)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 134.23s (134.22s CPU time)
+
+Ran 3 test suites in 134.31s (197.93s CPU time): 18 tests passed, 0 failed, 0 skipped (18 total tests)

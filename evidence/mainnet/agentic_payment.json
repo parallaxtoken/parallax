@@ -1,0 +1,36 @@
+{
+  "wallet": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+  "resource": "https://parallax-stellar.vercel.app/api/certificate?ticker=NVDA",
+  "cli": "baw 1.10.0: x402-payment preview, then sign --selectedIndex 1, replayed with PAYMENT-SIGNATURE",
+  "accepts": [
+    "Tether USD permit2-exact (0x55d3...7955, 0.01)",
+    "United Stables eip3009 (0xcE24...6666, 0.01)"
+  ],
+  "optionSigned": {
+    "index": 1,
+    "method": "permit2",
+    "token": "USDT",
+    "amount": "0.01",
+    "status": "READY_TO_SIGN",
+    "needApproveFirst": true
+  },
+  "optionNotSigned": {
+    "index": 2,
+    "method": "eip3009",
+    "token": "U",
+    "status": "ACTION_REQUIRED",
+    "reasons": [
+      "INSUFFICIENT_BALANCE"
+    ]
+  },
+  "permit2ApproveTx": "0xad527fc2785b4fb847f6f94a5d8a239bef99ce9ecf67c13efc78597ba696a229",
+  "settlementTx": "0x4440411834a87b42a0631fb7354845bbb59b629f8e245e4be9ebd700db196081",
+  "payer": "0x6914c90ea6f8760910971af6e2fce8850659542a",
+  "amountWei": "10000000000000000",
+  "certificateSha256": "a71a162f189de4ebc63f155b05328ee67ef9335d746c70e8d6b762f14d2ceab2",
+  "files": [
+    "evidence/mainnet/agentic_payment_preview.json",
+    "evidence/mainnet/agentic_payment_sign.json",
+    "evidence/mainnet/agentic_payment_certificate.json"
+  ]
+}

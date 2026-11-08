@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-10-10T02:47:19.394Z",
+  "taker": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+  "results": [
+    {
+      "issuer": "BSTOCKS",
+      "symbol": "NVDAB",
+      "route": {
+        "vendor": "LiquidMesh",
+        "mode": "SWAP",
+        "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+        "toTokenAmount": "43365546860856961"
+      },
+      "swap": {
+        "to": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+        "from": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+        "dataBytes": 1636,
+        "selector": "0xad43f73d",
+        "value": "0",
+        "gas": "250000",
+        "containsBookInCalldata": false
+      },
+      "simulation": {
+        "status": "FAILED",
+        "raw": {
+          "status": "FAILED",
+          "failReason": "execution reverted: BEP20: transfer amount exceeds balance",
+          "balanceChanges": [],
+          "allowanceChanges": []
+        }
+      }
+    },
+    {
+      "issuer": "ONDO",
+      "symbol": "NVDAon",
+      "route": {
+        "vendor": "LiquidMesh",
+        "mode": "SWAP",
+        "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+        "toTokenAmount": "43366144332828367"
+      },
+      "swap": {
+        "to": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+        "from": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+        "dataBytes": 2468,
+        "selector": "0xad43f73d",
+        "value": "0",
+        "gas": "250000",
+        "containsBookInCalldata": false
+      },
+      "simulation": {
+        "status": "FAILED",
+        "raw": {
+          "status": "FAILED",
+          "failReason": "execution reverted: BEP20: transfer amount exceeds balance",
+          "balanceChanges": [],
+          "allowanceChanges": []
+        }
+      }
+    }
+  ]
+}

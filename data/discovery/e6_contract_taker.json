@@ -1,0 +1,1808 @@
+{
+  "generatedAt": "2026-10-10T02:48:30.873Z",
+  "taker": "0xa440a217B64c01659A1c911b795371C3C2e1A13e",
+  "sizes": [
+    10,
+    50,
+    250,
+    1000
+  ],
+  "rows": [
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 1812,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "28395909049638611",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "4fc2fab43ca84ec18d6bee1e985fb859"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 461,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "141977435227629949",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "fcf0254545cc47819dd0b45da2bf5612"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 457,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "709843926764422425",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "15607a93b3b74d94a97ba3bf0c3ac7d7"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 480,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2838773518280198561",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "92745259e34f4f2d8f898282fb19297d"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 926,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "28135339502568066",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "fed760b36c5b4953921efc6cf1d72726"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 916,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "140558898585540900",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "2b8eb8387909456ebe1d10f0dba5ca93"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 680,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "699864254307158372",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "40249b25e5fc4e419c1c46f648994ab0"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 695,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2592073464392825478",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "14be6e5d41884412a9ab889ab3af2193"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 683,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 694,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 702,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "GOOGL",
+      "symbol": "GOOGLx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 691,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 466,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "38042169391383072",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "a3479d2e57414233b49dc4e2afbae3da"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 465,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "190210825147003576",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "8ec2d29391d2486999f00e13b3746d27"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 719,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "951054016794171119",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "19f8bb1ecddc458eb82f06f59c2a751f"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 462,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "3804216319309710048",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "20df1f5db71d4329be64590432d805ef"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 731,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "37817295698190110",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "4c16a43744ee496abff15c030df257ce"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 695,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "186846899347799733",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "ee2ddce56beb45afab7ce9ead87cd858"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 689,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "881222061827613773",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "00809fe66aaf41d2b5d73f6f4c07563f"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 684,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2906461020832305380",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "c07da5bfd2fe42e6b0262619e46d1c68"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 671,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 696,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 674,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AMZN",
+      "symbol": "AMZNx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 672,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 465,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "29695952184935577",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "3a7a877246274ab1924ae702c904029e"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 466,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "148479372114028857",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "85a97fb6f542436ab3f0cedceecb9acf"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 468,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "742387140456638103",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "3d62f32e5a9d463faebef59d091066a3"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 473,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2969402769191094893",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "acb8653fb66c4ebb9b1ae9d41d0992a8"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 691,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "29615369182665267",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "9c816e97514c45c4b06ab55a963a040d"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 682,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "148076845913326343",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "d3f8c820bda54b5e9dee4f6bf47aba85"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 684,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "740384229566631746",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "59247b2da1aa4501b05e71d745fcb0be"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 676,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2961243130746457730",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "324160382c0a43268fa46e284f675a3b"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 695,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 678,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 676,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "AAPL",
+      "symbol": "AAPLx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 679,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 455,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "55370132256059340",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "3a5269c002194186a4a44bb269ade91e"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 449,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "276304058262491603",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "157cda941d70492d8f7d4d734f3d411c"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 471,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1381520302017392065",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "d0eef505f0a74bbc977ef96186b823cd"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 473,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "5526077378300815468",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "74e8c9317f6b47a89c85940e56bf1468"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 670,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 673,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 698,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 692,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 686,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 674,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 677,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "COIN",
+      "symbol": "COINx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 671,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 691,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "13189084278198871",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "0bb14b856e404bcdb7a721a9d05dfec9"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 684,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "65801115406380745",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "0c0f77aaf2e54357b52038c555ce9b58"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 671,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "325115118000286899",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "e52faa7aaa6d4c219e77fc85ee2ca071"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 678,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "636791972364113148",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "6bd3bc1f8f154b51ad5fcb3b46f3046f"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 453,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "13268071899464394",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "08959c979e8e43f9b06f9acfeb1f682f"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 456,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "66340359497321970",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "59216ed263294236ac1a24ff9d1a721c"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 479,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "331701797486609852",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "8e87652465634f4e83e6d1361b63fb9b"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 510,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1326756308716123000",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "7b4c7013213247278827b6a28377cd2b"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 680,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 706,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 683,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "QQQ",
+      "symbol": "QQQx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 676,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 470,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "13905195906199960",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "2c8c3b2e5b0d4cda8a16ccdc87d82e78"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 457,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "69527103005217819",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "3cfa00e8c95b462896b98b07925d22d4"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 460,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "347635511100251815",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "bcdf366a1eea44aba0dbcd90626d3866"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 481,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1390507795443724159",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "bc2a697326c54e6cba4049b9e63f66c7"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 672,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 682,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 693,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 671,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 693,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 696,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 681,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "META",
+      "symbol": "METAx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 684,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 728,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "18634246999282712",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "ec096a742ca0420b8d975af2e861e510"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 449,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "93171245049069817",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "c3f0f534d51145c59224a6dcf15400f0"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 465,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "465856275430295119",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "2e2a07c5334c411bac9a3b809907d76c"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 510,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1863425094127985737",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "a7fcfd833eae4871af83a8fa484f7d1b"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 700,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "6316257152",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "f9d8037056a34a4485ab75c617ed5943"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 688,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "31583998342",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "bc2aa3bff5d349ebbe2ba585eb549083"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 706,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "157920219099",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "c751b70e39564855b59855eaa6587aba"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 678,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "631671083115",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "ac49e5b7903945fd9a1f5534714da2a0"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 700,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 686,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 697,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "MSFT",
+      "symbol": "MSFTx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 713,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 468,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "43365546860856961",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "7886f64972794bcca34c24be27841493"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 464,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "216827734304284808",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "fbf523d337e9477ab8e47f72ecdcb21b"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 465,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1084030273913913025",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "e25ab652c7d64e6b8d0eaa5341a9f031"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 496,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "4335689831994735161",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "0c1bae59d1694ba2a29f3349dcaa323d"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 707,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "43361808378433639",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "7cbc7eda063641c7ab98b488bca1e235"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 674,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "216807113023336301",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "e02439b557ac4be6b46d12c3591749d7"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 711,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1083987345972471453",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "eacf1f23ff7f4663b6696ef98eb55746"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 735,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "4334810601502782129",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "7cc2698d2c324204a3e808103bb54af9"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 674,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 686,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 689,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "NVDA",
+      "symbol": "NVDAx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 689,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 701,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 684,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 677,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 694,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 697,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "12289891734966867",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "7cad80615d604e17beb1974a7b2f97e5"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 715,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "32966640672143684",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "fbbb218db350481a910f86938ff6d965"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 692,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "42864322658705769",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "82edc796c91641b29523189614b382a5"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 688,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "45252214952904819",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "d64575860b6e4279bb613b790e2101f2"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 455,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "12805076328327553",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "a0c81662f82b4a10a837d2eeced78980"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 462,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "64024809097553947",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "f4baa86683a84f25ad1cf8c12bc91d58"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 467,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "320119453960995187",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "257dfe7dc64148838d2bcf424885827a"
+        }
+      ]
+    },
+    {
+      "ticker": "SPY",
+      "symbol": "SPYB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 480,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "1280401601525440397",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "4050ea31546c46aabf10939b1f35801e"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAB",
+      "issuer": "BSTOCKS",
+      "usd": 10,
+      "ok": true,
+      "latencyMs": 448,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "26088246830394928",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "4f55d0283ccb4d089fff8cd82f02d50f"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAB",
+      "issuer": "BSTOCKS",
+      "usd": 50,
+      "ok": true,
+      "latencyMs": 450,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "130433595613108647",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "cccd78c9fe894bbcbba2c6ea3f382856"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAB",
+      "issuer": "BSTOCKS",
+      "usd": 250,
+      "ok": true,
+      "latencyMs": 452,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "652054259318350742",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "d153971055ae48e583423998e7a4742e"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAB",
+      "issuer": "BSTOCKS",
+      "usd": 1000,
+      "ok": true,
+      "latencyMs": 471,
+      "routes": [
+        {
+          "vendor": "LiquidMesh",
+          "mode": "SWAP",
+          "toTokenAmount": "2607895898966005848",
+          "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+          "quoteId": "fece4d88d30e412faef7e43522f9ee7b"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAon",
+      "issuer": "ONDO",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 684,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAon",
+      "issuer": "ONDO",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 670,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAon",
+      "issuer": "ONDO",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 694,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAon",
+      "issuer": "ONDO",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 684,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAx",
+      "issuer": "XSTOCKS",
+      "usd": 10,
+      "ok": false,
+      "latencyMs": 675,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAx",
+      "issuer": "XSTOCKS",
+      "usd": 50,
+      "ok": false,
+      "latencyMs": 690,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAx",
+      "issuer": "XSTOCKS",
+      "usd": 250,
+      "ok": false,
+      "latencyMs": 683,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    },
+    {
+      "ticker": "TSLA",
+      "symbol": "TSLAx",
+      "issuer": "XSTOCKS",
+      "usd": 1000,
+      "ok": false,
+      "latencyMs": 672,
+      "routes": [],
+      "degraded": "BODY_ERROR: 40374 Insufficient liquidity for a quote. Please decrease the transaction amount or try again later."
+    }
+  ],
+  "sampleRawByIssuer": {
+    "BSTOCKS": {
+      "quoteId": "4fc2fab43ca84ec18d6bee1e985fb859",
+      "vendorName": "LiquidMesh",
+      "executionMode": "SWAP",
+      "binanceChainId": "56",
+      "fromTokenAmount": "10000000000000000000",
+      "toTokenAmount": "28395909049638611",
+      "tradeFee": "0.01018162",
+      "estimateGasFee": "250000",
+      "priceImpactPercent": "0.0003967140",
+      "router": "0x55d398326f99059ff775485246999027b3197955--0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "fromToken": {
+        "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+        "tokenSymbol": "USDT",
+        "tokenUnitPrice": "0.9990431589510116",
+        "decimal": "18",
+        "isHoneyPot": false,
+        "taxRate": "0"
+      },
+      "toToken": {
+        "tokenContractAddress": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+        "tokenSymbol": "GOOGLB",
+        "tokenUnitPrice": "351.93816680672887914447000000",
+        "decimal": "18",
+        "isHoneyPot": false,
+        "taxRate": "0"
+      },
+      "dexRouterList": [
+        {
+          "dexProtocol": {
+            "dexName": "Uniswap V4",
+            "percent": "100.00"
+          },
+          "fromToken": {
+            "tokenContractAddress": "0x55d398326f99059ff775485246999027b3197955",
+            "tokenSymbol": "USDT",
+            "tokenUnitPrice": "0.9990431589510116",
+            "decimal": "18",
+            "isHoneyPot": false,
+            "taxRate": "0"
+          },
+          "fromTokenIndex": "0",
+          "toToken": {
+            "tokenContractAddress": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+            "tokenSymbol": "GOOGLB",
+            "tokenUnitPrice": "351.93816680672887914447000000",
+            "decimal": "18",
+            "isHoneyPot": false,
+            "taxRate": "0"
+          },
+          "toTokenIndex": "1"
+        }
+      ],
+      "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "isBest": true,
+      "feeAmount": null,
+      "feeToken": null,
+      "actualSwapAmount": null
+    },
+    "ONDO": {
+      "quoteId": "fed760b36c5b4953921efc6cf1d72726",
+      "vendorName": "LiquidMesh",
+      "executionMode": "SWAP",
+      "binanceChainId": "56",
+      "fromTokenAmount": "10000000000000000000",
+      "toTokenAmount": "28135339502568066",
+      "tradeFee": "0.01109785",
+      "estimateGasFee": "250000",
+      "priceImpactPercent": "0.0102074236",
+      "router": "0x55d398326f99059ff775485246999027b3197955--0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+      "fromToken": {
+        "tokenContractAddress": "0x55d398326f99059fF775485246999027B3197955",
+        "tokenSymbol": "USDT",
+        "tokenUnitPrice": "0.9990431589510116",
+        "decimal": "18",
+        "isHoneyPot": false,
+        "taxRate": "0"
+      },
+      "toToken": {
+        "tokenContractAddress": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+        "tokenSymbol": "GOOGLon",
+        "tokenUnitPrice": "352.810899658412135335",
+        "decimal": "18",
+        "isHoneyPot": false,
+        "taxRate": "0"
+      },
+      "dexRouterList": [
+        {
+          "dexProtocol": {
+            "dexName": "Pancakeswap V3",
+            "percent": "100.00"
+          },
+          "fromToken": {
+            "tokenContractAddress": "0x55d398326f99059ff775485246999027b3197955",
+            "tokenSymbol": "USDT",
+            "tokenUnitPrice": "0.9990431589510116",
+            "decimal": "18",
+            "isHoneyPot": false,
+            "taxRate": "0"
+          },
+          "fromTokenIndex": "0",
+          "toToken": {
+            "tokenContractAddress": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+            "tokenSymbol": "GOOGLon",
+            "tokenUnitPrice": "352.810899658412135335",
+            "decimal": "18",
+            "isHoneyPot": false,
+            "taxRate": "0"
+          },
+          "toTokenIndex": "1"
+        }
+      ],
+      "approveTarget": "0xB44446b0c8E56988c34f7Ff73Ae904982b5FdDA5",
+      "isBest": true,
+      "feeAmount": null,
+      "feeToken": null,
+      "actualSwapAmount": null
+    }
+  }
+}

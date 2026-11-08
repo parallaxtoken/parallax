@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-10-10T21:28:54.607Z",
+  "maxBps": 200,
+  "tickers": 10,
+  "agree": 9,
+  "disagree": 0,
+  "unavailable": 1,
+  "rows": [
+    {
+      "ticker": "GOOGL",
+      "issuerFeedUsd": "351.60",
+      "independentSource": null,
+      "independentUsd": null,
+      "independentAsOf": null,
+      "independentDailyClose": null,
+      "failure": "yahoo: The operation was aborted due to timeout; nasdaq: The operation was aborted due to timeout",
+      "verdict": "UNAVAILABLE",
+      "disagreeBps": null,
+      "floorSource": "NONE"
+    },
+    {
+      "ticker": "AMZN",
+      "issuerFeedUsd": "262.31",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "262.52",
+      "independentAsOf": "2026-10-09T23:59:45.000Z",
+      "independentDailyClose": "262.429993",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 8,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "AAPL",
+      "issuerFeedUsd": "336.40",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "336.08",
+      "independentAsOf": "2026-10-09T23:59:31.000Z",
+      "independentDailyClose": "336.640015",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 9,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "COIN",
+      "issuerFeedUsd": "181.09",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "180.00",
+      "independentAsOf": "2026-10-09T23:59:51.000Z",
+      "independentDailyClose": "179.389999",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 60,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "QQQ",
+      "issuerFeedUsd": "751.83",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "751.38",
+      "independentAsOf": "2026-10-09T23:59:34.000Z",
+      "independentDailyClose": "751.270020",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 6,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "META",
+      "issuerFeedUsd": "718.77",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "717.60",
+      "independentAsOf": "2026-10-09T23:57:46.000Z",
+      "independentDailyClose": "718.669983",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 16,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "MSFT",
+      "issuerFeedUsd": "534.44",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "535.00",
+      "independentAsOf": "2026-10-09T23:59:56.000Z",
+      "independentDailyClose": "535.070007",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 10,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "NVDA",
+      "issuerFeedUsd": "230.74",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "229.33",
+      "independentAsOf": "2026-10-09T23:59:46.000Z",
+      "independentDailyClose": "229.279999",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 61,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "SPY",
+      "issuerFeedUsd": "779.88",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "778.57",
+      "independentAsOf": "2026-10-09T23:59:58.000Z",
+      "independentDailyClose": "778.570007",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 16,
+      "floorSource": "ISSUER_FEED"
+    },
+    {
+      "ticker": "TSLA",
+      "issuerFeedUsd": "382.76",
+      "independentSource": "YAHOO_CHART",
+      "independentUsd": "382.71",
+      "independentAsOf": "2026-10-09T23:59:48.000Z",
+      "independentDailyClose": "382.700012",
+      "failure": null,
+      "verdict": "AGREE",
+      "disagreeBps": 1,
+      "floorSource": "ISSUER_FEED"
+    }
+  ]
+}

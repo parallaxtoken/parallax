@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "data": {
+    "paymentId": "843ea314-7f9b-4922-bad7-da8d6ac85eef",
+    "options": [
+      {
+        "index": 1,
+        "status": "READY_TO_SIGN",
+        "reasons": [],
+        "scheme": "exact",
+        "assetTransferMethod": "permit2",
+        "binanceChainId": "56",
+        "tokenAddress": "0x55d398326f99059fF775485246999027B3197955",
+        "tokenSymbol": "USDT",
+        "amount": "0.010000000000000000",
+        "amountUsd": "0.0099903337616226080000000000000000",
+        "payTo": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+        "userWalletAddress": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+        "currentBalance": "0.900000000000000000",
+        "currentBalanceUsd": "0.8991300385460347200000000000000000",
+        "needApproveFirst": true,
+        "originalAccept": {
+          "scheme": "exact",
+          "network": "eip155:56",
+          "asset": "0x55d398326f99059fF775485246999027B3197955",
+          "amount": "10000000000000000",
+          "payTo": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+          "maxTimeoutSeconds": 300,
+          "extra": {
+            "assetTransferMethod": "permit2-exact",
+            "name": "Tether USD",
+            "version": "1",
+            "spenderAddress": "0x3038f7ac3b4D1a3fe886BdCB5cD01e9f6BDd8633",
+            "signerAddress": "0x34F7a661160780Ce1346e6D7B96D2bE244590899"
+          }
+        }
+      },
+      {
+        "index": 2,
+        "status": "ACTION_REQUIRED",
+        "reasons": [
+          "INSUFFICIENT_BALANCE"
+        ],
+        "scheme": "exact",
+        "assetTransferMethod": "eip3009",
+        "binanceChainId": "56",
+        "tokenAddress": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+        "tokenSymbol": "U",
+        "amount": "0.010000000000000000",
+        "amountUsd": "0.0099919028611685760000000000000000",
+        "payTo": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+        "userWalletAddress": "0x6914c90EA6F8760910971af6e2fCE8850659542A",
+        "currentBalance": "0.000000000000000000",
+        "currentBalanceUsd": "0.0000000000000000000000000000000000",
+        "needApproveFirst": false,
+        "originalAccept": {
+          "scheme": "exact",
+          "network": "eip155:56",
+          "asset": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+          "amount": "10000000000000000",
+          "payTo": "0x39397C8dFE8608b2C1Ce84504a798d6b39363Ed5",
+          "maxTimeoutSeconds": 300,
+          "extra": {
+            "assetTransferMethod": "eip3009",
+            "name": "United Stables",
+            "version": "1",
+            "signerAddress": "0x34F7a661160780Ce1346e6D7B96D2bE244590899"
+          }
+        }
+      }
+    ]
+  }
+}

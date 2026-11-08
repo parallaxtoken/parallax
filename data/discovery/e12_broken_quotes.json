@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-10T03:34:54.060Z",
+  "threshold": 0.05,
+  "cycles": 225,
+  "observations": 6750,
+  "referenceNote": "last non-null Ondo stockInfo.price per ticker",
+  "bySessionIssuer": {
+    "POST": {
+      "XSTOCKS": {
+        "observations": 100,
+        "apiBroken": 30,
+        "chainBroken": 40,
+        "noReference": 0,
+        "noRoute": 60
+      },
+      "ONDO": {
+        "observations": 100,
+        "apiBroken": 0,
+        "chainBroken": 40,
+        "noReference": 0,
+        "noRoute": 40
+      },
+      "BSTOCKS": {
+        "observations": 100,
+        "apiBroken": 0,
+        "chainBroken": 0,
+        "noReference": 0,
+        "noRoute": 0
+      }
+    },
+    "WEEKEND": {
+      "ONDO": {
+        "observations": 2150,
+        "apiBroken": 0,
+        "chainBroken": 860,
+        "noReference": 0,
+        "noRoute": 860
+      },
+      "BSTOCKS": {
+        "observations": 2150,
+        "apiBroken": 0,
+        "chainBroken": 0,
+        "noReference": 0,
+        "noRoute": 0
+      },
+      "XSTOCKS": {
+        "observations": 2150,
+        "apiBroken": 645,
+        "chainBroken": 860,
+        "noReference": 0,
+        "noRoute": 1290
+      }
+    }
+  }
+}

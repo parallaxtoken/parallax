@@ -1,0 +1,2309 @@
+{
+  "generatedAt": "2026-10-10T02:11:04.966Z",
+  "chainId": 56,
+  "usdt": "0x55d398326f99059fF775485246999027B3197955",
+  "ondoOracle": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+  "wrappers": [
+    {
+      "ticker": "GOOGL",
+      "tickerId": "0x5480d4740314d9a5fa65eac6dab758c3c95d65be45311b45c3551575d760e7d8",
+      "issuer": "BSTOCKS",
+      "symbol": "GOOGLB",
+      "token": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x89001d846f7ca36ee089f73eefc25657e1798144",
+        "reserveUsd": 1720039.8125
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+        "https://www.coingecko.com/en/coins/alphabet-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "alphabet-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "GOOGL",
+      "tickerId": "0x5480d4740314d9a5fa65eac6dab758c3c95d65be45311b45c3551575d760e7d8",
+      "issuer": "ONDO",
+      "symbol": "GOOGLon",
+      "token": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x6731932c92e882cc22a10749324c70a7d6adde60",
+        "reserveUsd": 2668.2473
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+        "https://www.coingecko.com/en/coins/alphabet-class-a-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "alphabet-class-a-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "GOOGL",
+      "tickerId": "0x5480d4740314d9a5fa65eac6dab758c3c95d65be45311b45c3551575d760e7d8",
+      "issuer": "XSTOCKS",
+      "symbol": "GOOGLx",
+      "token": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+        "https://www.coingecko.com/en/coins/alphabet-xstock"
+      ],
+      "coingeckoId": "alphabet-xstock"
+    },
+    {
+      "ticker": "AMZN",
+      "tickerId": "0x6c755094f1cdd95e2e4170549dc12e7555151536b32029b8d94678134de2ef0d",
+      "issuer": "BSTOCKS",
+      "symbol": "AMZNB",
+      "token": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x7530beb7bde5843f668cf31b996fa1f748c9b6b1",
+        "reserveUsd": 214591.0275
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+        "https://www.coingecko.com/en/coins/amazon-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "amazon-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "AMZN",
+      "tickerId": "0x6c755094f1cdd95e2e4170549dc12e7555151536b32029b8d94678134de2ef0d",
+      "issuer": "ONDO",
+      "symbol": "AMZNon",
+      "token": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0x8617ba6deee616694601adc41ab7ffe0e610907e",
+        "reserveUsd": 6507.8188
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+        "https://www.coingecko.com/en/coins/amazon-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "amazon-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "AMZN",
+      "tickerId": "0x6c755094f1cdd95e2e4170549dc12e7555151536b32029b8d94678134de2ef0d",
+      "issuer": "XSTOCKS",
+      "symbol": "AMZNx",
+      "token": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x28a73f5bd589fea90ba0d24117bf91d648be3ef2",
+        "reserveUsd": 21.7553
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x3557ba345b01efa20a1bddc61f573bfd87195081",
+        "https://www.coingecko.com/en/coins/amazon-xstock"
+      ],
+      "coingeckoId": "amazon-xstock"
+    },
+    {
+      "ticker": "AAPL",
+      "tickerId": "0x3a54a9a690616fbc26cfc409bf11f89d51f1d57a4ab2791fb86026cee74ed2f3",
+      "issuer": "BSTOCKS",
+      "symbol": "AAPLB",
+      "token": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0xd4ae7dd719ec71594f13d0e3b17e65e9085f1ca1",
+        "reserveUsd": 739184.4701
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+        "https://www.coingecko.com/en/coins/apple-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "apple-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "AAPL",
+      "tickerId": "0x3a54a9a690616fbc26cfc409bf11f89d51f1d57a4ab2791fb86026cee74ed2f3",
+      "issuer": "ONDO",
+      "symbol": "AAPLon",
+      "token": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0x061306df92c6a0538154a40f060573be638b1066",
+        "reserveUsd": 8117.7031
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+        "https://www.coingecko.com/en/coins/apple-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "apple-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "AAPL",
+      "tickerId": "0x3a54a9a690616fbc26cfc409bf11f89d51f1d57a4ab2791fb86026cee74ed2f3",
+      "issuer": "XSTOCKS",
+      "symbol": "AAPLx",
+      "token": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0xee109cc926ce216b3d2490f674300c15131b12b5",
+        "reserveUsd": 0.01277838754
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+        "https://www.coingecko.com/en/coins/apple-xstock"
+      ],
+      "coingeckoId": "apple-xstock"
+    },
+    {
+      "ticker": "COIN",
+      "tickerId": "0x94d28cfe178ae84130ce540d5dadabd088b301735941a744d121b4926572ece0",
+      "issuer": "BSTOCKS",
+      "symbol": "COINB",
+      "token": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0xb0ad37c8dda42083cbf3c6a3c93169d469b615fa",
+        "reserveUsd": 5244.7977
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+        "https://www.coingecko.com/en/coins/coinbase-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "coinbase-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "COIN",
+      "tickerId": "0x94d28cfe178ae84130ce540d5dadabd088b301735941a744d121b4926572ece0",
+      "issuer": "ONDO",
+      "symbol": "COINon",
+      "token": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x7de5f4a237315a7c8fd31974bb6603c1d965e9ac",
+        "reserveUsd": 4554.3005
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+        "https://www.coingecko.com/en/coins/coinbase-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "coinbase-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "COIN",
+      "tickerId": "0x94d28cfe178ae84130ce540d5dadabd088b301735941a744d121b4926572ece0",
+      "issuer": "XSTOCKS",
+      "symbol": "COINx",
+      "token": "0x364f210f430ec2448fc68a49203040f6124096f0",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x364f210f430ec2448fc68a49203040f6124096f0",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x364f210f430ec2448fc68a49203040f6124096f0",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0xe3b0a50277347ea1197bea7c879b2af2e6679ae6",
+        "reserveUsd": 27.368196242
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x364f210f430ec2448fc68a49203040f6124096f0",
+        "https://www.coingecko.com/en/coins/coinbase-xstock"
+      ],
+      "coingeckoId": "coinbase-xstock"
+    },
+    {
+      "ticker": "QQQ",
+      "tickerId": "0x3192e549b876a689e8727f4a2e0d4fa13b8456aa0a01f6008ad18fd992e3b532",
+      "issuer": "ONDO",
+      "symbol": "QQQon",
+      "token": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0xb266316379648892a442c0ec1a87c9117408f3e7",
+        "reserveUsd": 5408.1901
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x0cde6936d305d5b34667fc46425e852efd73559a",
+        "https://www.coingecko.com/en/coins/invesco-qqq-etf-ondo-tokenized-etf"
+      ],
+      "coingeckoId": "invesco-qqq-etf-ondo-tokenized-etf"
+    },
+    {
+      "ticker": "QQQ",
+      "tickerId": "0x3192e549b876a689e8727f4a2e0d4fa13b8456aa0a01f6008ad18fd992e3b532",
+      "issuer": "BSTOCKS",
+      "symbol": "QQQB",
+      "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0x595d70977dff3c841df0bc0138ce89f80c7c9423",
+        "reserveUsd": 1308190.8451
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x205812cdbed920aff76c6580abd681a46d11efc7",
+        "https://www.coingecko.com/en/coins/invesco-qqq-trust-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "invesco-qqq-trust-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "QQQ",
+      "tickerId": "0x3192e549b876a689e8727f4a2e0d4fa13b8456aa0a01f6008ad18fd992e3b532",
+      "issuer": "XSTOCKS",
+      "symbol": "QQQx",
+      "token": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xa753a7395cae905cd615da0b82a53e0560f250af",
+        "https://www.coingecko.com/en/coins/nasdaq-xstock"
+      ],
+      "coingeckoId": "nasdaq-xstock"
+    },
+    {
+      "ticker": "META",
+      "tickerId": "0x0057355892fab25ddc63a7482ec1696d6ada670339b1ae464da8f6b958ddbee8",
+      "issuer": "BSTOCKS",
+      "symbol": "METAB",
+      "token": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0xc2151a561e928d16576d75ea88544543ac63d80b",
+        "reserveUsd": 214523.8863
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+        "https://www.coingecko.com/en/coins/meta-platforms-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "meta-platforms-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "META",
+      "tickerId": "0x0057355892fab25ddc63a7482ec1696d6ada670339b1ae464da8f6b958ddbee8",
+      "issuer": "ONDO",
+      "symbol": "METAon",
+      "token": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+        "https://www.coingecko.com/en/coins/meta-platforms-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "meta-platforms-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "META",
+      "tickerId": "0x0057355892fab25ddc63a7482ec1696d6ada670339b1ae464da8f6b958ddbee8",
+      "issuer": "XSTOCKS",
+      "symbol": "METAx",
+      "token": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x96702be57cd9777f835117a809c7124fe4ec989a",
+        "https://www.coingecko.com/en/coins/meta-xstock"
+      ],
+      "coingeckoId": "meta-xstock"
+    },
+    {
+      "ticker": "MSFT",
+      "tickerId": "0xb2023082f01404dd0ce6937cab03c4f5d6db9ba8b1fac7e7ee6d8d6d899f4e3d",
+      "issuer": "BSTOCKS",
+      "symbol": "MSFTB",
+      "token": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x5018b018ceb7645c927c5cf246786f89ebcbe7ea",
+        "reserveUsd": 245637.2673
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+        "https://www.coingecko.com/en/coins/microsoft-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "microsoft-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "MSFT",
+      "tickerId": "0xb2023082f01404dd0ce6937cab03c4f5d6db9ba8b1fac7e7ee6d8d6d899f4e3d",
+      "issuer": "ONDO",
+      "symbol": "MSFTon",
+      "token": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0x08c2ce6e530ca82e26ad2fe73226d2171b9e6f8e",
+        "reserveUsd": 1.5586
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+        "https://www.coingecko.com/en/coins/microsoft-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "microsoft-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "MSFT",
+      "tickerId": "0xb2023082f01404dd0ce6937cab03c4f5d6db9ba8b1fac7e7ee6d8d6d899f4e3d",
+      "issuer": "XSTOCKS",
+      "symbol": "MSFTx",
+      "token": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+        "https://www.coingecko.com/en/coins/microsoft-xstock"
+      ],
+      "coingeckoId": "microsoft-xstock"
+    },
+    {
+      "ticker": "NVDA",
+      "tickerId": "0xe108948b9667048232851f26a1427d3a908b22da622562906ca50ea536c2ecfb",
+      "issuer": "BSTOCKS",
+      "symbol": "NVDAB",
+      "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x8fb4243b553ac29ba088acf00b9b7da24bd6690c",
+        "reserveUsd": 6220572.0013
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+        "https://www.coingecko.com/en/coins/nvidia-bstocks"
+      ],
+      "coingeckoId": "nvidia-bstocks"
+    },
+    {
+      "ticker": "NVDA",
+      "tickerId": "0xe108948b9667048232851f26a1427d3a908b22da622562906ca50ea536c2ecfb",
+      "issuer": "ONDO",
+      "symbol": "NVDAon",
+      "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0xb90bdbfbdffd4af5a636b5805539edeafb969308",
+        "reserveUsd": 9681.6975
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0xa9ee28c80f960b889dfbd1902055218cba016f75",
+        "https://www.coingecko.com/en/coins/nvidia-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "nvidia-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "NVDA",
+      "tickerId": "0xe108948b9667048232851f26a1427d3a908b22da622562906ca50ea536c2ecfb",
+      "issuer": "XSTOCKS",
+      "symbol": "NVDAx",
+      "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": null,
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+        "https://www.coingecko.com/en/coins/nvidia-xstock"
+      ],
+      "coingeckoId": "nvidia-xstock"
+    },
+    {
+      "ticker": "SPY",
+      "tickerId": "0xcea23e8f56b5ac447ac08d57e0808e35f468a65f29bb659b3d48934481e7c67a",
+      "issuer": "XSTOCKS",
+      "symbol": "SPYx",
+      "token": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0xa42b9bcf5d40348d04c8ef139e213bc4923f8e8c",
+        "reserveUsd": 0.00246957091768033
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+        "https://www.coingecko.com/en/coins/sp500-xstock"
+      ],
+      "coingeckoId": "sp500-xstock"
+    },
+    {
+      "ticker": "SPY",
+      "tickerId": "0xcea23e8f56b5ac447ac08d57e0808e35f468a65f29bb659b3d48934481e7c67a",
+      "issuer": "ONDO",
+      "symbol": "SPYon",
+      "token": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0xee665ff36218cd913eb2d2551cf2108ecfcb71eb",
+        "reserveUsd": 4131.296042522
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x6a708ead771238919d85930b5a0f10454e1c331a",
+        "https://www.coingecko.com/en/coins/spdr-s-p-500-etf-ondo-tokenized-etf"
+      ],
+      "coingeckoId": "spdr-s-p-500-etf-ondo-tokenized-etf"
+    },
+    {
+      "ticker": "SPY",
+      "tickerId": "0xcea23e8f56b5ac447ac08d57e0808e35f468a65f29bb659b3d48934481e7c67a",
+      "issuer": "BSTOCKS",
+      "symbol": "SPYB",
+      "token": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x7aa6d92fc369a8c1edc631a3aac44efb0808ddbf",
+        "reserveUsd": 236760.0278
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+        "https://www.coingecko.com/en/coins/spy-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "spy-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "TSLA",
+      "tickerId": "0x0a8f1f385fed9c77a2e0daa363ccc865e971bdbe4458bb570cc0acb068d7c0f2",
+      "issuer": "BSTOCKS",
+      "symbol": "TSLAB",
+      "token": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9fc74Be63f3589485B2423984a7a0557e0CF700a",
+        "selector": "0x5e76ad54",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0xb0f5e5400e8f0f7c242f2b7740c004f020579c41",
+        "reserveUsd": 1912927.2507
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x5b1910eaad6450e50f816082aa078c41f10c292f",
+        "https://www.coingecko.com/en/coins/tesla-bstocks-tokenized-stock"
+      ],
+      "coingeckoId": "tesla-bstocks-tokenized-stock"
+    },
+    {
+      "ticker": "TSLA",
+      "tickerId": "0x0a8f1f385fed9c77a2e0daa363ccc865e971bdbe4458bb570cc0acb068d7c0f2",
+      "issuer": "ONDO",
+      "symbol": "TSLAon",
+      "token": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap_v2",
+        "pool": "0x85faa585f5f7f9922589be0a0bf1cfb2404ebdc0",
+        "reserveUsd": 3732.993
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+        "https://www.coingecko.com/en/coins/tesla-ondo-tokenized-stock"
+      ],
+      "coingeckoId": "tesla-ondo-tokenized-stock"
+    },
+    {
+      "ticker": "TSLA",
+      "tickerId": "0x0a8f1f385fed9c77a2e0daa363ccc865e971bdbe4458bb570cc0acb068d7c0f2",
+      "issuer": "XSTOCKS",
+      "symbol": "TSLAx",
+      "token": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "decimals": 18,
+      "core": true,
+      "unit": {
+        "kind": "BALANCE_IS_SHARES",
+        "source": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+        "selector": "0x2b63c300",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+        "selector": "0xb187bd26",
+        "perToken": false
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap-v3-bsc",
+        "pool": "0x5e12d6edb2b7d5330e474ea2d2694a3b3e35d492",
+        "reserveUsd": 24.0849
+      },
+      "contractReceive": "OK",
+      "provenance": [
+        "https://bscscan.com/token/0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+        "https://www.coingecko.com/en/coins/tesla-xstock"
+      ],
+      "coingeckoId": "tesla-xstock"
+    },
+    {
+      "ticker": "AGPU",
+      "tickerId": "0x147fa01afeb3321c3f89281b528b7f10b037d6a1cbc76cc169fd4718b4cbb0b3",
+      "issuer": "BSTOCKS",
+      "symbol": "AGPUB",
+      "token": "0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 1863.8144
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "AMC",
+      "tickerId": "0x7c4662036a1eafa272834ed70ba34f7ab1004aec1d38dab5cea07f801acdd188",
+      "issuer": "BSTOCKS",
+      "symbol": "AMCB",
+      "token": "0x96e7d606e229448ef817a7f35fd7394c3e15d00c",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x96e7d606e229448ef817a7f35fd7394c3e15d00c",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x96e7d606e229448ef817a7f35fd7394c3e15d00c",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 26087.0737
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x96e7d606e229448ef817a7f35fd7394c3e15d00c",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "BABA",
+      "tickerId": "0xa541ca5e1d4bc650e1b23bd9a88eba9e4ffb5925b024c148e6eb748ab5d9d018",
+      "issuer": "BSTOCKS",
+      "symbol": "BABAB",
+      "token": "0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 896624.3998
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "BILI",
+      "tickerId": "0x3bd0f92fc8476b122af9a2f5c361bcfcd213e6f20ccc6ae2d6a3c9a7e20c61ad",
+      "issuer": "ONDO",
+      "symbol": "BILIon",
+      "token": "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 20281.7149
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "BMNR",
+      "tickerId": "0x58281999532b5dfd8f88127b72cb9f2248f5784af99413a1d150850da3387f08",
+      "issuer": "BSTOCKS",
+      "symbol": "BMNRB",
+      "token": "0x3548da95a9effe481e8604664d75e95821e557f5",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x3548da95a9effe481e8604664d75e95821e557f5",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x3548da95a9effe481e8604664d75e95821e557f5",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 32613.6659
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x3548da95a9effe481e8604664d75e95821e557f5",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "BNC",
+      "tickerId": "0x2a4161abff7b056457562a2e82dd6f5878159be2537b90f19dd1458b40524d3f",
+      "issuer": "BSTOCKS",
+      "symbol": "BNCB",
+      "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 172348.3552
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "CRCL",
+      "tickerId": "0x92e0d4302bfe4f52763e6677c92016018a1b7dde3c9b2e015849e403a0f84d06",
+      "issuer": "BSTOCKS",
+      "symbol": "CRCLB",
+      "token": "0x80f3d493ebce97e343c53d29a137942416b4ffc0",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x80f3d493ebce97e343c53d29a137942416b4ffc0",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x80f3d493ebce97e343c53d29a137942416b4ffc0",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 344852.1831
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x80f3d493ebce97e343c53d29a137942416b4ffc0",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "DIS",
+      "tickerId": "0x1ee390a6c6917753ffa9bb0bd83cc313e935b13e3daaba67038caf0e47f928f1",
+      "issuer": "ONDO",
+      "symbol": "DISon",
+      "token": "0xeee9eee593cb8f7946260b4066cba7907f40acfa",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xeee9eee593cb8f7946260b4066cba7907f40acfa",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 56660.4054
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xeee9eee593cb8f7946260b4066cba7907f40acfa",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "DJT",
+      "tickerId": "0x7a2bafbe525aa8e33bdfb5394c1f0ac4a9a90c926b40424fbfcf87246f57673b",
+      "issuer": "BSTOCKS",
+      "symbol": "DJTB",
+      "token": "0xf2ec508422174ee564de98187db9359d318afb6b",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xf2ec508422174ee564de98187db9359d318afb6b",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xf2ec508422174ee564de98187db9359d318afb6b",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 15882.9809
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xf2ec508422174ee564de98187db9359d318afb6b",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "FLNC",
+      "tickerId": "0x195019e166c66cdb17cae9e5f53e6972fbff42cac1af32f270d28901c0c68a7d",
+      "issuer": "BSTOCKS",
+      "symbol": "FLNCB",
+      "token": "0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 28321.0989
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "FXI",
+      "tickerId": "0xc22846cbbf32debfc6c01c87ae8ddc595697cbaf758637f51f512c4864a60e8a",
+      "issuer": "ONDO",
+      "symbol": "FXIon",
+      "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 294566.8685
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "GME",
+      "tickerId": "0x0f59a726a436b3abb5354e2f7551e9ade3b3080927bd2de7f0f30cd071c0edc3",
+      "issuer": "BSTOCKS",
+      "symbol": "GMEB",
+      "token": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 114346.2618
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "GME",
+      "tickerId": "0x0f59a726a436b3abb5354e2f7551e9ade3b3080927bd2de7f0f30cd071c0edc3",
+      "issuer": "ONDO",
+      "symbol": "GMEon",
+      "token": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 43267.3756
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "HIMS",
+      "tickerId": "0xaf027dbab4e7108052bea9f0007bbe6a61cb52adb794600fdf7ac1b1ee0de877",
+      "issuer": "BSTOCKS",
+      "symbol": "HIMSB",
+      "token": "0xee6f4bcc88c2c8583d5a65c7d0c877b464100711",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xee6f4bcc88c2c8583d5a65c7d0c877b464100711",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xee6f4bcc88c2c8583d5a65c7d0c877b464100711",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 49054.1334
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xee6f4bcc88c2c8583d5a65c7d0c877b464100711",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "HOOD",
+      "tickerId": "0xc72abec7fca8547f25e527c4454eab0d797478d853b33356c73f6bfa685a411c",
+      "issuer": "BSTOCKS",
+      "symbol": "HOODB",
+      "token": "0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 68992.7285
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "IBM",
+      "tickerId": "0xb8b3d89851b704ac5fb884f9c7d83bf6fe01a69903d1f881b83c0679eb6a27c6",
+      "issuer": "BSTOCKS",
+      "symbol": "IBMB",
+      "token": "0xfa273b076feb8c0fb34e554ae341082323d016a3",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xfa273b076feb8c0fb34e554ae341082323d016a3",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xfa273b076feb8c0fb34e554ae341082323d016a3",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 1927.3253
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xfa273b076feb8c0fb34e554ae341082323d016a3",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "INTC",
+      "tickerId": "0x26679c568ac4e46a6321cf887bb7b568b774c87625d9c2ae109700480979178e",
+      "issuer": "BSTOCKS",
+      "symbol": "INTCB",
+      "token": "0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 87404.8294
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "INTC",
+      "tickerId": "0x26679c568ac4e46a6321cf887bb7b568b774c87625d9c2ae109700480979178e",
+      "issuer": "ONDO",
+      "symbol": "INTCon",
+      "token": "0xa528caaa2f96090e379d43f90834c75df54d6e74",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xa528caaa2f96090e379d43f90834c75df54d6e74",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 237.6213
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xa528caaa2f96090e379d43f90834c75df54d6e74",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "LLY",
+      "tickerId": "0xf1c46707f9214c3e00efbe96d496f50c9eda1eb958aa69081944137be414642d",
+      "issuer": "BSTOCKS",
+      "symbol": "LLYB",
+      "token": "0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 15803.069
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x5407912f1aa4b9e05cbe6abeb9721547a643ec6b",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "MCD",
+      "tickerId": "0xb4e390f51b7b166e80aa2bd4ca6a7efd11d137edbc0329a84b39d48eaf9f084c",
+      "issuer": "ONDO",
+      "symbol": "MCDon",
+      "token": "0x995add4ba29a628a57930a8a185c62ca044ec090",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x995add4ba29a628a57930a8a185c62ca044ec090",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 979.2891
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x995add4ba29a628a57930a8a185c62ca044ec090",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "MRNA",
+      "tickerId": "0x9fc47d1a2ef4d19b94c3c0071d3142a4abde28c527cd6803879140d38e4a71f6",
+      "issuer": "BSTOCKS",
+      "symbol": "MRNAB",
+      "token": "0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 66993.8624
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "MRVL",
+      "tickerId": "0x249a0eb1b1bd14fdd44b60956118a96f1d70c41996e5f2212868b08e11cf6589",
+      "issuer": "BSTOCKS",
+      "symbol": "MRVLB",
+      "token": "0x16cd4fe7e8880ecc3ba222795229e20489fc2c76",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x16cd4fe7e8880ecc3ba222795229e20489fc2c76",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x16cd4fe7e8880ecc3ba222795229e20489fc2c76",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 10594.3601
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x16cd4fe7e8880ecc3ba222795229e20489fc2c76",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "MSTR",
+      "tickerId": "0x8a9fd7973cb64723f710362ec447c5b26671acab2c59f4ca6199493c167630ae",
+      "issuer": "BSTOCKS",
+      "symbol": "MSTRB",
+      "token": "0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 185060.5604
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "MU",
+      "tickerId": "0xea7fe6b99436d1c2bfcea4d32606073356300ec2d4ecf9c08796366c2b86e157",
+      "issuer": "BSTOCKS",
+      "symbol": "MUB",
+      "token": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 9253.6275
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "NFLX",
+      "tickerId": "0x93524d81bcb78d74875943b3fa28cf64070d7736f6e1b17397c7ff43eaf73cfb",
+      "issuer": "BSTOCKS",
+      "symbol": "NFLXB",
+      "token": "0xd6829ea836b6fa224d099d40e54b31262f874631",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xd6829ea836b6fa224d099d40e54b31262f874631",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xd6829ea836b6fa224d099d40e54b31262f874631",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 79856.2096
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xd6829ea836b6fa224d099d40e54b31262f874631",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "NKE",
+      "tickerId": "0x2f5392f74255488d3767093591637617b00287dff5734532ee82e2e61ae65285",
+      "issuer": "ONDO",
+      "symbol": "NKEon",
+      "token": "0x04b5e199f2ec84f78b111035f57b16bee448db6f",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x04b5e199f2ec84f78b111035f57b16bee448db6f",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 305.4498
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x04b5e199f2ec84f78b111035f57b16bee448db6f",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "NOK",
+      "tickerId": "0x8fb505ed75d9d38475c70bac2c3ea62d45335173a71b2e4936bd9f05bf0ddfea",
+      "issuer": "BSTOCKS",
+      "symbol": "NOKB",
+      "token": "0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 34870.9869
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x7c4d7a180d737dd5a70d8065a90e6746a69c37ea",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "ORCL",
+      "tickerId": "0xbec51dfef3ff63e8da4da359f414ff81dec7ca0495d7848bbfb6617131fe37cc",
+      "issuer": "BSTOCKS",
+      "symbol": "ORCLB",
+      "token": "0x4684d9887fc1c71cba7bab8e88835cec217eb598",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x4684d9887fc1c71cba7bab8e88835cec217eb598",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x4684d9887fc1c71cba7bab8e88835cec217eb598",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 1715.3367
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x4684d9887fc1c71cba7bab8e88835cec217eb598",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "PDD",
+      "tickerId": "0x5769cd1b2403528c7d8570e8f18850bfce1c1821b6bd1f3a005c5244f5678091",
+      "issuer": "BSTOCKS",
+      "symbol": "PDDB",
+      "token": "0x95b0409679b55c31772daa2fb4bee7b125b77521",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x95b0409679b55c31772daa2fb4bee7b125b77521",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x95b0409679b55c31772daa2fb4bee7b125b77521",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 116556.7321
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x95b0409679b55c31772daa2fb4bee7b125b77521",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "PDD",
+      "tickerId": "0x5769cd1b2403528c7d8570e8f18850bfce1c1821b6bd1f3a005c5244f5678091",
+      "issuer": "ONDO",
+      "symbol": "PDDon",
+      "token": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 35125.7325
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "RDDT",
+      "tickerId": "0xf21c88793b2a4ccd2ae0352903d7885c5ab70b6b828a046549dfe9e1eb0321e4",
+      "issuer": "BSTOCKS",
+      "symbol": "RDDTB",
+      "token": "0x41622a9125a22767df8c1dc79fc17299bac4bd0b",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x41622a9125a22767df8c1dc79fc17299bac4bd0b",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x41622a9125a22767df8c1dc79fc17299bac4bd0b",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 3167.5103
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x41622a9125a22767df8c1dc79fc17299bac4bd0b",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SGOV",
+      "tickerId": "0xe2bec2184e678f43131913f484386985d219e8c286220ed69b7838d6d3067258",
+      "issuer": "ONDO",
+      "symbol": "SGOVon",
+      "token": "0xc008c5f579ec1450f20099c39f587547e27c7523",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xc008c5f579ec1450f20099c39f587547e27c7523",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 34047.2853
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xc008c5f579ec1450f20099c39f587547e27c7523",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SKHY",
+      "tickerId": "0x0c915fa3e13d91de3fa63ff9529d351d96746c4d6386d4b9f4f4aacc301b5292",
+      "issuer": "BSTOCKS",
+      "symbol": "SKHYB",
+      "token": "0xca750ef65f295bbecd685abf54e82caf297bdb61",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xca750ef65f295bbecd685abf54e82caf297bdb61",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xca750ef65f295bbecd685abf54e82caf297bdb61",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 303586.0692
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xca750ef65f295bbecd685abf54e82caf297bdb61",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SLV",
+      "tickerId": "0xd7d6203ca11291c3cf69cc62195c0df787763ab768ca3645e98525c1bb827201",
+      "issuer": "ONDO",
+      "symbol": "SLVon",
+      "token": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 3215.9489
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SNDK",
+      "tickerId": "0x65448db112bae0530d0a664c8eec66023ff591999e2d782fa1175750374321a1",
+      "issuer": "BSTOCKS",
+      "symbol": "SNDKB",
+      "token": "0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 60213.2155
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SNXX",
+      "tickerId": "0x08c5f5e3d49afafc5ad02afea9f77690c1a72099c28a993be7d2cc6f3f51d4ac",
+      "issuer": "BSTOCKS",
+      "symbol": "SNXXB",
+      "token": "0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 2132.9232
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SOXL",
+      "tickerId": "0x5727119b386af6c952e82099ad988e0a9fea2a4a6aa3cf93378eed53137c44c7",
+      "issuer": "BSTOCKS",
+      "symbol": "SOXLB",
+      "token": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 37046.326
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SOXS",
+      "tickerId": "0xc4b12d3c71d4d39cef300f65be239ca391b61bc4cd23db85e3200b3601351d2f",
+      "issuer": "BSTOCKS",
+      "symbol": "SOXSB",
+      "token": "0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 43538.8185
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SPCX",
+      "tickerId": "0x958d557610fc21e4bcebb25b1833d83d923ade2e9f912e780ced2144c5abc42c",
+      "issuer": "BSTOCKS",
+      "symbol": "SPCXB",
+      "token": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 945399.18
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SQQQ",
+      "tickerId": "0x9dd8d579fa137091d9c3a45c4148dd2c03e5842541a88bd5051e9b729c1bd892",
+      "issuer": "BSTOCKS",
+      "symbol": "SQQQB",
+      "token": "0x25e572b466d152604d9e6c3e53b432b978825342",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x25e572b466d152604d9e6c3e53b432b978825342",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x25e572b466d152604d9e6c3e53b432b978825342",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 31952.3159
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x25e572b466d152604d9e6c3e53b432b978825342",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "SQQQ",
+      "tickerId": "0x9dd8d579fa137091d9c3a45c4148dd2c03e5842541a88bd5051e9b729c1bd892",
+      "issuer": "ONDO",
+      "symbol": "SQQQon",
+      "token": "0x17515b68378d86c38f394c666e79907da05dcba9",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x17515b68378d86c38f394c666e79907da05dcba9",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 22100.7392
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x17515b68378d86c38f394c666e79907da05dcba9",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "TLT",
+      "tickerId": "0x4abd434857e07567d49487ccf888348e55d5cfc15498c09a9dbcba2820e40ee4",
+      "issuer": "ONDO",
+      "symbol": "TLTon",
+      "token": "0xf69e40069ac227c11459e3f4e8a446b3401616b6",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "ORACLE_SVALUE",
+        "source": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e",
+        "selector": "0x0a562827",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xf69e40069ac227c11459e3f4e8a446b3401616b6",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 27525.4131
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xf69e40069ac227c11459e3f4e8a446b3401616b6",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "TQQQ",
+      "tickerId": "0x1bdfe4ad7f9efaba2e395684c6c4fe73ac7be1c3b8a61b119278753602508166",
+      "issuer": "BSTOCKS",
+      "symbol": "TQQQB",
+      "token": "0x462b5f13b7c7748279358962925c5de83bb9e598",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0x462b5f13b7c7748279358962925c5de83bb9e598",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0x462b5f13b7c7748279358962925c5de83bb9e598",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 36416.2055
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "TSM",
+      "tickerId": "0xee509b4e59c8d7de8ed6660c76c408e83e159cbb8cb3c6535aeb4ade1553f671",
+      "issuer": "BSTOCKS",
+      "symbol": "TSMB",
+      "token": "0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 78182.2075
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    },
+    {
+      "ticker": "WEN",
+      "tickerId": "0x1cdca529768ff8ce049653a3eb0b61ca3cc6c7b63fdf501f9ac45b761fa3647d",
+      "issuer": "BSTOCKS",
+      "symbol": "WENB",
+      "token": "0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+      "decimals": 18,
+      "core": false,
+      "unit": {
+        "kind": "TOKEN_UI_MULTIPLIER",
+        "source": "0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+        "selector": "0xa60bf13d",
+        "decimals": 18
+      },
+      "pause": {
+        "source": "0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+        "selector": "0x5e76ad54",
+        "perToken": true
+      },
+      "deepestDirectPool": {
+        "dex": "pancakeswap",
+        "pool": "0x0000000000000000000000000000000000000000",
+        "reserveUsd": 40583.3176
+      },
+      "contractReceive": "UNKNOWN",
+      "provenance": [
+        "https://bscscan.com/token/0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+        "https://www.binance.com/bapi/defi/v1/public/wallet-direct/buw/wallet/market/token/rwa/stock/detail/list/ai"
+      ],
+      "coingeckoId": null
+    }
+  ]
+}

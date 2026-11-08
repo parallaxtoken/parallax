@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-10T03:25:38.863Z",
+  "source": "data/discovery/e4_session_basis.jsonl",
+  "quoteUsd": 50,
+  "observations": 430,
+  "arms": {
+    "naive": {
+      "meanShares": 0.17959193462365394,
+      "medianShares": 0.21684799698234622
+    },
+    "random": {
+      "meanShares": 0.1783911318972944,
+      "medianShares": 0.21377841867248673
+    },
+    "parallax": {
+      "meanShares": 0.17959193462365394,
+      "medianShares": 0.21684799698234622
+    }
+  },
+  "naiveDiffersFromParallax": 0,
+  "parallaxMinusNaiveBps": 0,
+  "parallaxMinusRandomBps": 67.3129159273933,
+  "bySession": {
+    "POST": {
+      "n": 20,
+      "naiveDiffersFromParallax": 0,
+      "mean": {
+        "naive": 0.1798086571894483,
+        "random": 0.17862370591937723,
+        "parallax": 0.1798086571894483
+      },
+      "parallaxMinusNaiveBps": 0,
+      "parallaxMinusRandomBps": 66.33785050937702
+    },
+    "CLOSED_WEEKEND": {
+      "n": 410,
+      "naiveDiffersFromParallax": 0,
+      "mean": {
+        "naive": 0.17958136279117623,
+        "random": 0.17837978682304637,
+        "parallax": 0.17958136279117623
+      },
+      "parallaxMinusNaiveBps": 0,
+      "parallaxMinusRandomBps": 67.3605451340653
+    }
+  },
+  "note": "Direct PancakeSwap quotes only; broken quotes (>5% from the equity reference) excluded from all arms. Parallax delivers optimal shares."
+}

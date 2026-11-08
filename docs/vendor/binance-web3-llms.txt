@@ -1,0 +1,144 @@
+# Binance Web3 API
+
+> Documentation files for Large Language Models
+
+## Documentation
+
+- [Service-Restricted Countries & Regions](/en/dev-docs/web3-api-prohibited-regions.md)
+- [Overview](/en/dev-docs/introduction.md)
+- [Authentication](/en/dev-docs/authentication.md)
+- [SDKs & Tools](/en/dev-docs/sdks-tools/overview.md)
+- [Agent Native](/en/dev-docs/agent-native/overview.md)
+- [MCP Server](/en/dev-docs/agent-native/mcp-server.md)
+- [/agent-native/llms-txt](/en/dev-docs/agent-native/llms-txt.md)
+- [Python](/en/dev-docs/sdks-tools/connectors/python.md)
+- [JavaScript](/en/dev-docs/sdks-tools/connectors/javascript.md)
+- [Java](/en/dev-docs/sdks-tools/connectors/java.md)
+- [Market WebSocket](/en/dev-docs/products/websocket-api/market-websocket.md): Real-time market data streaming over WebSocket
+- [Introduction](/en/dev-docs/products/websocket-api/introduction.md): WebSocket Introduction
+- [Error Codes](/en/dev-docs/products/websocket-api/error-codes.md): WebSocket API error code reference
+- [Supported Skills](/en/dev-docs/products/wallet-skills/supported-skills.md)
+- [Binance Wallet Skills](/en/dev-docs/products/wallet-skills/introduction.md)
+- [Introduction](/en/dev-docs/products/wallet-api/introduction.md): On-chain wallet balance and transaction queries across multiple chains and tokens
+- [Error Codes](/en/dev-docs/products/wallet-api/error-codes.md): Wallet API error code reference — complete list of business error codes, causes, and troubleshooting guidance.
+- [Introduction](/en/dev-docs/products/transaction-api/introduction.md): On-chain transaction simulation and broadcasting
+- [Error Codes](/en/dev-docs/products/transaction-api/error-codes.md): Transaction API error code reference — complete list of business error codes, causes, and troubleshooting guidance.
+- [Support](/en/dev-docs/products/others/support.md): Contact info and support channels for Binance Web3 API
+- [Change Log](/en/dev-docs/products/others/changelog.md): Binance Web3 API version change log
+- [Supported Chains](/en/dev-docs/products/trading-api/supported-chains.md): Chains supported by the Binance Web3 Trading API for quote and swap building
+- [Introduction](/en/dev-docs/products/trading-api/introduction.md): Cross-DEX aggregated quotes and swaps, with equity (RWA) token support
+- [Integration Flow](/en/dev-docs/products/trading-api/integration-flow.md): How to integrate the Trading API — authenticate, approve, quote, build, sign, broadcast, and verify
+- [Fee & Revenue Sharing](/en/dev-docs/products/trading-api/fee-and-revenue-sharing.md): Custom fee (Add Fee / referral fee) and revenue-sharing parameters, directions, limits, and error codes for the Trading API
+- [Error Codes](/en/dev-docs/products/trading-api/error-codes.md): Trading API error code reference — complete list of business error codes, causes, and troubleshooting guidance.
+- [Introduction](/en/dev-docs/products/market-api/introduction.md): Real-time market data, candlestick data, token analytics, address portfolio, and RWA data
+- [Error Codes](/en/dev-docs/products/market-api/error-codes.md): Market API error code reference — complete list of business error codes, causes, and troubleshooting guidance.
+- [Supported Chains & Protocols](/en/dev-docs/products/defi-api/supported-chains.md): Chains and DeFi protocols supported by the Binance Web3 DeFi API in this release
+- [Introduction](/en/dev-docs/products/defi-api/introduction.md): DeFi position data, protocol discovery, investment details, and transaction building
+- [Integration Flow](/en/dev-docs/products/defi-api/integration-flow.md): How to integrate the DeFi transaction API — discover, build, simulate, sign, broadcast, and verify
+- [Error Codes](/en/dev-docs/products/defi-api/error-codes.md): DeFi API error code reference — complete list of business error codes, causes, and troubleshooting guidance.
+- [Permit2 Signing](/en/dev-docs/products/b402-api/permit2-signing.md): Construct permit2-exact and permit2-upto EIP-712 authorizations
+- [Supported Payment Methods](/en/dev-docs/products/b402-api/payment-methods.md): B402 networks, assets, and authorization methods
+- [B402 Payments](/en/dev-docs/products/b402-api/introduction.md): Gas-sponsored stablecoin payments for x402-compatible services
+- [Integration Guide](/en/dev-docs/products/b402-api/integration-guide.md): Integrate the B402 V2 supported, verify, and settle flow
+- [Error Codes](/en/dev-docs/products/b402-api/error-codes.md): B402 transport, business, verification, and settlement errors
+- [B402 Bazaar Extension](/en/dev-docs/products/b402-api/bazaar.md): Publish paid-resource metadata during successful V2 settlement
+- [Skills Reference](/en/dev-docs/products/agentic-wallet/skills-reference.md)
+- [Binance Agentic Wallet](/en/dev-docs/products/agentic-wallet/introduction.md)
+- [Install Agentic Wallet](/en/dev-docs/products/agentic-wallet/install.md)
+- [Set Up Your AI Agent](/en/dev-docs/products/agentic-wallet/agent-setup.md)
+- [Security & Settings](/en/dev-docs/products/agentic-wallet/use-cases/security-settings.md)
+- [Use Cases Overview](/en/dev-docs/products/agentic-wallet/use-cases/overview.md)
+- [Minimal Tutorial](/en/dev-docs/products/agentic-wallet/use-cases/minimal-tutorial.md)
+- [Developer Mode](/en/dev-docs/products/agentic-wallet/use-cases/developer-mode.md)
+- [On-Chain Copy Trading](/en/dev-docs/products/agentic-wallet/use-cases/copy-trading.md)
+- [Automated Trading Strategies](/en/dev-docs/products/agentic-wallet/use-cases/automated-strategies.md)
+- [Tokenized Securities](/en/dev-docs/products/agentic-wallet/use-cases/trading/tokenized-securities.md)
+- [Prediction Market](/en/dev-docs/products/agentic-wallet/use-cases/trading/prediction-market.md)
+- [Market Order (Swap)](/en/dev-docs/products/agentic-wallet/use-cases/trading/market-order.md)
+- [Limit Order](/en/dev-docs/products/agentic-wallet/use-cases/trading/limit-order.md)
+- [DeFi](/en/dev-docs/products/agentic-wallet/use-cases/trading/defi.md)
+- [bStock AI PnL Trading Competition](/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-pnl-contest.md)
+- [Eligible bStock Tokens](/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens.md)
+- [Wallet Operations](/en/dev-docs/products/agentic-wallet/use-cases/basics/wallet-operations.md)
+- [Send Tokens](/en/dev-docs/products/agentic-wallet/use-cases/basics/send-tokens.md)
+
+## API Reference
+
+### Binance Web3 API (1.0.0)
+
+Cross-chain wallet, market, trading, transaction, and B402 payment APIs for the Binance Web3 API platform.
+
+- `GET /api/v1/dex/market/supported/chain` — Get Supported Chains
+- `POST /api/v1/dex/market/price` — Get Token Price
+- `POST /api/v1/dex/market/price-info` — Get Token Trading Info
+- `GET /api/v1/dex/market/candles` — Get Candles
+- `GET /api/v1/dex/market/token/search` — Search Token
+- `POST /api/v1/dex/market/token/basic-info` — Get Token Basic Info
+- `GET /api/v1/dex/market/token/advanced-info` — Get Token Advanced Info
+- `GET /api/v1/dex/market/token/hot-token` — Get Hot Token List
+- `GET /api/v1/dex/market/token/holder` — Get Holders Ranking
+- `GET /api/v1/dex/market/token/top-trader` — Get Top Traders
+- `GET /api/v1/dex/market/token/top-liquidity` — Get Top Liquidity Pools
+- `GET /api/v1/dex/market/trades` — Get Token Trades
+- `GET /api/v1/dex/market/memepump/tokenDevInfo` — Get Token Dev Info
+- `GET /api/v1/dex/market/portfolio/supported/chain` — Get Portfolio Supported Chains
+- `GET /api/v1/dex/market/portfolio/overview` — Get Address Portfolio Overview
+- `GET /api/v1/dex/market/portfolio/recent-pnl` — Get Address Recent PnL
+- `GET /api/v1/dex/market/portfolio/token/latest-pnl` — Get Address PnL for Specific Token
+- `GET /api/v1/dex/market/portfolio/dex-history` — Get DEX Trade History
+- `GET /api/v1/dex/market/leaderboard/list` — Get Leaderboard
+- `GET /api/v1/dex/market/address-tracker/trades` — Get Tracked Trades
+- `GET /api/v1/dex/market/rwa/platforms` — Get RWA Token Issuance Platforms
+- `GET /api/v1/dex/market/rwa/price` — Get RWA Token Price
+- `GET /api/v1/dex/market/rwa/search` — Search RWA Token
+- `GET /api/v1/dex/market/rwa/underlying-profile` — Get RWA Underlying Info
+- `GET /api/v1/dex/market/rwa/tokens` — Get RWA Token List
+- `GET /api/v1/dex/market/rwa/underlying-market` — Get RWA Underlying Market Data
+- `GET /api/v1/dex/aggregator/supported/chain` — Get Aggregator Supported Chains
+- `GET /api/v1/dex/aggregator/approve-transaction` — Get ERC-20 Approve Transaction
+- `GET /api/v1/dex/aggregator/quote` — Get Aggregated Quote
+- `GET /api/v1/dex/aggregator/swap` — Build Swap Transaction
+- `GET /api/v1/dex/aggregator/quote-and-swap` — Quote and Build Swap Transaction (Flash API)
+- `GET /api/v1/dex/aggregator/swap-instruction` — Build Solana Swap Instructions
+- `GET /api/v1/dex/aggregator/history` — Get Transaction Status
+- `POST /api/v1/dex/aggregator/order/submit` — Submit RFQ Order
+- `GET /api/v1/dex/aggregator/order/{orderId}` — Get RFQ Order Status
+- `GET /api/v1/dex/pre-transaction/supported/chain` — Get Transaction Supported Chains
+- `GET /api/v1/dex/pre-transaction/gas-price` — Get Gas Price
+- `GET /api/v1/dex/pre-transaction/block-height` — Get Latest Block Height
+- `POST /api/v1/dex/pre-transaction/gas-limit` — Get Gas Limit
+- `POST /api/v1/dex/pre-transaction/simulate` — Simulate Transactions
+- `POST /api/v1/dex/pre-transaction/broadcast-transaction` — Broadcast Transactions
+- `GET /api/v1/dex/post-transaction/orders` — Get Broadcast Orders
+- `GET /api/v1/dex/balance/supported/chain` — Get Wallet Supported Chains
+- `GET /api/v1/dex/balance/all-token-balances-by-address` — Get All Token Balances by Address
+- `POST /api/v1/dex/balance/token-balances-by-address` — Get Token Balances by Address
+- `GET /api/v1/dex/post-transaction/transactions-by-address` — Get Transactions by Address
+- `GET /api/v1/dex/post-transaction/transaction-detail-by-txhash` — Get Transaction Detail by Hash
+- `POST /api/v1/defi/data/position/list` — Get DeFi Positions
+- `POST /api/v1/defi/data/protocol/list` — List DeFi Protocols
+- `POST /api/v1/defi/data/protocol/detail` — Get Protocol Detail
+- `POST /api/v1/defi/data/investment/list` — List DeFi Investments
+- `POST /api/v1/defi/data/investment/detail` — Get Investment Detail
+- `POST /api/v1/defi/transaction/deposit` — Build DeFi Deposit Transaction
+- `POST /api/v1/defi/transaction/redeem` — Build DeFi Redeem Transaction
+- `POST /api/v1/defi/transaction/lp-add` — Build LP Add Transaction
+- `POST /api/v1/defi/transaction/lp-add/calculate` — Calculate LP Add Paired Amounts
+- `POST /api/v1/defi/transaction/lp-remove` — Build LP Remove Transaction
+- `POST /api/v1/defi/transaction/claim` — Build DeFi Claim Transaction
+- `POST /api/v2/b402/supported` — Get B402 Supported Configurations V2
+- `POST /api/v2/b402/verify` — Verify B402 Payment V2
+- `POST /api/v2/b402/settle` — Settle B402 Payment V2
+- `POST /api/v1/b402/supported` — Get B402 Supported Configurations V1
+- `POST /api/v1/b402/verify` — Verify B402 Payment V1
+- `POST /api/v1/b402/settle` — Settle B402 Payment V1
+- `GET /api/v1/dex/market/wss/auth/token` — Get WebSocket Auth Token
+
+### Binance Web3 WebSocket Streams (1.0.0)
+
+Real-time on-chain data streaming over WebSocket for the Binance Web3 API platform.
+
+- `POST /w3w@onchainos@pub@price@{chainId}@{contractAddress}` — Price Stream
+- `POST /w3w@onchainos@pub@tx-data@{chainId}@{contractAddress}` — Market Stats Stream
+- `POST /w3w@onchainos@pub@tx@{chainId}@{contractAddress}` — Real-Time Trades Stream
+- `POST /w3w@onchainos@pub@candles@{bar}@{chainId}@{contractAddress}` — Candlestick Stream

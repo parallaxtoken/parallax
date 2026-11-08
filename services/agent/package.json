@@ -1,0 +1,12 @@
+{
+  "name": "@parallax/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": "Parallax",
+  "license": "MIT",
+  "scripts": { "register": "tsx src/register.ts", "job": "tsx src/job.ts" },
+  "dependencies": { "@bnbagent/sdk": "0.6.0", "viem": "2.21.55", "@parallax/kernel": "workspace:*", "@parallax/registry": "workspace:*" },
+  "devDependencies": { "tsx": "4.19.2", "typescript": "5.6.3", "@types/node": "22.9.0" }
+}
+

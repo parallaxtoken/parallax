@@ -1,0 +1,41 @@
+{
+  "asOf": "2026-10-10T21:30:44.093Z",
+  "orders": {
+    "total": 9,
+    "open": 1,
+    "filled": 5,
+    "cancelled": 3,
+    "expired": 0
+  },
+  "keeper": {
+    "passes": 65,
+    "fills": 0,
+    "longestGapSec": 31,
+    "startedAt": "2026-10-10T20:58:42.821Z",
+    "uptimeSec": 1921,
+    "lastPassAt": "2026-10-10T21:30:46.339Z",
+    "refusalsByReason": {
+      "PREMIUM_ABOVE_LIMIT": 65,
+      "UNIT_PAUSED": 0,
+      "NO_CONTRACT_ROUTE": 0,
+      "BROKEN_QUOTE": 0,
+      "SIM_FAILED": 0,
+      "API_DEGRADED": 0,
+      "REFERENCE_DISAGREE": 0
+    },
+    "reference": {
+      "checks": 65,
+      "agree": 65,
+      "disagree": 0,
+      "single": 0,
+      "unavailable": 0
+    }
+  },
+  "certificatesSold": {
+    "count": 2,
+    "fromBlock": "126748357",
+    "asset": "U or USDT transfers of exactly the certificate price to the pay-to address"
+  },
+  "quotesRecorded": 70275,
+  "keeperActionsMirrored": 0
+}

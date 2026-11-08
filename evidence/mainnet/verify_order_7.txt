@@ -1,0 +1,9 @@
+order 7 on 0xa440a217B64c01659A1c911b795371C3C2e1A13e
+  PASS           T3   Live unit                event 1000778223752807865 vs eth_call@block 1000778223752807865
+  PASS           T1   Unit normalisation       tokens 867343503598258 x unit 1000778223752807865 / 1e18 = 868018490914601, event 868018490914601
+  PASS           T2   Share floor              delivered 868018490914601 >= floor 858824899153202
+  NOT_APPLICABLE T2b  Sell floor               buy order
+  PASS           T5   Allowlist                wrapper true, router true
+  PASS           T7   Recipient lock           owner received 867343503598258 of 867343503598258
+  PASS           T6   No custody residue       book holds usdt 0, token 0
+  PASS           T8   Exactly once             1 OrderFilled event(s) for order 7

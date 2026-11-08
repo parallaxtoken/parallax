@@ -1,0 +1,39 @@
+{
+  "certificate": {
+    "ticker": "NVDA",
+    "block": "126755248",
+    "asOf": "2026-10-10T03:24:17.360Z",
+    "quoteUsd": 50,
+    "wrappers": [
+      {
+        "symbol": "NVDAB",
+        "issuer": "BSTOCKS",
+        "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+        "unitWad": "1000778223752807865",
+        "paused": false,
+        "sharesFor50Usd": "0.216847",
+        "venue": "PANCAKE_V3_500"
+      },
+      {
+        "symbol": "NVDAon",
+        "issuer": "ONDO",
+        "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+        "unitWad": "1001715248795989800",
+        "paused": false,
+        "sharesFor50Usd": "0.213778",
+        "venue": "PANCAKE_V3_10000"
+      },
+      {
+        "symbol": "NVDAx",
+        "issuer": "XSTOCKS",
+        "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+        "unitWad": "1000000000000000000",
+        "paused": false,
+        "sharesFor50Usd": null,
+        "venue": null
+      }
+    ]
+  },
+  "sha256": "93707865d0651b59dcedc1517f0369b1eb6dc5222f0d8d6b50f1d1b2da4700c9",
+  "manifestHash": "0x2ded7e54931a907cd88aba40b2f3ee17aa32c4b8be477f632b14c680ec593460"
+}

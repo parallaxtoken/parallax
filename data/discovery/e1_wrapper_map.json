@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-10-09T23:33:07.065Z",
+  "source": "CoinGecko /coins/list?include_platform=true (platform binance-smart-chain), verified on BSC via eth_call",
+  "tickers": {
+    "GOOGL": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "alphabet-bstocks-tokenized-stock",
+        "cgName": "Alphabet (bStocks Tokenized Stock)",
+        "cgSymbol": "googlb",
+        "token": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+        "codeBytes": 283,
+        "chain_name": "Alphabet",
+        "chain_symbol": "GOOGLB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "98287356803730000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+          "https://www.coingecko.com/en/coins/alphabet-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "alphabet-class-a-ondo-tokenized-stock",
+        "cgName": "Alphabet Class A (Ondo Tokenized Stock)",
+        "cgSymbol": "googlon",
+        "token": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+        "codeBytes": 824,
+        "chain_name": "Alphabet Class A (Ondo Tokenized)",
+        "chain_symbol": "GOOGLon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "26858260618301015876137",
+        "provenance": [
+          "https://bscscan.com/token/0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+          "https://www.coingecko.com/en/coins/alphabet-class-a-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "alphabet-xstock",
+        "cgName": "Alphabet xStock",
+        "cgSymbol": "googlx",
+        "token": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+        "codeBytes": 2138,
+        "chain_name": "Alphabet xStock",
+        "chain_symbol": "GOOGLx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10023772500603487000000",
+        "provenance": [
+          "https://bscscan.com/token/0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+          "https://www.coingecko.com/en/coins/alphabet-xstock"
+        ]
+      }
+    ],
+    "AMZN": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "amazon-bstocks-tokenized-stock",
+        "cgName": "Amazon (bStocks Tokenized Stock)",
+        "cgSymbol": "amznb",
+        "token": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+        "codeBytes": 283,
+        "chain_name": "Amazon",
+        "chain_symbol": "AMZNB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "17161576666200000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+          "https://www.coingecko.com/en/coins/amazon-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "amazon-ondo-tokenized-stock",
+        "cgName": "Amazon (Ondo Tokenized Stock)",
+        "cgSymbol": "amznon",
+        "token": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+        "codeBytes": 824,
+        "chain_name": "Amazon (Ondo Tokenized)",
+        "chain_symbol": "AMZNon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10620850448176155434029",
+        "provenance": [
+          "https://bscscan.com/token/0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+          "https://www.coingecko.com/en/coins/amazon-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "amazon-xstock",
+        "cgName": "Amazon xStock",
+        "cgSymbol": "amznx",
+        "token": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+        "codeBytes": 2138,
+        "chain_name": "Amazon.com xStock",
+        "chain_symbol": "AMZNx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10000000000000000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x3557ba345b01efa20a1bddc61f573bfd87195081",
+          "https://www.coingecko.com/en/coins/amazon-xstock"
+        ]
+      }
+    ],
+    "AAPL": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "apple-bstocks-tokenized-stock",
+        "cgName": "Apple (bStocks Tokenized Stock)",
+        "cgSymbol": "aaplb",
+        "token": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+        "codeBytes": 283,
+        "chain_name": "Apple",
+        "chain_symbol": "AAPLB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "15529144311000000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+          "https://www.coingecko.com/en/coins/apple-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "apple-ondo-tokenized-stock",
+        "cgName": "Apple (Ondo Tokenized Stock)",
+        "cgSymbol": "aaplon",
+        "token": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+        "codeBytes": 824,
+        "chain_name": "Apple (Ondo Tokenized)",
+        "chain_symbol": "AAPLon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "9916762458079152537926",
+        "provenance": [
+          "https://bscscan.com/token/0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+          "https://www.coingecko.com/en/coins/apple-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "apple-xstock",
+        "cgName": "Apple xStock",
+        "cgSymbol": "aaplx",
+        "token": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+        "codeBytes": 2138,
+        "chain_name": "Apple xStock",
+        "chain_symbol": "AAPLx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10024852143472694160207",
+        "provenance": [
+          "https://bscscan.com/token/0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+          "https://www.coingecko.com/en/coins/apple-xstock"
+        ]
+      }
+    ],
+    "COIN": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "coinbase-bstocks-tokenized-stock",
+        "cgName": "Coinbase (bStocks Tokenized Stock)",
+        "cgSymbol": "coinb",
+        "token": "0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+        "codeBytes": 283,
+        "chain_name": "Coinbase",
+        "chain_symbol": "COINB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "108518176940910000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x585bde7c54abb5ccd7791f923d6c2187635f3952",
+          "https://www.coingecko.com/en/coins/coinbase-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "coinbase-ondo-tokenized-stock",
+        "cgName": "Coinbase (Ondo Tokenized Stock)",
+        "cgSymbol": "coinon",
+        "token": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+        "codeBytes": 824,
+        "chain_name": "Coinbase (Ondo Tokenized)",
+        "chain_symbol": "COINon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "36296670038588982832609",
+        "provenance": [
+          "https://bscscan.com/token/0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+          "https://www.coingecko.com/en/coins/coinbase-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "coinbase-xstock",
+        "cgName": "Coinbase xStock",
+        "cgSymbol": "coinx",
+        "token": "0x364f210f430ec2448fc68a49203040f6124096f0",
+        "codeBytes": 2138,
+        "chain_name": "Coinbase xStock",
+        "chain_symbol": "COINx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "16182571331416736220600",
+        "provenance": [
+          "https://bscscan.com/token/0x364f210f430ec2448fc68a49203040f6124096f0",
+          "https://www.coingecko.com/en/coins/coinbase-xstock"
+        ]
+      }
+    ],
+    "QQQ": [
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "invesco-qqq-etf-ondo-tokenized-etf",
+        "cgName": "Invesco QQQ ETF (Ondo Tokenized ETF)",
+        "cgSymbol": "qqqon",
+        "token": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+        "codeBytes": 824,
+        "chain_name": "Invesco QQQ (Ondo Tokenized)",
+        "chain_symbol": "QQQon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "8284603850194732095620",
+        "provenance": [
+          "https://bscscan.com/token/0x0cde6936d305d5b34667fc46425e852efd73559a",
+          "https://www.coingecko.com/en/coins/invesco-qqq-etf-ondo-tokenized-etf"
+        ]
+      },
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "invesco-qqq-trust-bstocks-tokenized-stock",
+        "cgName": "Invesco QQQ Trust (bStocks Tokenized Stock)",
+        "cgSymbol": "qqqb",
+        "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+        "codeBytes": 283,
+        "chain_name": "Invesqo QQQ",
+        "chain_symbol": "QQQB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "86554640722310000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x205812cdbed920aff76c6580abd681a46d11efc7",
+          "https://www.coingecko.com/en/coins/invesco-qqq-trust-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "nasdaq-xstock",
+        "cgName": "Nasdaq xStock",
+        "cgSymbol": "qqqx",
+        "token": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+        "codeBytes": 2138,
+        "chain_name": "Nasdaq xStock",
+        "chain_symbol": "QQQx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10034560758968376000000",
+        "provenance": [
+          "https://bscscan.com/token/0xa753a7395cae905cd615da0b82a53e0560f250af",
+          "https://www.coingecko.com/en/coins/nasdaq-xstock"
+        ]
+      }
+    ],
+    "META": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "meta-platforms-bstocks-tokenized-stock",
+        "cgName": "Meta Platforms (bStocks Tokenized Stock)",
+        "cgSymbol": "metab",
+        "token": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+        "codeBytes": 283,
+        "chain_name": "Meta Platforms",
+        "chain_symbol": "METAB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "6470565027520000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+          "https://www.coingecko.com/en/coins/meta-platforms-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "meta-platforms-ondo-tokenized-stock",
+        "cgName": "Meta Platforms (Ondo Tokenized Stock)",
+        "cgSymbol": "metaon",
+        "token": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+        "codeBytes": 824,
+        "chain_name": "Meta Platforms (Ondo Tokenized)",
+        "chain_symbol": "METAon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "2270457703317834502293",
+        "provenance": [
+          "https://bscscan.com/token/0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+          "https://www.coingecko.com/en/coins/meta-platforms-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "meta-xstock",
+        "cgName": "Meta xStock",
+        "cgSymbol": "metax",
+        "token": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+        "codeBytes": 2138,
+        "chain_name": "Meta xStock",
+        "chain_symbol": "METAx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10028515433272898000000",
+        "provenance": [
+          "https://bscscan.com/token/0x96702be57cd9777f835117a809c7124fe4ec989a",
+          "https://www.coingecko.com/en/coins/meta-xstock"
+        ]
+      }
+    ],
+    "MSFT": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "microsoft-bstocks-tokenized-stock",
+        "cgName": "Microsoft (bStocks Tokenized Stock)",
+        "cgSymbol": "msftb",
+        "token": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+        "codeBytes": 283,
+        "chain_name": "Microsoft",
+        "chain_symbol": "MSFTB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "7183511536940000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+          "https://www.coingecko.com/en/coins/microsoft-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "microsoft-ondo-tokenized-stock",
+        "cgName": "Microsoft (Ondo Tokenized Stock)",
+        "cgSymbol": "msfton",
+        "token": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+        "codeBytes": 824,
+        "chain_name": "Microsoft (Ondo Tokenized)",
+        "chain_symbol": "MSFTon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "5594005658196830016753",
+        "provenance": [
+          "https://bscscan.com/token/0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+          "https://www.coingecko.com/en/coins/microsoft-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "microsoft-xstock",
+        "cgName": "Microsoft xStock",
+        "cgSymbol": "msftx",
+        "token": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+        "codeBytes": 2138,
+        "chain_name": "Microsoft xStock",
+        "chain_symbol": "MSFTx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10059033904787456000000",
+        "provenance": [
+          "https://bscscan.com/token/0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+          "https://www.coingecko.com/en/coins/microsoft-xstock"
+        ]
+      }
+    ],
+    "NVDA": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "nvidia-bstocks",
+        "cgName": "NVIDIA (bStocks Tokenized Stock)",
+        "cgSymbol": "nvdab",
+        "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+        "codeBytes": 283,
+        "chain_name": "NVIDIA Corp",
+        "chain_symbol": "NVDAB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "200966194605700000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+          "https://www.coingecko.com/en/coins/nvidia-bstocks"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "nvidia-ondo-tokenized-stock",
+        "cgName": "NVIDIA (Ondo Tokenized Stock)",
+        "cgSymbol": "nvdaon",
+        "token": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+        "codeBytes": 824,
+        "chain_name": "NVIDIA (Ondo Tokenized)",
+        "chain_symbol": "NVDAon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "70141206476099500207726",
+        "provenance": [
+          "https://bscscan.com/token/0xa9ee28c80f960b889dfbd1902055218cba016f75",
+          "https://www.coingecko.com/en/coins/nvidia-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "nvidia-xstock",
+        "cgName": "NVIDIA xStock",
+        "cgSymbol": "nvdax",
+        "token": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+        "codeBytes": 2138,
+        "chain_name": "NVIDIA xStock",
+        "chain_symbol": "NVDAx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "41193603800530679932655",
+        "provenance": [
+          "https://bscscan.com/token/0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+          "https://www.coingecko.com/en/coins/nvidia-xstock"
+        ]
+      }
+    ],
+    "SPY": [
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "sp500-xstock",
+        "cgName": "SP500 xStock",
+        "cgSymbol": "spyx",
+        "token": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+        "codeBytes": 2138,
+        "chain_name": "SP500 xStock",
+        "chain_symbol": "SPYx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "10057145602862540000000",
+        "provenance": [
+          "https://bscscan.com/token/0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+          "https://www.coingecko.com/en/coins/sp500-xstock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "spdr-s-p-500-etf-ondo-tokenized-etf",
+        "cgName": "SPDR S&P 500 ETF (Ondo Tokenized ETF)",
+        "cgSymbol": "spyon",
+        "token": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+        "codeBytes": 824,
+        "chain_name": "SPDR S&P 500 ETF (Ondo Tokenized)",
+        "chain_symbol": "SPYon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "5022061462362149672699",
+        "provenance": [
+          "https://bscscan.com/token/0x6a708ead771238919d85930b5a0f10454e1c331a",
+          "https://www.coingecko.com/en/coins/spdr-s-p-500-etf-ondo-tokenized-etf"
+        ]
+      },
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "spy-bstocks-tokenized-stock",
+        "cgName": "SPY (bStocks Tokenized Stock)",
+        "cgSymbol": "spyb",
+        "token": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+        "codeBytes": 283,
+        "chain_name": "SPY",
+        "chain_symbol": "SPYB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "20932295008670000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+          "https://www.coingecko.com/en/coins/spy-bstocks-tokenized-stock"
+        ]
+      }
+    ],
+    "TSLA": [
+      {
+        "issuer": "BSTOCKS",
+        "coingeckoId": "tesla-bstocks-tokenized-stock",
+        "cgName": "Tesla (bStocks Tokenized Stock)",
+        "cgSymbol": "tslab",
+        "token": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+        "codeBytes": 283,
+        "chain_name": "Tesla, Inc. ",
+        "chain_symbol": "TSLAB",
+        "chain_decimals": 18,
+        "chain_totalSupply": "57861760785150000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x5b1910eaad6450e50f816082aa078c41f10c292f",
+          "https://www.coingecko.com/en/coins/tesla-bstocks-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "ONDO",
+        "coingeckoId": "tesla-ondo-tokenized-stock",
+        "cgName": "Tesla (Ondo Tokenized Stock)",
+        "cgSymbol": "tslaon",
+        "token": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+        "codeBytes": 824,
+        "chain_name": "Tesla (Ondo Tokenized)",
+        "chain_symbol": "TSLAon",
+        "chain_decimals": 18,
+        "chain_totalSupply": "24604207887470336076142",
+        "provenance": [
+          "https://bscscan.com/token/0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+          "https://www.coingecko.com/en/coins/tesla-ondo-tokenized-stock"
+        ]
+      },
+      {
+        "issuer": "XSTOCKS",
+        "coingeckoId": "tesla-xstock",
+        "cgName": "Tesla xStock",
+        "cgSymbol": "tslax",
+        "token": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+        "codeBytes": 2138,
+        "chain_name": "Tesla xStock",
+        "chain_symbol": "TSLAx",
+        "chain_decimals": 18,
+        "chain_totalSupply": "20000000000000000000000",
+        "provenance": [
+          "https://bscscan.com/token/0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+          "https://www.coingecko.com/en/coins/tesla-xstock"
+        ]
+      }
+    ]
+  }
+}

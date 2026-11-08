@@ -1,0 +1,14 @@
+reference/
+contracts/lib/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+node_modules/
+**/node_modules/
+data/discovery/raw/
+data/discovery/src/
+data/discovery/e4_klines_raw.json
+.env*
+logs/
+.[a-fh-z]*/
+skills-lock.json
