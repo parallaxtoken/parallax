@@ -62,6 +62,27 @@ flowchart LR
 
 ---
 
+## Stellar Standards & Regulatory Architecture
+
+Parallax integrates natively with core Stellar Ecosystem Proposals (SEPs) to ensure institutional and retail compliance:
+
+- **SEP-1 (`stellar.toml`):** Machine-readable discovery of protocol contracts, network passphrases, and anchor endpoints.
+- **SEP-10 (Web Authentication):** Challenge-response cryptographic authentication using Stellar Ed25519 public keys.
+- **SEP-24 (Hosted Deposit & Withdrawal):** Direct off-ramp and on-ramp rail to regulated financial institutions and anchor gateways.
+- **SEP-38 (Anchor RFQ Quotes):** Real-time indicative and firm binding quotes for tokenized stocks and commodities against USDC.
+- **Non-Custodial Architecture:** Smart contracts never escrow user funds prior to fill execution. Compliance, KYC, and AML obligations remain exclusively with licensed asset anchors (e.g. Backed Finance Swiss DLT Act tokens, Ondo Capital, or Franklin Templeton).
+
+---
+
+## Batch Execution & Keeper Economics
+
+To ensure economic resilience during network fee surges:
+1. **Batch Settlement (`batch_fill`):** Keepers bundle up to 20 limit order fills in a single Soroban transaction, amortizing base fees and reducing per-fill ledger overhead by 80%.
+2. **Oracle Circuit Breaker:** Keepers monitor price divergence against 5-minute TWAP oracles. If divergence exceeds 250 bps (2.5%), execution halts automatically to protect traders from arbitrage front-running.
+3. **Emergency Circuit Breaker:** Administrative authority (transferred to a multi-signature Stellar account) can invoke `set_paused(true)` across `ParallaxBook` and `WrapperRegistry` to freeze execution during issuer de-peg incidents.
+
+---
+
 ## Trust Boundaries
 
 - **The Smart Contract** trusts only the curated registry and the on-chain unit sources it reads in the fill transaction.

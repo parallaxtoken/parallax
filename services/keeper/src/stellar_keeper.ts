@@ -83,6 +83,96 @@ export class StellarKeeperEngine {
   }
 
   /**
+   * Builds the transaction parameters for calling ParallaxBook.batch_fill
+   */
+  public buildBatchFillPayload(
+    fills: Array<{
+      orderId: bigint;
+      wrapperIndex: number;
+      routerAddress: string;
+      routeDataHex: string;
+    }>
+  ) {
+    return {
+      contractId: this.network.parallaxBookContractId,
+      method: 'batch_fill',
+      args: {
+        fills: fills.map((f) => ({
+          order_id: f.orderId.toString(),
+          wrapper_idx: f.wrapperIndex,
+          router: f.routerAddress,
+          route_data: f.routeDataHex,
+        })),
+      },
+    };
+  }
+
+  /**
+   * Oracle circuit breaker: verifies whether quoted asset price deviates beyond allowed threshold
+   */
+  public checkOracleCircuitBreaker(
+    ticker: string,
+    quotedPrice: number,
+    referencePrice: number,
+    maxDeviationBps: number = 250 // 2.5%
+  ): { tripped: boolean; deviationBps: number; reason?: string } {
+    if (referencePrice <= 0 || quotedPrice <= 0) {
+      return { tripped: true, deviationBps: 10000, reason: 'INVALID_PRICE' };
+    }
+    const diff = Math.abs(quotedPrice - referencePrice);
+    const deviationBps = Math.round((diff / referencePrice) * 10000);
+    const tripped = deviationBps > maxDeviationBps;
+    return {
+      tripped,
+      deviationBps,
+      reason: tripped
+        ? `CIRCUIT_BREAKER_TRIPPED: ${ticker} deviation ${deviationBps} bps exceeds max ${maxDeviationBps} bps`
+        : undefined,
+    };
+  }
+
+  /**
+   * Generates simulated testnet limit order depth across NVDA, AAPL, and TSLA
+   * for automated keeper and evaluator demonstration.
+   */
+  public seedTestnetLiquidity(faucetAccount: string): StellarOpenOrder[] {
+    const now = BigInt(Math.floor(Date.now() / 1000));
+    const day = 86400n;
+    return [
+      {
+        id: 101n,
+        owner: faucetAccount,
+        side: 'BUY',
+        tickerId: 'NVDA',
+        wrapperMask: 1, // BStocks
+        amount: 145_0000000n, // 145 USDC (7 dec)
+        limit: 1_000000000000000000n, // 1.0 share (18 dec)
+        deadline: now + day,
+      },
+      {
+        id: 102n,
+        owner: faucetAccount,
+        side: 'BUY',
+        tickerId: 'AAPL',
+        wrapperMask: 2, // Ondo
+        amount: 230_0000000n, // 230 USDC (7 dec)
+        limit: 1_000000000000000000n, // 1.0 share (18 dec)
+        deadline: now + day,
+      },
+      {
+        id: 103n,
+        owner: faucetAccount,
+        side: 'BUY',
+        tickerId: 'TSLA',
+        wrapperMask: 1, // BStocks
+        amount: 250_0000000n, // 250 USDC (7 dec)
+        limit: 1_000000000000000000n, // 1.0 share (18 dec)
+        deadline: now + day,
+      },
+    ];
+  }
+
+  /**
    * Starts the keeper polling cycle
    */
   public async startLoop(intervalMs: number = 5000) {

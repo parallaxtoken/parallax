@@ -17,6 +17,7 @@ pub enum RegistryDataKey {
 #[contractclient(name = "WrapperRegistryClient")]
 pub trait WrapperRegistryTrait {
     fn initialize(env: Env, admin: Address, oracle: Option<Address>);
+    fn set_admin(env: Env, new_admin: Address);
     fn set_oracle(env: Env, oracle: Address);
     fn add_wrapper(env: Env, ticker: Symbol, token: Address, issuer: Issuer, instant_only: bool);
     fn set_wrapper_active(env: Env, ticker: Symbol, index: u32, active: bool);
@@ -44,6 +45,13 @@ impl WrapperRegistry {
         if let Some(ora) = oracle {
             env.storage().instance().set(&RegistryDataKey::Oracle, &ora);
         }
+    }
+
+    pub fn set_admin(env: Env, new_admin: Address) {
+        let admin: Address = env.storage().instance().get(&RegistryDataKey::Admin).expect("Not initialized");
+        admin.require_auth();
+        env.storage().instance().set(&RegistryDataKey::Admin, &new_admin);
+        env.events().publish((symbol_short!("admin"),), new_admin);
     }
 
     pub fn set_oracle(env: Env, oracle: Address) {

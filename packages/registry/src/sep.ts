@@ -185,4 +185,92 @@ export class SepClient {
       fee: { total: '0.20', asset: params.sellAsset },
     };
   }
+
+  /**
+   * SEP-24: Retrieve deposit/withdrawal interactive flow endpoint
+   */
+  getSep24InteractiveUrl(params: {
+    transferServer: string;
+    operation: 'deposit' | 'withdraw';
+    assetCode: string;
+    account: string;
+  }): string {
+    const u = new URL(`${params.transferServer}/transactions/${params.operation}/interactive`);
+    u.searchParams.set('asset_code', params.assetCode);
+    u.searchParams.set('account', params.account);
+    return u.toString();
+  }
+}
+
+/**
+ * Parallax Regulatory & Jurisdictional Compliance Engine
+ * Ensures non-custodial decentralized operation complies with global sanctions
+ * and delegates KYC/AML to regulated asset issuers.
+ */
+export const RESTRICTED_JURISDICTIONS = ['CU', 'IR', 'KP', 'SY', 'RU'] as const;
+
+export interface ComplianceCheckResult {
+  allowed: boolean;
+  requiresIssuerKyc: boolean;
+  regulatoryFramework: string;
+  reason?: string;
+}
+
+export class ParallaxComplianceEngine {
+  /**
+   * Screen incoming client IP / Country code against OFAC sanctions
+   */
+  static verifyJurisdiction(countryCode: string): ComplianceCheckResult {
+    const upper = countryCode.toUpperCase();
+    if (RESTRICTED_JURISDICTIONS.includes(upper as (typeof RESTRICTED_JURISDICTIONS)[number])) {
+      return {
+        allowed: false,
+        requiresIssuerKyc: true,
+        regulatoryFramework: 'OFAC Sanctions Enforced',
+        reason: `Jurisdiction ${upper} is restricted from non-custodial interface access.`,
+      };
+    }
+    return {
+      allowed: true,
+      requiresIssuerKyc: false,
+      regulatoryFramework: 'Decentralized Non-Custodial Order Settlement',
+    };
+  }
+
+  /**
+   * Inspect stock wrapper issuer compliance profile
+   */
+  static getIssuerComplianceProfile(issuer: 'BStocks' | 'Ondo' | 'XStocks' | 'Benji'): ComplianceCheckResult {
+    switch (issuer) {
+      case 'BStocks':
+        return {
+          allowed: true,
+          requiresIssuerKyc: true,
+          regulatoryFramework: 'Swiss DLT Act Tokenized Securities (Backed Finance)',
+          reason: 'Tokenized trackers backed 1:1 by underlying shares held with licensed custodian.',
+        };
+      case 'Ondo':
+        return {
+          allowed: true,
+          requiresIssuerKyc: true,
+          regulatoryFramework: 'Institutional Qualified Investor Framework (Ondo Capital)',
+          reason: 'Short-term US government bond and institutional equity wrappers.',
+        };
+      case 'Benji':
+        return {
+          allowed: true,
+          requiresIssuerKyc: true,
+          regulatoryFramework: 'SEC-Registered 40-Act Fund (Franklin OnChain U.S. Government Money Fund)',
+          reason: 'Publicly registered US money market fund natively issued on Stellar.',
+        };
+      case 'XStocks':
+      default:
+        return {
+          allowed: true,
+          requiresIssuerKyc: false,
+          regulatoryFramework: 'Synthetic Peer-to-Peer Derivative Settlement',
+          reason: 'Decentralized synthetic perpetual tracking unit.',
+        };
+    }
+  }
 }

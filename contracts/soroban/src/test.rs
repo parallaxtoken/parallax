@@ -150,3 +150,102 @@ fn test_fill_buy_order_share_floor() {
     let stock_client = token::Client::new(&env, &stock_token);
     assert_eq!(stock_client.balance(&owner), 10 * STROOP);
 }
+
+#[test]
+fn test_pause_circuit_breaker() {
+    let env = Env::default();
+    env.mock_all_auths();
+
+    let admin = Address::generate(&env);
+    let usdc = Address::generate(&env);
+    let reg_id = env.register_contract(None, WrapperRegistry);
+    let book_id = env.register_contract(None, ParallaxBook);
+    let book_client = ParallaxBookClient::new(&env, &book_id);
+    book_client.initialize(&admin, &usdc, &reg_id);
+
+    assert_eq!(book_client.is_paused(), false);
+    book_client.set_paused(&true);
+    assert_eq!(book_client.is_paused(), true);
+    book_client.set_paused(&false);
+    assert_eq!(book_client.is_paused(), false);
+}
+
+#[test]
+fn test_batch_fill_multiple_orders() {
+    let env = Env::default();
+    env.mock_all_auths();
+
+    let admin = Address::generate(&env);
+    let owner1 = Address::generate(&env);
+    let owner2 = Address::generate(&env);
+    let filler = Address::generate(&env);
+    let usdc_admin = Address::generate(&env);
+    let usdc = env.register_stellar_asset_contract(usdc_admin);
+
+    let reg_id = env.register_contract(None, WrapperRegistry);
+    let reg_client = WrapperRegistryClient::new(&env, &reg_id);
+    reg_client.initialize(&admin, &None);
+
+    let stock_token_admin = Address::generate(&env);
+    let stock_token = env.register_stellar_asset_contract(stock_token_admin);
+    let ticker = Symbol::new(&env, "AAPL");
+
+    reg_client.add_wrapper(&ticker, &stock_token, &Issuer::Ondo, &false);
+    let router_id = env.register_contract(None, MockRouter);
+    reg_client.set_router(&router_id, &true);
+
+    let book_id = env.register_contract(None, ParallaxBook);
+    let book_client = ParallaxBookClient::new(&env, &book_id);
+    book_client.initialize(&admin, &usdc, &reg_id);
+
+    let usdc_token_client = token::StellarAssetClient::new(&env, &usdc);
+    usdc_token_client.mint(&owner1, &(500 * STROOP));
+    usdc_token_client.mint(&owner2, &(500 * STROOP));
+
+    let stock_stellar_client = token::StellarAssetClient::new(&env, &stock_token);
+    stock_stellar_client.mint(&router_id, &(100 * STROOP));
+
+    let deadline = env.ledger().timestamp() + 3600;
+    let order_id1 = book_client.place_buy(&owner1, &ticker, &(100 * STROOP), &(5 * WAD), &deadline, &2u32);
+    let order_id2 = book_client.place_buy(&owner2, &ticker, &(100 * STROOP), &(5 * WAD), &deadline, &2u32);
+
+    let mut fills = soroban_sdk::Vec::new(&env);
+    fills.push_back(crate::types::FillArgs {
+        order_id: order_id1,
+        wrapper_idx: 0,
+        router: router_id.clone(),
+        route_data: Bytes::new(&env),
+    });
+    fills.push_back(crate::types::FillArgs {
+        order_id: order_id2,
+        wrapper_idx: 0,
+        router: router_id,
+        route_data: Bytes::new(&env),
+    });
+
+    let filled_count = book_client.batch_fill(&filler, &fills);
+    assert_eq!(filled_count, 2);
+
+    assert_eq!(book_client.get_order(&order_id1).status, OrderStatus::Filled);
+    assert_eq!(book_client.get_order(&order_id2).status, OrderStatus::Filled);
+}
+
+#[test]
+fn test_governance_admin_transfer() {
+    let env = Env::default();
+    env.mock_all_auths();
+
+    let admin = Address::generate(&env);
+    let new_multisig = Address::generate(&env);
+    let usdc = Address::generate(&env);
+
+    let reg_id = env.register_contract(None, WrapperRegistry);
+    let reg_client = WrapperRegistryClient::new(&env, &reg_id);
+    reg_client.initialize(&admin, &None);
+    reg_client.set_admin(&new_multisig);
+
+    let book_id = env.register_contract(None, ParallaxBook);
+    let book_client = ParallaxBookClient::new(&env, &book_id);
+    book_client.initialize(&admin, &usdc, &reg_id);
+    book_client.set_admin(&new_multisig);
+}

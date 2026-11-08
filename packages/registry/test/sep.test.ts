@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SepClient } from '../src/sep';
+import { SepClient, ParallaxComplianceEngine } from '../src/sep';
 
 describe('SepClient', () => {
   const client = new SepClient('testanchor.stellar.org');
@@ -27,6 +27,17 @@ ANCHOR_QUOTE_SERVER = "https://quotes.testanchor.stellar.org"
     expect(url).toContain('https://auth.testanchor.stellar.org/auth?account=GBEXAMPLE');
   });
 
+  it('generates valid SEP-24 interactive deposit URLs', () => {
+    const transferServer = 'https://sep24.testanchor.stellar.org';
+    const url = client.getSep24InteractiveUrl({
+      transferServer,
+      operation: 'deposit',
+      assetCode: 'USDC',
+      account: 'GBEXAMPLESTELLARACCOUNT1234567890ABCDEF1234567890ABCDEF1234',
+    });
+    expect(url).toBe('https://sep24.testanchor.stellar.org/transactions/deposit/interactive?asset_code=USDC&account=GBEXAMPLESTELLARACCOUNT1234567890ABCDEF1234567890ABCDEF1234');
+  });
+
   it('simulates SEP-38 price queries for tokenized stocks against USDC', async () => {
     const price = await client.getSep38Price({
       quoteServer: 'https://quotes.testanchor.stellar.org',
@@ -50,6 +61,26 @@ ANCHOR_QUOTE_SERVER = "https://quotes.testanchor.stellar.org"
     expect(quote.id).toMatch(/^sep38-quote-/);
     expect(quote.buyAmount).toBe('1.000000');
     expect(quote.expiresAt).toBeDefined();
+  });
+});
+
+describe('ParallaxComplianceEngine', () => {
+  it('blocks sanctioned jurisdictions and allows compliant regions', () => {
+    const sanctioned = ParallaxComplianceEngine.verifyJurisdiction('IR');
+    expect(sanctioned.allowed).toBe(false);
+    expect(sanctioned.reason).toContain('restricted');
+
+    const compliant = ParallaxComplianceEngine.verifyJurisdiction('GB');
+    expect(compliant.allowed).toBe(true);
+  });
+
+  it('provides regulatory profiles for licensed issuers', () => {
+    const backed = ParallaxComplianceEngine.getIssuerComplianceProfile('BStocks');
+    expect(backed.regulatoryFramework).toContain('Swiss DLT Act');
+    expect(backed.requiresIssuerKyc).toBe(true);
+
+    const benji = ParallaxComplianceEngine.getIssuerComplianceProfile('Benji');
+    expect(benji.regulatoryFramework).toContain('SEC-Registered');
   });
 });
 

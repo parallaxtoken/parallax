@@ -1,9 +1,18 @@
 #![no_std]
-use soroban_sdk::{contracttype, Address, Symbol};
+use soroban_sdk::{contracttype, Address, Bytes, Symbol};
 
 pub const WAD: i128 = 1_000_000_000_000_000_000; // 18 decimals for share-equivalents
 pub const STROOP: i128 = 10_000_000;              // 7 decimals for Stellar native USDC & SAC
 pub const SCALE_STROOP_TO_WAD: i128 = 100_000_000_000; // 10^11 to normalize 7-decimal SAC to 18-decimal WAD
+
+#[contracttype]
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub struct FillArgs {
+    pub order_id: u64,
+    pub wrapper_idx: u32,
+    pub router: Address,
+    pub route_data: Bytes,
+}
 
 #[contracttype]
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]

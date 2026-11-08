@@ -12,7 +12,8 @@ export function wadToUsdcStroop(wad: bigint): bigint {
   return wad / 10n ** 11n;
 }
 
-/** Computes real share equivalents for a Stellar Soroban fill */
+/** Computes real share equivalents (18 decimals WAD) for a Stellar Soroban fill */
 export function computeStellarShares(tokensOut: bigint, unitWad: bigint): bigint {
-  return mulDiv(tokensOut, unitWad, WAD);
+  const tokensWad = tokensOut * 10n ** 11n;
+  return mulDiv(tokensWad, unitWad, WAD);
 }
