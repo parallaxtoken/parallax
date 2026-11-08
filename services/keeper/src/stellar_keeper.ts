@@ -174,13 +174,13 @@ export class StellarKeeperEngine {
   }
 
   /**
-   * Generates simulated testnet limit order depth across NVDA, AAPL, and TSLA
+   * Generates simulated testnet limit order depth across NVDA, AAPL, TSLA, and BENJI
    * for automated keeper and evaluator demonstration.
    */
-  public seedTestnetLiquidity(faucetAccount: string): StellarOpenOrder[] {
+  public seedTestnetLiquidity(faucetAccount: string, includeBenji: boolean = false): StellarOpenOrder[] {
     const now = BigInt(Math.floor(Date.now() / 1000));
     const day = 86400n;
-    return [
+    const orders: StellarOpenOrder[] = [
       {
         id: 101n,
         owner: faucetAccount,
@@ -212,6 +212,28 @@ export class StellarKeeperEngine {
         deadline: now + day,
       },
     ];
+
+    if (includeBenji) {
+      orders.push({
+        id: 104n,
+        owner: faucetAccount,
+        side: 'BUY',
+        tickerId: 'BENJI',
+        wrapperMask: 8, // Benji (1 << 3)
+        amount: 100_0000000n, // 100 USDC (7 dec)
+        limit: 100_000000000000000000n, // 100.0 shares at $1.00 NAV parity (18 dec)
+        deadline: now + day,
+      });
+    }
+
+    return orders;
+  }
+
+  /**
+   * Generates full testnet seed order depth across all 4 equities including BENJI (FOBXX).
+   */
+  public seedAllTestnetOrders(faucetAccount: string): StellarOpenOrder[] {
+    return this.seedTestnetLiquidity(faucetAccount, true);
   }
 
   /**

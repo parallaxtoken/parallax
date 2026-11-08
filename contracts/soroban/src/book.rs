@@ -3,7 +3,7 @@ use soroban_sdk::{
     contract, contractclient, contractimpl, contracttype, symbol_short, token, Address, Bytes,
     Env, IntoVal, Symbol, Vec,
 };
-use crate::types::{FillArgs, Order, OrderStatus, Side, WAD, SCALE_STROOP_TO_WAD};
+use crate::types::{FillArgs, Order, OrderStatus, Side, STROOP, WAD};
 use crate::registry::WrapperRegistryClient;
 
 #[contractclient(name = "SwapRouterClient")]
@@ -252,9 +252,8 @@ impl ParallaxBook {
             let tokens_out = tok_after - tok_before;
 
             // Invariant: Normalize 7-decimal Stellar SAC tokens to 18-decimal WAD
-            // Share-equivalents = (tokens_out * 10^11 * unit) / 1e18
-            let tokens_wad = tokens_out * SCALE_STROOP_TO_WAD;
-            let shares = (tokens_wad * unit) / WAD;
+            // Share-equivalents = (tokens_out * unit) / 10^7 (STROOP)
+            let shares = (tokens_out * unit) / STROOP;
             if shares < order.limit {
                 panic!("ShareFloor: received {} shares, minimum floor was {}", shares, order.limit);
             }
@@ -269,9 +268,9 @@ impl ParallaxBook {
         } else {
             // Sell Side
             let shares_to_sell = order.amount; // 18 decimals (WAD)
-            // Compute required token units in WAD, then scale down to 7-decimal Stellar stroops
-            let tokens_wad = (shares_to_sell * WAD + unit - 1) / unit;
-            let tokens_in = (tokens_wad + SCALE_STROOP_TO_WAD - 1) / SCALE_STROOP_TO_WAD;
+            // Compute required token units in 7-decimal Stellar stroops
+            let tokens_stroop = (shares_to_sell * STROOP + unit - 1) / unit;
+            let tokens_in = tokens_stroop;
 
             token_client.transfer_from(&contract_addr, &order.owner, &contract_addr, &tokens_in);
             token_client.transfer(&contract_addr, &router, &tokens_in);

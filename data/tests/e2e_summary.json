@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-11-08T15:45:22.192Z",
+  "total": 210,
+  "passed": 210,
+  "failed": 0,
+  "durationMs": 111,
+  "tiers": {
+    "tier1": {
+      "name": "Feature Coverage",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "tier2": {
+      "name": "Boundary & Corner Cases",
+      "total": 90,
+      "passed": 90,
+      "failed": 0
+    },
+    "tier3": {
+      "name": "Cross-Feature Combinations",
+      "total": 20,
+      "passed": 20,
+      "failed": 0
+    },
+    "tier4": {
+      "name": "Real-World Scenarios",
+      "total": 10,
+      "passed": 10,
+      "failed": 0
+    }
+  },
+  "featureInventory": {
+    "F1": {
+      "name": "Contract Overflow Normalization",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F2": {
+      "name": "Equity Token Catalog Completeness",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F3": {
+      "name": "Contract Negative & Invariant Tests",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F4": {
+      "name": "SEP-1 stellar.toml Hosting",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F5": {
+      "name": "SEP-10 Stellar WebAuth",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F6": {
+      "name": "SEP-24 Interactive Deposit/Withdraw",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F7": {
+      "name": "SEP-38 Anchor RFQ with Live Feeds",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F8": {
+      "name": "Live UI Surface Zero-Mock",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F9": {
+      "name": "Live Order Book Queries",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F10": {
+      "name": "Automated Testnet Deployment",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F11": {
+      "name": "Testnet Closed-Loop Script",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F12": {
+      "name": "Keeper Binance Peg & BENJI Integration",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F13": {
+      "name": "Fix Claims Check CI Blocker",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F14": {
+      "name": "Fix TypeScript Typecheck in Keeper",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F15": {
+      "name": "Generative Property-Based Tests",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F16": {
+      "name": "Vitest Coverage Configuration",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F17": {
+      "name": "Grant Proposal & Fix-Log",
+      "status": "PASSED",
+      "tests": 10
+    },
+    "F18": {
+      "name": "Architecture & Roadmap Sync",
+      "status": "PASSED",
+      "tests": 10
+    }
+  }
+}

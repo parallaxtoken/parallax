@@ -10,6 +10,9 @@
     "discover": "node scripts/discovery/run_all.mjs",
     "discover:render": "node scripts/discovery/summary.mjs && node scripts/discovery/render_discovery.mjs",
     "parallax": "tsx scripts/verify_cli.ts",
+    "test:e2e": "tsx tests/e2e/runner.ts",
+    "testnet:deploy": "tsx scripts/testnet/deploy.ts",
+    "testnet:loop": "tsx scripts/testnet/closed_loop.ts",
     "keeper:stellar": "pnpm --filter @parallax/keeper start:stellar",
     "discover:record": "node scripts/discovery/recorder.mjs",
     "discover:history": "node scripts/discovery/e8_unit_history.mjs"

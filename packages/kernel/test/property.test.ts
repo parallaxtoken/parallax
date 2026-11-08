@@ -58,3 +58,4 @@ describe('Property-Based Invariant Verification (Kernel & Soroban Arithmetic)', 
     expect(typeof shares).toBe('bigint');
   });
 });
+

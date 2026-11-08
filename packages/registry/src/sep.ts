@@ -106,6 +106,9 @@ export class SepClient {
         { code: 'USDC', isAssetAnchor: true, status: 'live' },
         { code: 'bNVDA', isAssetAnchor: true, status: 'live' },
         { code: 'bAAPL', isAssetAnchor: true, status: 'live' },
+        { code: 'bTSLA', isAssetAnchor: true, status: 'live' },
+        { code: 'BENJI', isAssetAnchor: true, status: 'live' },
+        { code: 'FOBXX', isAssetAnchor: true, status: 'live' },
       ],
     };
   }

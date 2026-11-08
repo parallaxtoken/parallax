@@ -86,8 +86,15 @@ impl WrapperRegistry {
 
         list.push_back(wrapper);
         env.storage().persistent().set(&key, &list);
-        env.storage().persistent().set(&RegistryDataKey::Known(token.clone()), &true);
-        env.storage().persistent().set(&RegistryDataKey::IssuerOf(token.clone()), &issuer);
+        env.storage().persistent().extend_ttl(&key, 100_000, 200_000);
+
+        let known_key = RegistryDataKey::Known(token.clone());
+        env.storage().persistent().set(&known_key, &true);
+        env.storage().persistent().extend_ttl(&known_key, 100_000, 200_000);
+
+        let issuer_key = RegistryDataKey::IssuerOf(token.clone());
+        env.storage().persistent().set(&issuer_key, &issuer);
+        env.storage().persistent().extend_ttl(&issuer_key, 100_000, 200_000);
     }
 
     pub fn set_wrapper_active(env: Env, ticker: Symbol, index: u32, active: bool) {
@@ -122,7 +129,19 @@ impl WrapperRegistry {
     pub fn set_custom_unit(env: Env, token: Address, unit: i128) {
         let admin: Address = env.storage().instance().get(&RegistryDataKey::Admin).expect("Not initialized");
         admin.require_auth();
-        env.storage().persistent().set(&RegistryDataKey::CustomUnit(token), &unit);
+
+        if unit <= 0 {
+            panic!("Unit must be positive");
+        }
+
+        let is_known: bool = env.storage().persistent().get(&RegistryDataKey::Known(token.clone())).unwrap_or(false);
+        if !is_known {
+            panic!("Unknown wrapper");
+        }
+
+        let key = RegistryDataKey::CustomUnit(token);
+        env.storage().persistent().set(&key, &unit);
+        env.storage().persistent().extend_ttl(&key, 100_000, 200_000);
     }
 
     pub fn wrapper_count(env: Env, ticker: Symbol) -> u32 {

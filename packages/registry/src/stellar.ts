@@ -75,3 +75,27 @@ export const STELLAR_WRAPPERS: StellarWrapperRecord[] = [
     active: true,
   },
 ];
+
+export const STELLAR_EQUITY_TICKERS = ['NVDA', 'AAPL', 'TSLA', 'BENJI'] as const;
+export type StellarEquityTicker = (typeof STELLAR_EQUITY_TICKERS)[number];
+
+export function getStellarWrapper(ticker: string): StellarWrapperRecord | undefined {
+  return STELLAR_WRAPPERS.find((w) => w.ticker.toUpperCase() === ticker.toUpperCase());
+}
+
+export function getStellarWrapperByToken(tokenAddress: string): StellarWrapperRecord | undefined {
+  return STELLAR_WRAPPERS.find((w) => w.tokenAddress.toUpperCase() === tokenAddress.toUpperCase());
+}
+
+export function isStellarEquity(ticker: string): boolean {
+  return (STELLAR_EQUITY_TICKERS as readonly string[]).includes(ticker.toUpperCase());
+}
+
+export function getStellarIssuerEnum(issuerName: string): number {
+  if (issuerName.includes('Backed')) return 0; // BStocks
+  if (issuerName.includes('Ondo')) return 1;   // Ondo
+  if (issuerName.includes('XStocks')) return 2; // XStocks
+  if (issuerName.includes('Franklin')) return 3; // Benji
+  return 4; // Custom
+}
+

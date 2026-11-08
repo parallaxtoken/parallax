@@ -54,8 +54,8 @@ describe('StellarKeeperEngine', () => {
     ]);
     expect(payload.method).toBe('batch_fill');
     expect(payload.args.fills).toHaveLength(2);
-    expect(payload.args.fills[0].order_id).toBe('1');
-    expect(payload.args.fills[1].order_id).toBe('2');
+    expect(payload.args.fills[0]?.order_id).toBe('1');
+    expect(payload.args.fills[1]?.order_id).toBe('2');
   });
 
   it('seeds simulated testnet order book depth for demonstration', () => {
