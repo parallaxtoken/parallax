@@ -55,3 +55,4 @@ describe('StellarStockPegEngine', () => {
     expect(impact[0]).toContain('Eliminates the 5-15% discount/premium');
   });
 });
+

@@ -26,3 +26,4 @@ logs/
 video/out/
 *.mp4
 *.wav
+.agents/

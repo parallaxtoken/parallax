@@ -63,5 +63,41 @@ describe('StellarKeeperEngine', () => {
     expect(depth).toHaveLength(3);
     expect(depth.map((d) => d.tickerId)).toEqual(['NVDA', 'AAPL', 'TSLA']);
   });
+
+  it('matches limit orders with real-time Binance equity price pegging', () => {
+    const order = {
+      id: 10n,
+      owner: 'GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5',
+      side: 'BUY' as const,
+      wrapperMask: 1,
+      deadline: 2000000000n,
+      tickerId: 'NVDA',
+      amount: 145n * STROOP,
+      limit: 1n * WAD, // 1.0 share limit
+    };
+
+    // Case 1: Healthy Binance peg (145.0 USD spot, 145.2 DEX price)
+    const quote = { ticker: 'NVDA', priceUsd: 145.0, timestamp: Date.now(), source: 'BINANCE_SPOT' as const };
+    const resPegged = engine.evaluateOrderWithBinancePeg(
+      order,
+      quote,
+      145.2,
+      10n * STROOP, // 10 tokens returned
+      1700000000n
+    );
+    expect(resPegged.shouldFill).toBe(true);
+    expect(resPegged.divergenceBps).toBeLessThan(250);
+
+    // Case 2: Extreme de-peg (>5%) halts order matching via circuit breaker
+    const resHalted = engine.evaluateOrderWithBinancePeg(
+      order,
+      quote,
+      160.0, // >10% depeg
+      10n * STROOP,
+      1700000000n
+    );
+    expect(resHalted.shouldFill).toBe(false);
+    expect(resHalted.reason).toContain('BINANCE_PEG_HALTED');
+  });
 });
 

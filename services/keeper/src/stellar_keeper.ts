@@ -7,7 +7,7 @@
  */
 
 import { WAD, STROOP, usdcStroopToWad, wadToUsdcStroop, computeStellarShares } from '@parallax/kernel';
-import { STELLAR_TESTNET, type StellarNetworkConfig } from '@parallax/registry';
+import { STELLAR_TESTNET, type StellarNetworkConfig, StellarStockPegEngine, type BinanceStockQuote } from '@parallax/registry';
 
 export interface StellarOpenOrder {
   id: bigint;
@@ -63,6 +63,48 @@ export class StellarKeeperEngine {
     return {
       shouldFill: true,
       sharesOut,
+    };
+  }
+
+  /**
+   * Evaluates an open limit order against real-time Binance equity pricing
+   * and adjusts the on-chain share multiplier if the secondary market has drifted.
+   */
+  public evaluateOrderWithBinancePeg(
+    order: StellarOpenOrder,
+    binanceQuote: BinanceStockQuote,
+    stellarDexPriceUsd: number,
+    estimatedTokensOut: bigint,
+    currentTimestamp: bigint
+  ): {
+    shouldFill: boolean;
+    sharesOut: bigint;
+    pegMultiplierWad: bigint;
+    divergenceBps: number;
+    reason?: string;
+  } {
+    const pegEngine = new StellarStockPegEngine(250); // 2.5% max divergence
+    const analysis = pegEngine.analyzePeg(order.tickerId, binanceQuote, stellarDexPriceUsd);
+
+    if (analysis.recommendedAction === 'CIRCUIT_BREAK') {
+      return {
+        shouldFill: false,
+        sharesOut: 0n,
+        pegMultiplierWad: WAD,
+        divergenceBps: analysis.pegDivergenceBps,
+        reason: `BINANCE_PEG_HALTED: ${order.tickerId} divergence ${analysis.pegDivergenceBps} bps exceeds circuit threshold`,
+      };
+    }
+
+    const effectiveMultiplier = analysis.suggestedMultiplierWad;
+    const evalResult = this.evaluateBuyOrder(order, effectiveMultiplier, estimatedTokensOut, currentTimestamp);
+
+    return {
+      shouldFill: evalResult.shouldFill,
+      sharesOut: evalResult.sharesOut,
+      pegMultiplierWad: effectiveMultiplier,
+      divergenceBps: analysis.pegDivergenceBps,
+      reason: evalResult.reason,
     };
   }
 

@@ -104,3 +104,4 @@ All future updates must strictly satisfy the 12 core protocol invariants:
 | **T10** | Sanctions Compliance Gate | OFAC restricted jurisdictions blocked at interface | `sep.ts` |
 | **T11** | Transparent Fee Amortization | Keepers receive transparent, bounded fee compensation | `stellar_keeper.ts` |
 | **T12** | Continuous Persistent Rent | Contract automatically extends persistent storage TTL | `ParallaxBook.wasm` |
+
