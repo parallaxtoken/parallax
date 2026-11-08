@@ -33,7 +33,7 @@ jobs:
       - name: Stellar Soroban Contracts Test Suite
         run: |
           cd contracts/soroban
-          cargo test
+          cargo test -- --nocapture 2>&1 | tee test_output.log || (cat test_output.log && exit 1)
       - uses: foundry-rs/foundry-toolchain@v1
       - name: Contracts build
         run: cd contracts && forge build
