@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="parallaxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7D00FF" />
+      <stop offset="50%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#00F0A0" />
+    </linearGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0A0" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7D00FF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Background Glow -->
+  <circle cx="50" cy="50" r="44" fill="url(#starGlow)" />
+  <!-- Outer Orbit / Stellar Ring -->
+  <circle cx="50" cy="50" r="40" stroke="url(#parallaxGrad)" stroke-width="2.5" stroke-dasharray="140 30" stroke-linecap="round" />
+  <!-- Inner Parallax Lenses -->
+  <path d="M 50 16 C 68 34, 68 66, 50 84 C 32 66, 32 34, 50 16 Z" stroke="url(#parallaxGrad)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M 16 50 C 34 68, 66 68, 84 50 C 66 32, 34 32, 16 50 Z" stroke="url(#parallaxGrad)" stroke-width="2.5" stroke-linejoin="round" />
+  <!-- Central Precision Core -->
+  <circle cx="50" cy="50" r="6" fill="#FFFFFF" />
+  <circle cx="50" cy="50" r="3" fill="#7D00FF" />
+</svg>

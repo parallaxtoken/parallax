@@ -1,0 +1,44 @@
+{
+  "name": "@parallax/web",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Parallax",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "5.1.1",
+    "@rainbow-me/rainbowkit": "2.2.1",
+    "@tanstack/react-query": "5.62.7",
+    "@parallax/binance": "workspace:*",
+    "@parallax/kernel": "workspace:*",
+    "@parallax/registry": "workspace:*",
+    "@parallax/verify": "workspace:*",
+    "framer-motion": "11.15.0",
+    "lightweight-charts": "4.2.2",
+    "lucide-react": "0.468.0",
+    "next": "15.5.27",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "server-only": "0.0.1",
+    "viem": "2.21.55",
+    "wagmi": "2.14.3",
+    "@parallax/independent": "workspace:*"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.1",
+    "@playwright/test": "1.49.1",
+    "@tailwindcss/postcss": "4.0.17",
+    "@types/node": "22.9.0",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "tailwindcss": "4.0.17",
+    "typescript": "5.6.3"
+  }
+}
+

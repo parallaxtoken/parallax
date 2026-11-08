@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="auto" fill="none">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1A14" />
+      <stop offset="100%" stop-color="#14110E" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7D00FF" />
+      <stop offset="50%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#00B07A" />
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="480" rx="14" fill="#0C0A08" />
+  <rect width="1000" height="480" rx="14" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Flow Title -->
+  <g transform="translate(50, 45)">
+    <text font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">Stellar Soroban Execution Lifecycle</text>
+    <text y="24" font-family="monospace" font-size="12" fill="#00B07A">ATOMIC INVARIANT VERIFICATION &amp; NON-CUSTODIAL SETTLEMENT</text>
+  </g>
+
+  <!-- Connection Lines -->
+  <g stroke="url(#accentGrad)" stroke-width="2" stroke-dasharray="6 6" opacity="0.6">
+    <!-- User to ParallaxBook -->
+    <path d="M 230 180 L 370 180" />
+    <!-- Keeper to ParallaxBook -->
+    <path d="M 230 330 L 370 240" />
+    <!-- ParallaxBook to Registry -->
+    <path d="M 610 180 L 750 140" />
+    <!-- ParallaxBook to AMM -->
+    <path d="M 610 210 L 750 280" />
+    <!-- Return Path to User -->
+    <path d="M 490 280 L 490 420 L 130 420 L 130 250" />
+  </g>
+
+  <!-- Node 1: User Wallet -->
+  <g transform="translate(50, 110)" filter="url(#boxShadow)">
+    <rect width="180" height="140" rx="12" fill="url(#cardBg)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5" />
+    <circle cx="36" cy="36" r="16" fill="#7D00FF" fill-opacity="0.2" />
+    <text x="36" y="41" text-anchor="middle" font-family="system-ui" font-size="16" fill="#7D00FF">◈</text>
+    <text x="64" y="34" font-family="system-ui" font-size="15" font-weight="600" fill="#FFFFFF">User Wallet</text>
+    <text x="64" y="48" font-family="monospace" font-size="10" fill="#A8A095">Freighter / xBull</text>
+    <text x="20" y="85" font-family="system-ui" font-size="12" fill="#E2DDD5">1. Signs Standing Limit</text>
+    <text x="20" y="105" font-family="monospace" font-size="11" fill="#00B07A">min_shares: 0.82 NVDA</text>
+    <text x="20" y="125" font-family="system-ui" font-size="11" fill="#8C8275">No transfer of funds</text>
+  </g>
+
+  <!-- Node 2: Autonomous Keeper -->
+  <g transform="translate(50, 280)" filter="url(#boxShadow)">
+    <rect width="180" height="100" rx="12" fill="url(#cardBg)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5" />
+    <circle cx="36" cy="36" r="16" fill="#00D2FF" fill-opacity="0.2" />
+    <text x="36" y="41" text-anchor="middle" font-family="system-ui" font-size="16" fill="#00D2FF">⚙</text>
+    <text x="64" y="34" font-family="system-ui" font-size="15" font-weight="600" fill="#FFFFFF">Stellar Keeper</text>
+    <text x="64" y="48" font-family="monospace" font-size="10" fill="#A8A095">Autonomous Bot</text>
+    <text x="20" y="80" font-family="system-ui" font-size="12" fill="#E2DDD5">2. Monitors &amp; Simulates</text>
+  </g>
+
+  <!-- Node 3: ParallaxBook Contract (Centerpiece) -->
+  <g transform="translate(370, 110)" filter="url(#boxShadow)">
+    <rect width="240" height="170" rx="14" fill="#221E18" stroke="#00B07A" stroke-width="2" />
+    <rect x="0" y="0" width="240" height="4" rx="2" fill="url(#accentGrad)" />
+    <text x="24" y="36" font-family="monospace" font-size="11" font-weight="700" fill="#00B07A" letter-spacing="1">SOROBAN SMART CONTRACT</text>
+    <text x="24" y="62" font-family="system-ui" font-size="20" font-weight="700" fill="#FFFFFF">ParallaxBook.wasm</text>
+    <g transform="translate(24, 82)">
+      <text y="0" font-family="system-ui" font-size="12" fill="#E2DDD5">• Invariant Check (ShareFloor)</text>
+      <text y="20" font-family="system-ui" font-size="12" fill="#E2DDD5">• Stroop (1e7) ↔ WAD (1e18)</text>
+      <text y="40" font-family="system-ui" font-size="12" fill="#E2DDD5">• Rent TTL Auto-Extension</text>
+      <text y="65" font-family="monospace" font-size="11" font-weight="600" fill="#00F0A0">atomic revert if shares &lt; floor</text>
+    </g>
+  </g>
+
+  <!-- Node 4: WrapperRegistry -->
+  <g transform="translate(750, 80)" filter="url(#boxShadow)">
+    <rect width="200" height="110" rx="12" fill="url(#cardBg)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5" />
+    <circle cx="36" cy="34" r="16" fill="#7D00FF" fill-opacity="0.2" />
+    <text x="36" y="39" text-anchor="middle" font-family="system-ui" font-size="16" fill="#7D00FF">📋</text>
+    <text x="64" y="32" font-family="system-ui" font-size="14" font-weight="600" fill="#FFFFFF">WrapperRegistry</text>
+    <text x="64" y="46" font-family="monospace" font-size="10" fill="#A8A095">Live Oracle Reader</text>
+    <text x="20" y="80" font-family="system-ui" font-size="12" fill="#E2DDD5">3. Live Multipliers</text>
+    <text x="20" y="96" font-family="monospace" font-size="11" fill="#A8A095">shares_per_token</text>
+  </g>
+
+  <!-- Node 5: AMM Liquidity Venues -->
+  <g transform="translate(750, 230)" filter="url(#boxShadow)">
+    <rect width="200" height="120" rx="12" fill="url(#cardBg)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5" />
+    <circle cx="36" cy="34" r="16" fill="#00D2FF" fill-opacity="0.2" />
+    <text x="36" y="39" text-anchor="middle" font-family="system-ui" font-size="16" fill="#00D2FF">⇄</text>
+    <text x="64" y="32" font-family="system-ui" font-size="14" font-weight="600" fill="#FFFFFF">Stellar DEX &amp; AMMs</text>
+    <text x="64" y="46" font-family="monospace" font-size="10" fill="#A8A095">Soroswap / SDEX</text>
+    <text x="20" y="80" font-family="system-ui" font-size="12" fill="#E2DDD5">4. Pulls USDC at execution</text>
+    <text x="20" y="100" font-family="system-ui" font-size="12" fill="#00B07A">Delivers Tokenized Equity</text>
+  </g>
+
+  <!-- Bottom Return Label -->
+  <g transform="translate(230, 440)">
+    <rect width="440" height="26" rx="6" fill="#1C1814" stroke="#00B07A" stroke-opacity="0.3" stroke-width="1" />
+    <text x="220" y="17" text-anchor="middle" font-family="monospace" font-size="11" fill="#00F0A0">5. DELIVERS SHARES DIRECTLY TO USER WALLET (ZERO PROTOCOL ESCROW)</text>
+  </g>
+</svg>
+

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" height="auto" fill="none">
+  <defs>
+    <linearGradient id="wCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1A14" />
+      <stop offset="100%" stop-color="#14110E" />
+    </linearGradient>
+    <filter id="winGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00B07A" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="1000" height="420" rx="14" fill="#0C0A08" />
+  <rect width="1000" height="420" rx="14" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+
+  <g transform="translate(50, 45)">
+    <text font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">The Weighing: 1 Token Is Not 1 Share</text>
+    <text y="24" font-family="monospace" font-size="12" fill="#00B07A">HOW PARALLAX DELIVERS MORE SHARES PER DOLLAR</text>
+  </g>
+
+  <!-- Card 1: Wrapper A (Naive trap) -->
+  <g transform="translate(50, 100)">
+    <rect width="280" height="270" rx="12" fill="url(#wCardBg)" stroke="#F04A23" stroke-opacity="0.4" stroke-width="1.5" />
+    <rect x="20" y="20" width="70" height="24" rx="6" fill="#F04A23" fill-opacity="0.15" />
+    <text x="55" y="36" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#F04A23">WRAPPER A</text>
+    <text x="20" y="75" font-family="system-ui" font-size="22" font-weight="700" fill="#FFFFFF">$110.00</text>
+    <text x="110" y="75" font-family="system-ui" font-size="13" fill="#A8A095">Token Price</text>
+
+    <line x1="20" y1="100" x2="260" y2="100" stroke="#FFFFFF" stroke-opacity="0.1" />
+
+    <text x="20" y="130" font-family="system-ui" font-size="13" fill="#A8A095">On-chain multiplier:</text>
+    <text x="200" y="130" font-family="monospace" font-size="14" font-weight="600" fill="#E2DDD5">0.9000</text>
+
+    <text x="20" y="160" font-family="system-ui" font-size="13" fill="#A8A095">Real Cost per Share:</text>
+    <text x="200" y="160" font-family="monospace" font-size="14" font-weight="700" fill="#F04A23">$122.22</text>
+
+    <text x="20" y="190" font-family="system-ui" font-size="13" fill="#A8A095">Shares for $1,000:</text>
+    <text x="200" y="190" font-family="monospace" font-size="14" font-weight="600" fill="#E2DDD5">8.18 sh</text>
+
+    <rect x="20" y="220" width="240" height="32" rx="6" fill="#F04A23" fill-opacity="0.1" />
+    <text x="140" y="241" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#F04A23">⚠ Naive trap: Lowest token, fewest shares</text>
+  </g>
+
+  <!-- Card 2: Wrapper B (Parallax Pick - Winner) -->
+  <g transform="translate(360, 100)" filter="url(#winGlow)">
+    <rect width="280" height="270" rx="12" fill="#1C1814" stroke="#00B07A" stroke-width="2" />
+    <rect x="20" y="20" width="115" height="24" rx="6" fill="#00B07A" fill-opacity="0.2" />
+    <text x="77" y="36" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#00F0A0">PARALLAX PICK</text>
+    <text x="20" y="75" font-family="system-ui" font-size="22" font-weight="700" fill="#FFFFFF">$115.00</text>
+    <text x="110" y="75" font-family="system-ui" font-size="13" fill="#A8A095">Token Price</text>
+
+    <line x1="20" y1="100" x2="260" y2="100" stroke="#FFFFFF" stroke-opacity="0.1" />
+
+    <text x="20" y="130" font-family="system-ui" font-size="13" fill="#A8A095">On-chain multiplier:</text>
+    <text x="200" y="130" font-family="monospace" font-size="14" font-weight="600" fill="#00F0A0">1.0500</text>
+
+    <text x="20" y="160" font-family="system-ui" font-size="13" fill="#A8A095">Real Cost per Share:</text>
+    <text x="200" y="160" font-family="monospace" font-size="14" font-weight="700" fill="#00F0A0">$109.52</text>
+
+    <text x="20" y="190" font-family="system-ui" font-size="13" fill="#A8A095">Shares for $1,000:</text>
+    <text x="200" y="190" font-family="monospace" font-size="14" font-weight="700" fill="#00F0A0">9.13 sh</text>
+
+    <rect x="20" y="220" width="240" height="32" rx="6" fill="#00B07A" fill-opacity="0.2" />
+    <text x="140" y="241" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="700" fill="#00F0A0">✓ +11.6% MORE SHARES DELIVERED</text>
+  </g>
+
+  <!-- Card 3: Wrapper C -->
+  <g transform="translate(670, 100)">
+    <rect width="280" height="270" rx="12" fill="url(#wCardBg)" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5" />
+    <rect x="20" y="20" width="70" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.1" />
+    <text x="55" y="36" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#A8A095">WRAPPER C</text>
+    <text x="20" y="75" font-family="system-ui" font-size="22" font-weight="700" fill="#FFFFFF">$112.00</text>
+    <text x="110" y="75" font-family="system-ui" font-size="13" fill="#A8A095">Token Price</text>
+
+    <line x1="20" y1="100" x2="260" y2="100" stroke="#FFFFFF" stroke-opacity="0.1" />
+
+    <text x="20" y="130" font-family="system-ui" font-size="13" fill="#A8A095">On-chain multiplier:</text>
+    <text x="200" y="130" font-family="monospace" font-size="14" font-weight="600" fill="#E2DDD5">0.9500</text>
+
+    <text x="20" y="160" font-family="system-ui" font-size="13" fill="#A8A095">Real Cost per Share:</text>
+    <text x="200" y="160" font-family="monospace" font-size="14" font-weight="600" fill="#E2DDD5">$117.89</text>
+
+    <text x="20" y="190" font-family="system-ui" font-size="13" fill="#A8A095">Shares for $1,000:</text>
+    <text x="200" y="190" font-family="monospace" font-size="14" font-weight="600" fill="#E2DDD5">8.48 sh</text>
+
+    <rect x="20" y="220" width="240" height="32" rx="6" fill="#FFFFFF" fill-opacity="0.05" />
+    <text x="140" y="241" text-anchor="middle" font-family="system-ui" font-size="12" fill="#A8A095">Standard market route</text>
+  </g>
+</svg>
+
