@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T21:36:17.527Z",
+  "generatedAt": "2026-11-08T21:39:40.934Z",
   "total": 210,
   "passed": 210,
   "failed": 0,
-  "durationMs": 310,
+  "durationMs": 92,
   "tiers": {
     "tier1": {
       "name": "Feature Coverage",
