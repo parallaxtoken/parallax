@@ -38,8 +38,10 @@ jobs:
       - name: Install Foundry dependencies
         run: |
           cd contracts
-          forge install foundry-rs/forge-std@v1.9.4 --no-commit
-          forge install OpenZeppelin/openzeppelin-contracts@v5.1.0 --no-commit
+          rm -rf lib
+          mkdir -p lib
+          git clone --depth 1 https://github.com/foundry-rs/forge-std.git lib/forge-std
+          git clone --depth 1 --branch v5.1.0 https://github.com/OpenZeppelin/openzeppelin-contracts.git lib/openzeppelin-contracts
       - name: Contracts build
         run: cd contracts && forge build
       - name: Fork break suite
