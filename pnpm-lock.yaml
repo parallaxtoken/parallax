@@ -20,6 +20,9 @@ importers:
       '@parallax/registry':
         specifier: workspace:*
         version: link:packages/registry
+      '@parallax/stellar-sdk':
+        specifier: workspace:*
+        version: link:packages/stellar-sdk
       '@parallax/verify':
         specifier: workspace:*
         version: link:packages/verify
@@ -57,6 +60,9 @@ importers:
       '@parallax/registry':
         specifier: workspace:*
         version: link:../../packages/registry
+      '@parallax/stellar-sdk':
+        specifier: workspace:*
+        version: link:../../packages/stellar-sdk
       '@parallax/verify':
         specifier: workspace:*
         version: link:../../packages/verify
@@ -170,6 +176,25 @@ importers:
       viem:
         specifier: 2.21.55
         version: 2.21.55(bufferutil@4.1.0)(typescript@5.6.3)(utf-8-validate@5.0.10)
+    devDependencies:
+      '@types/node':
+        specifier: 22.9.0
+        version: 22.9.0
+      typescript:
+        specifier: 5.6.3
+        version: 5.6.3
+      vitest:
+        specifier: 2.1.8
+        version: 2.1.8(@types/node@22.9.0)(lightningcss@1.29.2)
+
+  packages/stellar-sdk:
+    dependencies:
+      '@parallax/kernel':
+        specifier: workspace:*
+        version: link:../kernel
+      '@stellar/stellar-sdk':
+        specifier: ^17.4.0
+        version: 17.4.0(debug@4.4.3)
     devDependencies:
       '@types/node':
         specifier: 22.9.0

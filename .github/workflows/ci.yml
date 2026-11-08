@@ -23,6 +23,10 @@ jobs:
       - run: pnpm install --no-frozen-lockfile
       - name: Unit tests
         run: pnpm -r --if-present test
+      - name: Protocol hygiene tests
+        run: pnpm test:hygiene
+      - name: E2E opaque-box requirements test suite
+        run: pnpm test:e2e
       - name: Type check
         run: pnpm -r --if-present typecheck
       - name: Claims ledger and numbers

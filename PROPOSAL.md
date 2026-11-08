@@ -1,7 +1,7 @@
 # Stellar Community Fund (SCF) Tier-2 Proposal: Parallax
 
 **Project Title:** Parallax — Share-Equivalence Standing Orders & Wrapper Registry for Tokenized Equities on Stellar Soroban  
-**Applicant:** `warlock-netizen`  
+**Applicant:** `warlock-netizen` (Parallax Protocol)  
 **Funding Ask:** \$50,000 USD (SCF Tier-2 Open Grant)  
 **Target Networks:** Stellar Testnet & Stellar Mainnet  
 **Target Assets:** Native Circle USDC (SAC), Franklin Templeton BENJI (FOBXX), Backed Finance Tokens (`bNVDA`, `bAAPL`, `bTSLA`, `bSPY`), Ondo Finance  
@@ -81,6 +81,7 @@ Parallax enforces a strict regression harness to guarantee that every bug fix or
 ## 5. Team & Commitment
 
 - **Lead Architect & Maintainer:** `warlock-netizen`
+- **Dedicated Organization:** `parallax-protocol`
 - **Codebase:** 100% open-source under MIT License.
-- **Repository:** [https://github.com/warlock-netizen/parallax](https://github.com/warlock-netizen/parallax)
+- **Repository:** [https://github.com/parallax-protocol/parallax](https://github.com/parallax-protocol/parallax) (Maintainer upstream: [https://github.com/warlock-netizen/parallax](https://github.com/warlock-netizen/parallax))
 

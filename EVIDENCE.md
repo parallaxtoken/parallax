@@ -1,6 +1,6 @@
 # EVIDENCE
 
-Author: warlock-netizen. Updated after every deployment and transaction. Amounts are small by design.
+Organization: Parallax Protocol. Maintainer: warlock-netizen. Updated after every deployment and transaction. Amounts are small by design.
 
 ## Deployment (BSC mainnet, chain 56)
 

@@ -1,6 +1,6 @@
 # DX_LOG (raw, timestamped, UTC)
 
-Author: warlock-netizen. Raw working notes. `DX_REPORT.md` is written separately by the author from this log.
+Author: warlock-netizen (Parallax Protocol). Raw working notes. `DX_REPORT.md` is written separately by the author from this log.
 
 ## 2026-10-09
 

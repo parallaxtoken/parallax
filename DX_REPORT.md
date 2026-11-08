@@ -1,6 +1,6 @@
 # Developer Experience Report
 
-**Project:** Parallax Protocol. **Author:** warlock-netizen.
+**Project:** Parallax Protocol (`parallax-protocol`). **Lead Maintainer:** warlock-netizen.
 
 Everything below comes from calls I made myself. The raw, timestamped notes are in [`docs/DX_LOG.md`](docs/DX_LOG.md), the data is in [`data/discovery`](data/discovery), and the scripts that produced it are in [`scripts/discovery`](scripts/discovery). If a claim here isn't backed by one of those, I haven't made it.
 

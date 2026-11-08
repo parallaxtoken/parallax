@@ -38,7 +38,7 @@ export interface ReferenceOptions {
   now?: () => number;
 }
 
-const UA = 'Mozilla/5.0 (compatible; ParallaxReference/0.1; +https://github.com/warlock-netizen/parallax)';
+const UA = 'Mozilla/5.0 (compatible; ParallaxReference/0.1; +https://github.com/parallax-protocol/parallax)';
 const yahooSymbol = (t: string) => t.toUpperCase().replace(/\./g, '-');
 const ETFS = new Set(['SPY', 'QQQ', 'IWM', 'DIA', 'VOO', 'VTI', 'TLT', 'GLD', 'SLV', 'IVV', 'ARKK', 'XLK', 'XLF', 'EEM']);
 

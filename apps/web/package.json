@@ -1,9 +1,19 @@
 {
   "name": "@parallax/web",
   "version": "0.1.0",
+  "description": "Official Parallax Web Application, Trading Interface, and Stellar SEP Protocol Endpoints",
   "private": true,
   "author": "Parallax",
   "license": "MIT",
+  "homepage": "https://web-mu-rosy-80.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parallax-protocol/parallax.git",
+    "directory": "apps/web"
+  },
+  "bugs": {
+    "url": "https://github.com/parallax-protocol/parallax/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,6 +27,7 @@
     "@parallax/independent": "workspace:*",
     "@parallax/kernel": "workspace:*",
     "@parallax/registry": "workspace:*",
+    "@parallax/stellar-sdk": "workspace:*",
     "@parallax/verify": "workspace:*",
     "@rainbow-me/rainbowkit": "2.2.1",
     "@stellar/stellar-sdk": "17.4.0",

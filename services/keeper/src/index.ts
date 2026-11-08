@@ -138,7 +138,7 @@ createServer((req, res) => {
       description: 'Untrusted keeper agent for ParallaxBook standing orders. It proposes fills, simulates first, and the contract refuses anything below the signed share floor. It also sells a decomposition certificate over x402.',
       url: `${web}/api/mcp`,
       version: '0.1.0',
-      provider: { organization: 'warlock-netizen' },
+      provider: { organization: 'parallax-protocol' },
       capabilities: { streaming: false, pushNotifications: false },
       defaultInputModes: ['application/json'],
       defaultOutputModes: ['application/json'],

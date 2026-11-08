@@ -8,9 +8,9 @@ ANCHOR_QUOTE_SERVER = "https://web-mu-rosy-80.vercel.app/api/sep38"
 
 [DOCUMENTATION]
 ORG_NAME = "Parallax Protocol"
-ORG_URL = "https://github.com/warlock-netizen/parallax"
+ORG_URL = "https://github.com/parallax-protocol/parallax"
 ORG_DESCRIPTION = "Share-equivalence standing limit order protocol for tokenized equities on Stellar Soroban"
-ORG_OFFICIAL_EMAIL = "warlock-netizen@users.noreply.github.com"
+ORG_OFFICIAL_EMAIL = "contact@parallax.finance"
 
 # Registered Native & Tokenized Assets
 [[CURRENCIES]]

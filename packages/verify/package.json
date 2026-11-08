@@ -1,10 +1,20 @@
 {
   "name": "@parallax/verify",
   "version": "0.1.0",
+  "description": "Independent verification and audit CLI for Parallax protocol contracts and orders",
   "private": true,
   "type": "module",
   "author": "Parallax",
   "license": "MIT",
+  "homepage": "https://web-mu-rosy-80.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parallax-protocol/parallax.git",
+    "directory": "packages/verify"
+  },
+  "bugs": {
+    "url": "https://github.com/parallax-protocol/parallax/issues"
+  },
   "main": "src/index.ts",
   "types": "src/index.ts",
   "bin": { "parallax-verify": "src/cli.ts" },

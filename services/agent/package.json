@@ -1,10 +1,20 @@
 {
   "name": "@parallax/agent",
   "version": "0.1.0",
+  "description": "Agent daemon and automated scheduler for Parallax cross-chain and telemetry operations",
   "private": true,
   "type": "module",
   "author": "Parallax",
   "license": "MIT",
+  "homepage": "https://web-mu-rosy-80.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parallax-protocol/parallax.git",
+    "directory": "services/agent"
+  },
+  "bugs": {
+    "url": "https://github.com/parallax-protocol/parallax/issues"
+  },
   "scripts": { "register": "tsx src/register.ts", "job": "tsx src/job.ts" },
   "dependencies": { "@bnbagent/sdk": "0.6.0", "viem": "2.21.55", "@parallax/kernel": "workspace:*", "@parallax/registry": "workspace:*" },
   "devDependencies": { "tsx": "4.19.2", "typescript": "5.6.3", "@types/node": "22.9.0" }

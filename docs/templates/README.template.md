@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="STELLAR.md"><img alt="Stellar Soroban" src="https://img.shields.io/badge/Stellar-Soroban%20Rust%20Contracts-7D00FF?style=for-the-badge&logo=stellar"></a>
-  <a href="https://github.com/warlock-netizen/parallax"><img alt="license" src="https://img.shields.io/badge/license-MIT-16130E?style=for-the-badge"></a>
+  <a href="https://github.com/parallax-protocol/parallax"><img alt="license" src="https://img.shields.io/badge/license-MIT-16130E?style=for-the-badge"></a>
   <img alt="tests" src="https://img.shields.io/badge/tests-passing-00B07A?style=for-the-badge">
   <img alt="custody" src="https://img.shields.io/badge/custody-non--custodial-00B07A?style=for-the-badge">
   <img alt="network" src="https://img.shields.io/badge/network-Stellar%20Testnet%20%2F%20Mainnet-00D2FF?style=for-the-badge">

@@ -10,7 +10,10 @@ const config: NextConfig = {
   poweredByHeader: false,
   // Dot-prefixed route folders are not served reliably by the App Router; the well-known path is rewritten.
   async rewrites() {
-    return [{ source: '/.well-known/agent-card.json', destination: '/api/agent-card' }];
+    return [
+      { source: '/.well-known/agent-card.json', destination: '/api/agent-card' },
+      { source: '/.well-known/stellar.toml', destination: '/api/stellar-toml' },
+    ];
   },
   reactStrictMode: true,
   images: { remotePatterns: [{ protocol: 'https', hostname: 'bin.bnbstatic.com' }, { protocol: 'https', hostname: 'images.unsplash.com' }] },

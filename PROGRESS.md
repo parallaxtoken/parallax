@@ -1,6 +1,6 @@
 # PROGRESS
 
-Author: warlock-netizen.
+Organization: Parallax Protocol. Lead Maintainer: warlock-netizen.
 
 ## Session 2, 2026-10-10
 

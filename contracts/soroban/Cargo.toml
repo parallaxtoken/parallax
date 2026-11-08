@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 description = "Parallax: Share-equivalence standing orders for tokenized stocks on Stellar (Soroban)"
 license = "MIT"
+homepage = "https://web-mu-rosy-80.vercel.app"
+repository = "https://github.com/parallax-protocol/parallax"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
