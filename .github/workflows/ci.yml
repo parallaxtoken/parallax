@@ -35,6 +35,11 @@ jobs:
           cd contracts/soroban
           cargo test -- --nocapture 2>&1 | tee test_output.log || (cat test_output.log && exit 1)
       - uses: foundry-rs/foundry-toolchain@v1
+      - name: Install Foundry dependencies
+        run: |
+          cd contracts
+          forge install foundry-rs/forge-std@v1.9.4 --no-commit
+          forge install OpenZeppelin/openzeppelin-contracts@v5.1.0 --no-commit
       - name: Contracts build
         run: cd contracts && forge build
       - name: Fork break suite
